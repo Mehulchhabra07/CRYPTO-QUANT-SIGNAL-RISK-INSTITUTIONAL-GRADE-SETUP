@@ -322,6 +322,6 @@ DAY_TRADING_MODE=True  # Enable intraday focus
 
 ---
 
-**🚀 HYPERION PRO ENSEMBLE - WHERE ELITE TRADING MEETS ADVANCED TECHNOLOGY 🚀**
+**🚀 MEHUL QUANT RISK MODEL - WHERE ELITE TRADING MEETS ADVANCED TECHNOLOGY 🚀**
 
 *Built for professional traders who demand excellence in quantitative analysis and real-time execution.*
