@@ -1,4 +1,4 @@
-# 🚀 Hyperion Pro Ensemble - Elite Day Trading System
+# 🚀 Crypto Singal - Elite Day Trading System
 
 ## 💎 **PROFESSIONAL CRYPTO DAY TRADING PLATFORM**
 
