@@ -6,6 +6,66 @@
 
 ---
 
+## 🚀 Dashboard Code Snippets
+
+### 1. Institutional Scanner Tab (Streamlit)
+```python
+st.title("🏛️ MEHUL QUANT RISK — INSTITUTIONAL GRADE SETUP 🏛️")
+st.markdown("**⚡ INSTITUTIONAL-GRADE ANALYTICS + ML VALIDATION + RISK MANAGEMENT = PROFESSIONAL PROFITS**")
+st.success("""
+**🏛️ INSTITUTIONAL GRADE FEATURES:**
+- 📊 **PROFESSIONAL ANALYTICS**: Advanced quantitative models and risk metrics
+- 🧠 **ML VALIDATION**: 51-model ensemble for institutional-grade signal validation  
+- 🎯 **RISK MANAGEMENT**: Institutional-level position sizing and portfolio optimization
+- ⚡ **MULTI-EXCHANGE**: Binance, Kraken and other premium exchanges
+- 🛡️ **COMPLIANCE READY**: Professional-grade reporting and audit trails
+- 💎 **INSTITUTIONAL SETUP**: Real institutional money management protocols
+""")
+```
+
+### 2. Results Table and Metrics
+```python
+if signals_data:
+    df = pd.DataFrame(signals_data)
+    st.dataframe(df, use_container_width=True)
+    # Performance metrics
+    if 'performance_metrics' in results:
+        metrics = results['performance_metrics']
+        st.subheader("📊 Scan Performance Metrics")
+        metric_col1, metric_col2, metric_col3, metric_col4 = st.columns(4)
+        with metric_col1:
+            st.metric("Avg R/R Ratio", f"{metrics.get('avg_risk_reward_ratio', 0):.2f}")
+        with metric_col2:
+            st.metric("Avg Potential Return", f"{metrics.get('avg_potential_return', 0):.2f}%")
+        with metric_col3:
+            st.metric("Avg Production Score", f"{metrics.get('avg_production_score', 0):.1f}")
+        with metric_col4:
+            st.metric("Total Signals", metrics.get('total_signals', 0))
+```
+
+### 3. Final Signal Selection & Compliance
+```python
+st.markdown("### ✅ **Final Signal Selection Process**")
+st.markdown("""
+**🔍 Multi-Layer Filtering:**
+1. **Technical Filter**: Must pass all technical criteria
+2. **ML Filter**: Minimum 50% model agreement (adjustable)
+3. **Risk Filter**: Risk/Reward ratio ≥ 1.5
+4. **Volume Filter**: Institutional volume standards
+5. **Liquidity Filter**: Execution quality verification
+6. **Final Ranking**: By production score (highest first)
+""")
+st.markdown("### 📊 **Performance Tracking & Compliance**")
+st.markdown("""
+**🏛️ Institutional Standards:**
+- **Audit Trail**: Complete analysis methodology documentation
+- **Risk Metrics**: Portfolio-level risk monitoring
+- **Performance Attribution**: Strategy component analysis
+- **Compliance Reporting**: Regulatory-ready documentation
+- **Real-time Monitoring**: Live market condition adaptation
+""")
+```
+
 ## 🌟 **SYSTEM HIGHLIGHTS**
 
 ### ⚡ **Day Trading Optimization**
