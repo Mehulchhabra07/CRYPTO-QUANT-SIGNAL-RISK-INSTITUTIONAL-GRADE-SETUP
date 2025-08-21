@@ -1,0 +1,163 @@
+{
+  "basic_metrics": {
+    "brier_score": 0.1309805990324086,
+    "auc_roc": 0.9215578056782023,
+    "auc_pr": 0.8524418565035943,
+    "log_loss": 0.42268534758970416
+  },
+  "calibration_metrics": {
+    "ece": 0.16067459954036403,
+    "fraction_of_positives": "[0.         0.         0.01086957 0.30935252 0.23076923 0.7761194\n 0.80701754 0.92647059]",
+    "mean_predicted_value": "[0.0727897  0.15105903 0.24872212 0.35985765 0.45206426 0.56240229\n 0.64664557 0.73449498]",
+    "bin_boundaries": "[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]"
+  },
+  "lift_chart": [
+    {
+      "decile": 1,
+      "prob_min": 0.02631578947368421,
+      "prob_max": 0.1020671834625323,
+      "prob_mean": 0.07956974597267812,
+      "win_rate": 0.0,
+      "count": 95,
+      "cumulative_wins": 284,
+      "lift": 0.0,
+      "cumulative_count": 855,
+      "cumulative_win_rate": 0.3321637426900585,
+      "cumulative_lift": 1.0
+    },
+    {
+      "decile": 2,
+      "prob_min": 0.10392274436675981,
+      "prob_max": 0.17055555555555557,
+      "prob_mean": 0.1362548420594477,
+      "win_rate": 0.0,
+      "count": 84,
+      "cumulative_wins": 284,
+      "lift": 0.0,
+      "cumulative_count": 760,
+      "cumulative_win_rate": 0.3736842105263158,
+      "cumulative_lift": 1.125
+    },
+    {
+      "decile": 3,
+      "prob_min": 0.17129629629629628,
+      "prob_max": 0.21222222222222223,
+      "prob_mean": 0.18988805155278782,
+      "win_rate": 0.0,
+      "count": 87,
+      "cumulative_wins": 284,
+      "lift": 0.0,
+      "cumulative_count": 676,
+      "cumulative_win_rate": 0.42011834319526625,
+      "cumulative_lift": 1.264792899408284
+    },
+    {
+      "decile": 4,
+      "prob_min": 0.21296296296296294,
+      "prob_max": 0.30408738548273434,
+      "prob_mean": 0.261101995496108,
+      "win_rate": 0.0759493670886076,
+      "count": 79,
+      "cumulative_wins": 284,
+      "lift": 0.22865038331253343,
+      "cumulative_count": 589,
+      "cumulative_win_rate": 0.48217317487266553,
+      "cumulative_lift": 1.4516129032258063
+    },
+    {
+      "decile": 5,
+      "prob_min": 0.3078571428571429,
+      "prob_max": 0.38126984126984126,
+      "prob_mean": 0.34988132475151795,
+      "win_rate": 0.15384615384615385,
+      "count": 91,
+      "cumulative_wins": 278,
+      "lift": 0.46316359696641385,
+      "cumulative_count": 510,
+      "cumulative_win_rate": 0.5450980392156862,
+      "cumulative_lift": 1.6410521955260975
+    },
+    {
+      "decile": 6,
+      "prob_min": 0.38455988455988455,
+      "prob_max": 0.43217893217893216,
+      "prob_mean": 0.40274354301595594,
+      "win_rate": 0.3253012048192771,
+      "count": 83,
+      "cumulative_wins": 264,
+      "lift": 0.9793398947904293,
+      "cumulative_count": 419,
+      "cumulative_win_rate": 0.630071599045346,
+      "cumulative_lift": 1.8968704830414467
+    },
+    {
+      "decile": 7,
+      "prob_min": 0.4326967795331782,
+      "prob_max": 0.5058134960100322,
+      "prob_mean": 0.4700526785347398,
+      "win_rate": 0.31645569620253167,
+      "count": 79,
+      "cumulative_wins": 237,
+      "lift": 0.9527099304688893,
+      "cumulative_count": 336,
+      "cumulative_win_rate": 0.7053571428571429,
+      "cumulative_lift": 2.123522384305835
+    },
+    {
+      "decile": 8,
+      "prob_min": 0.5075757575757576,
+      "prob_max": 0.5909090909090909,
+      "prob_mean": 0.5619449275711136,
+      "win_rate": 0.7874015748031497,
+      "count": 127,
+      "cumulative_wins": 212,
+      "lift": 2.3705223466784964,
+      "cumulative_count": 257,
+      "cumulative_win_rate": 0.8249027237354085,
+      "cumulative_lift": 2.4834219323724445
+    },
+    {
+      "decile": 9,
+      "prob_min": 0.5952380952380952,
+      "prob_max": 0.6666666666666666,
+      "prob_mean": 0.6341640179293357,
+      "win_rate": 0.803921568627451,
+      "count": 51,
+      "cumulative_wins": 112,
+      "lift": 2.4202568351284177,
+      "cumulative_count": 130,
+      "cumulative_win_rate": 0.8615384615384616,
+      "cumulative_lift": 2.5937161430119176
+    },
+    {
+      "decile": 10,
+      "prob_min": 0.6715686274509803,
+      "prob_max": 0.7549019607843137,
+      "prob_mean": 0.7271798751106919,
+      "win_rate": 0.8987341772151899,
+      "count": 79,
+      "cumulative_wins": 71,
+      "lift": 2.7056962025316453,
+      "cumulative_count": 79,
+      "cumulative_win_rate": 0.8987341772151899,
+      "cumulative_lift": 2.7056962025316453
+    }
+  ],
+  "return_metrics": {
+    "mean_theoretical_er": 0.11878774668881467,
+    "mean_actual_er": -0.024988304093567212,
+    "theoretical_sharpe": 0.1927101076303026,
+    "actual_sharpe": -0.01825321530959112,
+    "positive_er_rate": 0.5695906432748538,
+    "profitable_trades_rate": 0.3321637426900585,
+    "total_costs_per_trade": 0.003,
+    "fees_rate": 0.001,
+    "slippage_rate": 0.0005
+  },
+  "summary": {
+    "total_samples": 855,
+    "positive_rate": 0.3321637426900585,
+    "mean_probability": 0.37392924889627155,
+    "probability_std": 0.20534827970193134
+  }
+}

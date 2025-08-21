@@ -1,0 +1,1168 @@
+{
+  "timestamp": "2025-08-10T23:16:23.252344",
+  "backtest_type": "Professional Money-Making System v3.0",
+  "professional_improvements": {
+    "min_risk_reward": "2.0:1",
+    "stop_loss_method": "Structure + ATR (0.8x)",
+    "exit_strategy": "3-tier partial exits",
+    "filtering": "ADX + Vol + BTC + Volume",
+    "position_sizing": "Dynamic conviction + volatility",
+    "time_management": "Max 6 days + trailing"
+  },
+  "simulation_period": "8 periods",
+  "total_trades": 12,
+  "filtered_trades": 12,
+  "winning_trades": 7,
+  "win_rate": 58.333333333333336,
+  "total_pnl_pct": 0.11966419781782897,
+  "avg_pnl_per_trade": 0.009972016484819081,
+  "avg_win_pct": 4.342924926597243,
+  "avg_loss_pct": -6.524874440157619,
+  "profit_factor": 0.9318332410836807,
+  "sharpe_ratio": 0.476774227029485,
+  "max_drawdown_pct": 1.1965603106280596,
+  "avg_hold_days": 2.9166666666666665,
+  "avg_r_multiple": -0.18164821200719503,
+  "expectancy_per_trade": -0.18532480955061548,
+  "total_trading_costs_pct": 4.199999999999999,
+  "period_results": [
+    {
+      "period": 1,
+      "trades": 3,
+      "winners": 2,
+      "win_rate": 66.66666666666666,
+      "period_pnl": 0.11795615948903396,
+      "cumulative_pnl": 0.11795615948903396,
+      "market_regime": "trending_up",
+      "market_conditions": {
+        "btc_trend": "up",
+        "btc_strength": 0.7345651141850513,
+        "adx": 34.22736757455942,
+        "trend_strength": "strong",
+        "vol_percentile": 70.60513842776768,
+        "vol_regime": "high",
+        "market_regime": "trending_up",
+        "volume_rank": 0.8347492780335044
+      },
+      "best_trade": {
+        "symbol": "OP/USDT",
+        "grade": "good",
+        "entry_price": 0.779,
+        "exit_price": 0.88319785530713,
+        "stop_loss": 0.7607363033684305,
+        "target_1": 0.8009164359578835,
+        "target_2": 0.8155273932631392,
+        "target_3": 0.8337910898947088,
+        "position_size_pct": 6.068655486799031,
+        "hold_days": 3,
+        "gross_return_pct": 4.806235955676207,
+        "net_return_pct": 4.456235955676207,
+        "position_pnl_pct": 0.2704336078288554,
+        "is_winner": true,
+        "trading_costs_pct": 0.35,
+        "market_regime": "trending_up",
+        "score": 0.616,
+        "confidence": 0.617,
+        "period": 1,
+        "trade_id": 3,
+        "exit_reason": "target_3",
+        "exits_executed": [
+          {
+            "target": "target_1",
+            "day": 3,
+            "price": 0.8009164359578835
+          },
+          {
+            "target": "target_2",
+            "day": 3,
+            "price": 0.8155273932631392
+          },
+          {
+            "target": "target_3",
+            "day": 3,
+            "price": 0.8337910898947088
+          }
+        ],
+        "r_multiple": 1.9007147783386251,
+        "risk_reward_ratio": 3.0000000000000027,
+        "market_conditions": {
+          "adx": 34.22736757455942,
+          "vol_percentile": 70.60513842776768,
+          "btc_trend": "up"
+        },
+        "professional_features": {
+          "multi_tier_exits": 3,
+          "trailing_stop_used": true,
+          "structure_based_stop": true,
+          "vol_sized": true,
+          "filtered_entry": true
+        }
+      },
+      "worst_trade": {
+        "symbol": "ETH/USDT",
+        "grade": "good",
+        "entry_price": 4218.53,
+        "exit_price": 4029.0785587425908,
+        "stop_loss": 4117.656865693552,
+        "target_1": 4339.577761167737,
+        "target_2": 4420.276268612895,
+        "target_3": 4521.149402919343,
+        "position_size_pct": 6.558446513658002,
+        "hold_days": 1,
+        "gross_return_pct": -4.490935023750193,
+        "net_return_pct": -4.840935023750193,
+        "position_pnl_pct": -0.31749013429359374,
+        "is_winner": false,
+        "trading_costs_pct": 0.35,
+        "market_regime": "trending_up",
+        "score": 0.634,
+        "confidence": 0.748,
+        "period": 1,
+        "trade_id": 2,
+        "exit_reason": "stop_loss",
+        "exits_executed": [],
+        "r_multiple": -2.0244864766173563,
+        "risk_reward_ratio": 3.000000000000002,
+        "market_conditions": {
+          "adx": 34.22736757455942,
+          "vol_percentile": 70.60513842776768,
+          "btc_trend": "up"
+        },
+        "professional_features": {
+          "multi_tier_exits": 0,
+          "trailing_stop_used": false,
+          "structure_based_stop": true,
+          "vol_sized": true,
+          "filtered_entry": true
+        }
+      }
+    },
+    {
+      "period": 2,
+      "trades": 3,
+      "winners": 2,
+      "win_rate": 66.66666666666666,
+      "period_pnl": 0.077659880578546,
+      "cumulative_pnl": 0.19561604006757996,
+      "market_regime": "ranging",
+      "market_conditions": {
+        "btc_trend": "sideways",
+        "btc_strength": 0.5283304876725082,
+        "adx": 41.97620460926785,
+        "trend_strength": "strong",
+        "vol_percentile": 64.68768392965387,
+        "vol_regime": "normal",
+        "market_regime": "ranging",
+        "volume_rank": 0.7755191598646712
+      },
+      "best_trade": {
+        "symbol": "LDO/USDT",
+        "grade": "good",
+        "entry_price": 1.409,
+        "exit_price": 1.463150580448839,
+        "stop_loss": 1.3818660994194758,
+        "target_1": 1.441560680696629,
+        "target_2": 1.4632678011610485,
+        "target_3": 1.4904017017415727,
+        "position_size_pct": 5.744385298475019,
+        "hold_days": 6,
+        "gross_return_pct": 3.460121044058654,
+        "net_return_pct": 3.110121044058654,
+        "position_pnl_pct": 0.1786573360196831,
+        "is_winner": true,
+        "trading_costs_pct": 0.35,
+        "market_regime": "ranging",
+        "score": 0.648,
+        "confidence": 0.764,
+        "period": 2,
+        "trade_id": 4,
+        "exit_reason": "time_stop",
+        "exits_executed": [
+          {
+            "target": "target_1",
+            "day": 2,
+            "price": 1.441560680696629
+          }
+        ],
+        "r_multiple": 1.6150131228180316,
+        "risk_reward_ratio": 3.0000000000000036,
+        "market_conditions": {
+          "adx": 41.97620460926785,
+          "vol_percentile": 64.68768392965387,
+          "btc_trend": "sideways"
+        },
+        "professional_features": {
+          "multi_tier_exits": 1,
+          "trailing_stop_used": true,
+          "structure_based_stop": true,
+          "vol_sized": true,
+          "filtered_entry": true
+        }
+      },
+      "worst_trade": {
+        "symbol": "DOGE/USDT",
+        "grade": "good",
+        "entry_price": 0.23361,
+        "exit_price": 0.22421504392482378,
+        "stop_loss": 0.22921952680093335,
+        "target_1": 0.23887856783888,
+        "target_2": 0.24239094639813333,
+        "target_3": 0.24678141959719999,
+        "position_size_pct": 5.704357838203824,
+        "hold_days": 2,
+        "gross_return_pct": -4.021641229046803,
+        "net_return_pct": -4.371641229046802,
+        "position_pnl_pct": -0.24937405910728122,
+        "is_winner": false,
+        "trading_costs_pct": 0.35,
+        "market_regime": "ranging",
+        "score": 0.652,
+        "confidence": 0.743,
+        "period": 2,
+        "trade_id": 6,
+        "exit_reason": "stop_loss",
+        "exits_executed": [],
+        "r_multiple": -2.326079812387253,
+        "risk_reward_ratio": 3.0000000000000018,
+        "market_conditions": {
+          "adx": 41.97620460926785,
+          "vol_percentile": 64.68768392965387,
+          "btc_trend": "sideways"
+        },
+        "professional_features": {
+          "multi_tier_exits": 0,
+          "trailing_stop_used": false,
+          "structure_based_stop": true,
+          "vol_sized": true,
+          "filtered_entry": true
+        }
+      }
+    },
+    {
+      "period": 3,
+      "trades": 0,
+      "winners": 0,
+      "win_rate": 0,
+      "period_pnl": 0,
+      "cumulative_pnl": 0.19561604006757996,
+      "market_regime": "volatile",
+      "market_conditions": {
+        "btc_trend": "sideways",
+        "btc_strength": 0.5441892997558716,
+        "adx": 31.50319087197082,
+        "trend_strength": "strong",
+        "vol_percentile": 84.99591821861769,
+        "vol_regime": "high",
+        "market_regime": "volatile",
+        "volume_rank": 0.7279023425319284
+      },
+      "best_trade": null,
+      "worst_trade": null
+    },
+    {
+      "period": 4,
+      "trades": 3,
+      "winners": 2,
+      "win_rate": 66.66666666666666,
+      "period_pnl": 0.3144695905409858,
+      "cumulative_pnl": 0.5100856306085657,
+      "market_regime": "trending_up",
+      "market_conditions": {
+        "btc_trend": "up",
+        "btc_strength": 0.6439679382098704,
+        "adx": 33.405075915748185,
+        "trend_strength": "strong",
+        "vol_percentile": 24.009104475579697,
+        "vol_regime": "low",
+        "market_regime": "trending_up",
+        "volume_rank": 0.7259092323220996
+      },
+      "best_trade": {
+        "symbol": "EIGEN/USDT",
+        "grade": "good",
+        "entry_price": 1.395,
+        "exit_price": 1.5241915906851335,
+        "stop_loss": 1.352290763065033,
+        "target_1": 1.4462510843219605,
+        "target_2": 1.480418473869934,
+        "target_3": 1.523127710804901,
+        "position_size_pct": 7.760129608332471,
+        "hold_days": 1,
+        "gross_return_pct": 6.276267793310562,
+        "net_return_pct": 5.926267793310562,
+        "position_pnl_pct": 0.45988606169776425,
+        "is_winner": true,
+        "trading_costs_pct": 0.35,
+        "market_regime": "trending_up",
+        "score": 0.621,
+        "confidence": 0.639,
+        "period": 4,
+        "trade_id": 8,
+        "exit_reason": "target_3",
+        "exits_executed": [
+          {
+            "target": "target_1",
+            "day": 1,
+            "price": 1.4462510843219605
+          },
+          {
+            "target": "target_2",
+            "day": 1,
+            "price": 1.480418473869934
+          },
+          {
+            "target": "target_3",
+            "day": 1,
+            "price": 1.523127710804901
+          }
+        ],
+        "r_multiple": 1.9356804674961832,
+        "risk_reward_ratio": 3.000000000000002,
+        "market_conditions": {
+          "adx": 33.405075915748185,
+          "vol_percentile": 24.009104475579697,
+          "btc_trend": "up"
+        },
+        "professional_features": {
+          "multi_tier_exits": 3,
+          "trailing_stop_used": true,
+          "structure_based_stop": true,
+          "vol_sized": true,
+          "filtered_entry": true
+        }
+      },
+      "worst_trade": {
+        "symbol": "LDO/USDT",
+        "grade": "good",
+        "entry_price": 1.409,
+        "exit_price": 1.315801860568669,
+        "stop_loss": 1.3737570099486127,
+        "target_1": 1.451291588061665,
+        "target_2": 1.4794859801027749,
+        "target_3": 1.5147289701541622,
+        "position_size_pct": 8.40642741098903,
+        "hold_days": 1,
+        "gross_return_pct": -6.614488249207313,
+        "net_return_pct": -6.964488249207313,
+        "position_pnl_pct": -0.5854646492164735,
+        "is_winner": false,
+        "trading_costs_pct": 0.35,
+        "market_regime": "trending_up",
+        "score": 0.648,
+        "confidence": 0.764,
+        "period": 4,
+        "trade_id": 9,
+        "exit_reason": "stop_loss",
+        "exits_executed": [],
+        "r_multiple": -2.784373269357951,
+        "risk_reward_ratio": 2.9999999999999973,
+        "market_conditions": {
+          "adx": 33.405075915748185,
+          "vol_percentile": 24.009104475579697,
+          "btc_trend": "up"
+        },
+        "professional_features": {
+          "multi_tier_exits": 0,
+          "trailing_stop_used": false,
+          "structure_based_stop": true,
+          "vol_sized": true,
+          "filtered_entry": true
+        }
+      }
+    },
+    {
+      "period": 5,
+      "trades": 0,
+      "winners": 0,
+      "win_rate": 0,
+      "period_pnl": 0,
+      "cumulative_pnl": 0.5100856306085657,
+      "market_regime": "ranging",
+      "market_conditions": {
+        "btc_trend": "down",
+        "btc_strength": 0.8959639898104053,
+        "adx": 18.96932448349748,
+        "trend_strength": "weak",
+        "vol_percentile": 66.48399171534517,
+        "vol_regime": "normal",
+        "market_regime": "ranging",
+        "volume_rank": 0.5337504274358429
+      },
+      "best_trade": null,
+      "worst_trade": null
+    },
+    {
+      "period": 6,
+      "trades": 0,
+      "winners": 0,
+      "win_rate": 0,
+      "period_pnl": 0,
+      "cumulative_pnl": 0.5100856306085657,
+      "market_regime": "ranging",
+      "market_conditions": {
+        "btc_trend": "down",
+        "btc_strength": 0.5177508963554163,
+        "adx": 15.34279599375304,
+        "trend_strength": "weak",
+        "vol_percentile": 16.04038501062312,
+        "vol_regime": "low",
+        "market_regime": "ranging",
+        "volume_rank": 0.4547865624600349
+      },
+      "best_trade": null,
+      "worst_trade": null
+    },
+    {
+      "period": 7,
+      "trades": 0,
+      "winners": 0,
+      "win_rate": 0,
+      "period_pnl": 0,
+      "cumulative_pnl": 0.5100856306085657,
+      "market_regime": "volatile",
+      "market_conditions": {
+        "btc_trend": "sideways",
+        "btc_strength": 0.8967191123814362,
+        "adx": 23.258201460485058,
+        "trend_strength": "moderate",
+        "vol_percentile": 89.75105227633497,
+        "vol_regime": "high",
+        "market_regime": "volatile",
+        "volume_rank": 0.815156606447393
+      },
+      "best_trade": null,
+      "worst_trade": null
+    },
+    {
+      "period": 8,
+      "trades": 3,
+      "winners": 1,
+      "win_rate": 33.33333333333333,
+      "period_pnl": -0.3904214327907368,
+      "cumulative_pnl": 0.11966419781782889,
+      "market_regime": "volatile",
+      "market_conditions": {
+        "btc_trend": "sideways",
+        "btc_strength": 0.5633493485377112,
+        "adx": 31.69202696686708,
+        "trend_strength": "strong",
+        "vol_percentile": 77.84451564366704,
+        "vol_regime": "high",
+        "market_regime": "volatile",
+        "volume_rank": 0.8870390841425118
+      },
+      "best_trade": {
+        "symbol": "DOGE/USDT",
+        "grade": "good",
+        "entry_price": 0.23361,
+        "exit_price": 0.28399999002974263,
+        "stop_loss": 0.22643211975948108,
+        "target_1": 0.2422234562886227,
+        "target_2": 0.24796576048103786,
+        "target_3": 0.25514364072155676,
+        "position_size_pct": 3.7095512871552687,
+        "hold_days": 4,
+        "gross_return_pct": 6.29881190576764,
+        "net_return_pct": 5.9488119057676405,
+        "position_pnl_pct": 0.22067422862084937,
+        "is_winner": true,
+        "trading_costs_pct": 0.35,
+        "market_regime": "volatile",
+        "score": 0.652,
+        "confidence": 0.743,
+        "period": 8,
+        "trade_id": 12,
+        "exit_reason": "target_3",
+        "exits_executed": [
+          {
+            "target": "target_1",
+            "day": 3,
+            "price": 0.2422234562886227
+          },
+          {
+            "target": "target_2",
+            "day": 3,
+            "price": 0.24796576048103786
+          },
+          {
+            "target": "target_3",
+            "day": 4,
+            "price": 0.25514364072155676
+          }
+        ],
+        "r_multiple": 1.9360896291659333,
+        "risk_reward_ratio": 2.999999999999997,
+        "market_conditions": {
+          "adx": 31.69202696686708,
+          "vol_percentile": 77.84451564366704,
+          "btc_trend": "sideways"
+        },
+        "professional_features": {
+          "multi_tier_exits": 3,
+          "trailing_stop_used": true,
+          "structure_based_stop": true,
+          "vol_sized": true,
+          "filtered_entry": true
+        }
+      },
+      "worst_trade": {
+        "symbol": "LDO/USDT",
+        "grade": "good",
+        "entry_price": 1.409,
+        "exit_price": 1.2578232131674967,
+        "stop_loss": 1.3701186417514175,
+        "target_1": 1.455657629898299,
+        "target_2": 1.486762716497165,
+        "target_3": 1.5256440747457476,
+        "position_size_pct": 3.735581196389947,
+        "hold_days": 1,
+        "gross_return_pct": -10.729367411817128,
+        "net_return_pct": -11.079367411817127,
+        "position_pnl_pct": -0.41387876571479615,
+        "is_winner": false,
+        "trading_costs_pct": 0.35,
+        "market_regime": "volatile",
+        "score": 0.648,
+        "confidence": 0.764,
+        "period": 8,
+        "trade_id": 10,
+        "exit_reason": "stop_loss",
+        "exits_executed": [],
+        "r_multiple": -4.014990572974504,
+        "risk_reward_ratio": 3.0000000000000018,
+        "market_conditions": {
+          "adx": 31.69202696686708,
+          "vol_percentile": 77.84451564366704,
+          "btc_trend": "sideways"
+        },
+        "professional_features": {
+          "multi_tier_exits": 0,
+          "trailing_stop_used": false,
+          "structure_based_stop": true,
+          "vol_sized": true,
+          "filtered_entry": true
+        }
+      }
+    }
+  ],
+  "all_trades": [
+    {
+      "symbol": "DIA/USDT",
+      "grade": "good",
+      "entry_price": 0.8726,
+      "exit_price": 0.8661182764754112,
+      "stop_loss": 0.8507154164883454,
+      "target_1": 0.8988615002139857,
+      "target_2": 0.9163691670233095,
+      "target_3": 0.9382537505349642,
+      "position_size_pct": 6.0562557139671584,
+      "hold_days": 6,
+      "gross_return_pct": 3.0746651024528906,
+      "net_return_pct": 2.7246651024528905,
+      "position_pnl_pct": 0.1650126859537723,
+      "is_winner": true,
+      "trading_costs_pct": 0.35,
+      "market_regime": "trending_up",
+      "score": 0.62,
+      "confidence": 0.607,
+      "period": 1,
+      "trade_id": 1,
+      "exit_reason": "time_stop",
+      "exits_executed": [
+        {
+          "target": "target_1",
+          "day": 2,
+          "price": 0.8988615002139857
+        },
+        {
+          "target": "target_2",
+          "day": 2,
+          "price": 0.9163691670233095
+        }
+      ],
+      "r_multiple": 1.086400738279633,
+      "risk_reward_ratio": 3.0,
+      "market_conditions": {
+        "adx": 34.22736757455942,
+        "vol_percentile": 70.60513842776768,
+        "btc_trend": "up"
+      },
+      "professional_features": {
+        "multi_tier_exits": 2,
+        "trailing_stop_used": true,
+        "structure_based_stop": true,
+        "vol_sized": true,
+        "filtered_entry": true
+      }
+    },
+    {
+      "symbol": "ETH/USDT",
+      "grade": "good",
+      "entry_price": 4218.53,
+      "exit_price": 4029.0785587425908,
+      "stop_loss": 4117.656865693552,
+      "target_1": 4339.577761167737,
+      "target_2": 4420.276268612895,
+      "target_3": 4521.149402919343,
+      "position_size_pct": 6.558446513658002,
+      "hold_days": 1,
+      "gross_return_pct": -4.490935023750193,
+      "net_return_pct": -4.840935023750193,
+      "position_pnl_pct": -0.31749013429359374,
+      "is_winner": false,
+      "trading_costs_pct": 0.35,
+      "market_regime": "trending_up",
+      "score": 0.634,
+      "confidence": 0.748,
+      "period": 1,
+      "trade_id": 2,
+      "exit_reason": "stop_loss",
+      "exits_executed": [],
+      "r_multiple": -2.0244864766173563,
+      "risk_reward_ratio": 3.000000000000002,
+      "market_conditions": {
+        "adx": 34.22736757455942,
+        "vol_percentile": 70.60513842776768,
+        "btc_trend": "up"
+      },
+      "professional_features": {
+        "multi_tier_exits": 0,
+        "trailing_stop_used": false,
+        "structure_based_stop": true,
+        "vol_sized": true,
+        "filtered_entry": true
+      }
+    },
+    {
+      "symbol": "OP/USDT",
+      "grade": "good",
+      "entry_price": 0.779,
+      "exit_price": 0.88319785530713,
+      "stop_loss": 0.7607363033684305,
+      "target_1": 0.8009164359578835,
+      "target_2": 0.8155273932631392,
+      "target_3": 0.8337910898947088,
+      "position_size_pct": 6.068655486799031,
+      "hold_days": 3,
+      "gross_return_pct": 4.806235955676207,
+      "net_return_pct": 4.456235955676207,
+      "position_pnl_pct": 0.2704336078288554,
+      "is_winner": true,
+      "trading_costs_pct": 0.35,
+      "market_regime": "trending_up",
+      "score": 0.616,
+      "confidence": 0.617,
+      "period": 1,
+      "trade_id": 3,
+      "exit_reason": "target_3",
+      "exits_executed": [
+        {
+          "target": "target_1",
+          "day": 3,
+          "price": 0.8009164359578835
+        },
+        {
+          "target": "target_2",
+          "day": 3,
+          "price": 0.8155273932631392
+        },
+        {
+          "target": "target_3",
+          "day": 3,
+          "price": 0.8337910898947088
+        }
+      ],
+      "r_multiple": 1.9007147783386251,
+      "risk_reward_ratio": 3.0000000000000027,
+      "market_conditions": {
+        "adx": 34.22736757455942,
+        "vol_percentile": 70.60513842776768,
+        "btc_trend": "up"
+      },
+      "professional_features": {
+        "multi_tier_exits": 3,
+        "trailing_stop_used": true,
+        "structure_based_stop": true,
+        "vol_sized": true,
+        "filtered_entry": true
+      }
+    },
+    {
+      "symbol": "LDO/USDT",
+      "grade": "good",
+      "entry_price": 1.409,
+      "exit_price": 1.463150580448839,
+      "stop_loss": 1.3818660994194758,
+      "target_1": 1.441560680696629,
+      "target_2": 1.4632678011610485,
+      "target_3": 1.4904017017415727,
+      "position_size_pct": 5.744385298475019,
+      "hold_days": 6,
+      "gross_return_pct": 3.460121044058654,
+      "net_return_pct": 3.110121044058654,
+      "position_pnl_pct": 0.1786573360196831,
+      "is_winner": true,
+      "trading_costs_pct": 0.35,
+      "market_regime": "ranging",
+      "score": 0.648,
+      "confidence": 0.764,
+      "period": 2,
+      "trade_id": 4,
+      "exit_reason": "time_stop",
+      "exits_executed": [
+        {
+          "target": "target_1",
+          "day": 2,
+          "price": 1.441560680696629
+        }
+      ],
+      "r_multiple": 1.6150131228180316,
+      "risk_reward_ratio": 3.0000000000000036,
+      "market_conditions": {
+        "adx": 41.97620460926785,
+        "vol_percentile": 64.68768392965387,
+        "btc_trend": "sideways"
+      },
+      "professional_features": {
+        "multi_tier_exits": 1,
+        "trailing_stop_used": true,
+        "structure_based_stop": true,
+        "vol_sized": true,
+        "filtered_entry": true
+      }
+    },
+    {
+      "symbol": "PENGU/USDT",
+      "grade": "good",
+      "entry_price": 0.039656,
+      "exit_price": 0.040794944803729055,
+      "stop_loss": 0.03854094554531121,
+      "target_1": 0.04099406534562654,
+      "target_2": 0.041886108909377565,
+      "target_3": 0.04300116336406634,
+      "position_size_pct": 5.883147160748493,
+      "hold_days": 6,
+      "gross_return_pct": 2.8720617402891326,
+      "net_return_pct": 2.5220617402891325,
+      "position_pnl_pct": 0.14837660366614414,
+      "is_winner": true,
+      "trading_costs_pct": 0.35,
+      "market_regime": "ranging",
+      "score": 0.684,
+      "confidence": 0.762,
+      "period": 2,
+      "trade_id": 5,
+      "exit_reason": "time_stop",
+      "exits_executed": [],
+      "r_multiple": 0.8969506372746645,
+      "risk_reward_ratio": 2.999999999999998,
+      "market_conditions": {
+        "adx": 41.97620460926785,
+        "vol_percentile": 64.68768392965387,
+        "btc_trend": "sideways"
+      },
+      "professional_features": {
+        "multi_tier_exits": 0,
+        "trailing_stop_used": false,
+        "structure_based_stop": true,
+        "vol_sized": true,
+        "filtered_entry": true
+      }
+    },
+    {
+      "symbol": "DOGE/USDT",
+      "grade": "good",
+      "entry_price": 0.23361,
+      "exit_price": 0.22421504392482378,
+      "stop_loss": 0.22921952680093335,
+      "target_1": 0.23887856783888,
+      "target_2": 0.24239094639813333,
+      "target_3": 0.24678141959719999,
+      "position_size_pct": 5.704357838203824,
+      "hold_days": 2,
+      "gross_return_pct": -4.021641229046803,
+      "net_return_pct": -4.371641229046802,
+      "position_pnl_pct": -0.24937405910728122,
+      "is_winner": false,
+      "trading_costs_pct": 0.35,
+      "market_regime": "ranging",
+      "score": 0.652,
+      "confidence": 0.743,
+      "period": 2,
+      "trade_id": 6,
+      "exit_reason": "stop_loss",
+      "exits_executed": [],
+      "r_multiple": -2.326079812387253,
+      "risk_reward_ratio": 3.0000000000000018,
+      "market_conditions": {
+        "adx": 41.97620460926785,
+        "vol_percentile": 64.68768392965387,
+        "btc_trend": "sideways"
+      },
+      "professional_features": {
+        "multi_tier_exits": 0,
+        "trailing_stop_used": false,
+        "structure_based_stop": true,
+        "vol_sized": true,
+        "filtered_entry": true
+      }
+    },
+    {
+      "symbol": "LTC/USDT",
+      "grade": "good",
+      "entry_price": 123.98,
+      "exit_price": 136.07849649533463,
+      "stop_loss": 120.31363262968448,
+      "target_1": 128.37964084437863,
+      "target_2": 131.31273474063107,
+      "target_3": 134.9791021109466,
+      "position_size_pct": 7.703505329549873,
+      "hold_days": 3,
+      "gross_return_pct": 6.062310944625616,
+      "net_return_pct": 5.712310944625616,
+      "position_pnl_pct": 0.44004817805969504,
+      "is_winner": true,
+      "trading_costs_pct": 0.35,
+      "market_regime": "trending_up",
+      "score": 0.618,
+      "confidence": 0.629,
+      "period": 4,
+      "trade_id": 7,
+      "exit_reason": "target_3",
+      "exits_executed": [
+        {
+          "target": "target_1",
+          "day": 3,
+          "price": 128.37964084437863
+        },
+        {
+          "target": "target_2",
+          "day": 3,
+          "price": 131.31273474063107
+        },
+        {
+          "target": "target_3",
+          "day": 3,
+          "price": 134.9791021109466
+        }
+      ],
+      "r_multiple": 1.9316457937321632,
+      "risk_reward_ratio": 3.0000000000000018,
+      "market_conditions": {
+        "adx": 33.405075915748185,
+        "vol_percentile": 24.009104475579697,
+        "btc_trend": "up"
+      },
+      "professional_features": {
+        "multi_tier_exits": 3,
+        "trailing_stop_used": true,
+        "structure_based_stop": true,
+        "vol_sized": true,
+        "filtered_entry": true
+      }
+    },
+    {
+      "symbol": "EIGEN/USDT",
+      "grade": "good",
+      "entry_price": 1.395,
+      "exit_price": 1.5241915906851335,
+      "stop_loss": 1.352290763065033,
+      "target_1": 1.4462510843219605,
+      "target_2": 1.480418473869934,
+      "target_3": 1.523127710804901,
+      "position_size_pct": 7.760129608332471,
+      "hold_days": 1,
+      "gross_return_pct": 6.276267793310562,
+      "net_return_pct": 5.926267793310562,
+      "position_pnl_pct": 0.45988606169776425,
+      "is_winner": true,
+      "trading_costs_pct": 0.35,
+      "market_regime": "trending_up",
+      "score": 0.621,
+      "confidence": 0.639,
+      "period": 4,
+      "trade_id": 8,
+      "exit_reason": "target_3",
+      "exits_executed": [
+        {
+          "target": "target_1",
+          "day": 1,
+          "price": 1.4462510843219605
+        },
+        {
+          "target": "target_2",
+          "day": 1,
+          "price": 1.480418473869934
+        },
+        {
+          "target": "target_3",
+          "day": 1,
+          "price": 1.523127710804901
+        }
+      ],
+      "r_multiple": 1.9356804674961832,
+      "risk_reward_ratio": 3.000000000000002,
+      "market_conditions": {
+        "adx": 33.405075915748185,
+        "vol_percentile": 24.009104475579697,
+        "btc_trend": "up"
+      },
+      "professional_features": {
+        "multi_tier_exits": 3,
+        "trailing_stop_used": true,
+        "structure_based_stop": true,
+        "vol_sized": true,
+        "filtered_entry": true
+      }
+    },
+    {
+      "symbol": "LDO/USDT",
+      "grade": "good",
+      "entry_price": 1.409,
+      "exit_price": 1.315801860568669,
+      "stop_loss": 1.3737570099486127,
+      "target_1": 1.451291588061665,
+      "target_2": 1.4794859801027749,
+      "target_3": 1.5147289701541622,
+      "position_size_pct": 8.40642741098903,
+      "hold_days": 1,
+      "gross_return_pct": -6.614488249207313,
+      "net_return_pct": -6.964488249207313,
+      "position_pnl_pct": -0.5854646492164735,
+      "is_winner": false,
+      "trading_costs_pct": 0.35,
+      "market_regime": "trending_up",
+      "score": 0.648,
+      "confidence": 0.764,
+      "period": 4,
+      "trade_id": 9,
+      "exit_reason": "stop_loss",
+      "exits_executed": [],
+      "r_multiple": -2.784373269357951,
+      "risk_reward_ratio": 2.9999999999999973,
+      "market_conditions": {
+        "adx": 33.405075915748185,
+        "vol_percentile": 24.009104475579697,
+        "btc_trend": "up"
+      },
+      "professional_features": {
+        "multi_tier_exits": 0,
+        "trailing_stop_used": false,
+        "structure_based_stop": true,
+        "vol_sized": true,
+        "filtered_entry": true
+      }
+    },
+    {
+      "symbol": "LDO/USDT",
+      "grade": "good",
+      "entry_price": 1.409,
+      "exit_price": 1.2578232131674967,
+      "stop_loss": 1.3701186417514175,
+      "target_1": 1.455657629898299,
+      "target_2": 1.486762716497165,
+      "target_3": 1.5256440747457476,
+      "position_size_pct": 3.735581196389947,
+      "hold_days": 1,
+      "gross_return_pct": -10.729367411817128,
+      "net_return_pct": -11.079367411817127,
+      "position_pnl_pct": -0.41387876571479615,
+      "is_winner": false,
+      "trading_costs_pct": 0.35,
+      "market_regime": "volatile",
+      "score": 0.648,
+      "confidence": 0.764,
+      "period": 8,
+      "trade_id": 10,
+      "exit_reason": "stop_loss",
+      "exits_executed": [],
+      "r_multiple": -4.014990572974504,
+      "risk_reward_ratio": 3.0000000000000018,
+      "market_conditions": {
+        "adx": 31.69202696686708,
+        "vol_percentile": 77.84451564366704,
+        "btc_trend": "sideways"
+      },
+      "professional_features": {
+        "multi_tier_exits": 0,
+        "trailing_stop_used": false,
+        "structure_based_stop": true,
+        "vol_sized": true,
+        "filtered_entry": true
+      }
+    },
+    {
+      "symbol": "PENDLE/USDT",
+      "grade": "good",
+      "entry_price": 5.443,
+      "exit_price": 5.1698735101804045,
+      "stop_loss": 5.317728152257129,
+      "target_1": 5.593326217291444,
+      "target_2": 5.693543695485739,
+      "target_3": 5.8188155432286095,
+      "position_size_pct": 3.6739770778678755,
+      "hold_days": 1,
+      "gross_return_pct": -5.017940286966657,
+      "net_return_pct": -5.367940286966657,
+      "position_pnl_pct": -0.19721689569679005,
+      "is_winner": false,
+      "trading_costs_pct": 0.35,
+      "market_regime": "volatile",
+      "score": 0.633,
+      "confidence": 0.751,
+      "period": 8,
+      "trade_id": 11,
+      "exit_reason": "stop_loss",
+      "exits_executed": [],
+      "r_multiple": -2.33234357985451,
+      "risk_reward_ratio": 3.0000000000000013,
+      "market_conditions": {
+        "adx": 31.69202696686708,
+        "vol_percentile": 77.84451564366704,
+        "btc_trend": "sideways"
+      },
+      "professional_features": {
+        "multi_tier_exits": 0,
+        "trailing_stop_used": false,
+        "structure_based_stop": true,
+        "vol_sized": true,
+        "filtered_entry": true
+      }
+    },
+    {
+      "symbol": "DOGE/USDT",
+      "grade": "good",
+      "entry_price": 0.23361,
+      "exit_price": 0.28399999002974263,
+      "stop_loss": 0.22643211975948108,
+      "target_1": 0.2422234562886227,
+      "target_2": 0.24796576048103786,
+      "target_3": 0.25514364072155676,
+      "position_size_pct": 3.7095512871552687,
+      "hold_days": 4,
+      "gross_return_pct": 6.29881190576764,
+      "net_return_pct": 5.9488119057676405,
+      "position_pnl_pct": 0.22067422862084937,
+      "is_winner": true,
+      "trading_costs_pct": 0.35,
+      "market_regime": "volatile",
+      "score": 0.652,
+      "confidence": 0.743,
+      "period": 8,
+      "trade_id": 12,
+      "exit_reason": "target_3",
+      "exits_executed": [
+        {
+          "target": "target_1",
+          "day": 3,
+          "price": 0.2422234562886227
+        },
+        {
+          "target": "target_2",
+          "day": 3,
+          "price": 0.24796576048103786
+        },
+        {
+          "target": "target_3",
+          "day": 4,
+          "price": 0.25514364072155676
+        }
+      ],
+      "r_multiple": 1.9360896291659333,
+      "risk_reward_ratio": 2.999999999999997,
+      "market_conditions": {
+        "adx": 31.69202696686708,
+        "vol_percentile": 77.84451564366704,
+        "btc_trend": "sideways"
+      },
+      "professional_features": {
+        "multi_tier_exits": 3,
+        "trailing_stop_used": true,
+        "structure_based_stop": true,
+        "vol_sized": true,
+        "filtered_entry": true
+      }
+    }
+  ],
+  "grade_performance": {
+    "premium": {
+      "trades": 0,
+      "win_rate": 0,
+      "avg_return": 0,
+      "total_return": 0,
+      "avg_r_multiple": 0
+    },
+    "strong": {
+      "trades": 0,
+      "win_rate": 0,
+      "avg_return": 0,
+      "total_return": 0,
+      "avg_r_multiple": 0
+    },
+    "good": {
+      "trades": 12,
+      "win_rate": 58.333333333333336,
+      "avg_return": -0.18532480955061584,
+      "total_return": 0.11966419781782897,
+      "avg_r_multiple": -0.18164821200719503
+    },
+    "moderate": {
+      "trades": 0,
+      "win_rate": 0,
+      "avg_return": 0,
+      "total_return": 0,
+      "avg_r_multiple": 0
+    }
+  },
+  "current_top_picks": [
+    {
+      "symbol": "PENGU/USDT",
+      "grade": "good",
+      "score": 0.684,
+      "confidence": 0.762,
+      "entry_price": 0.039656,
+      "stop_loss": 0.03869566538287173,
+      "target_1": 0.040808401540553915,
+      "target_2": 0.04157666923425653,
+      "target_3": 0.042537003851384786,
+      "risk_reward_ratio": 2.999999999999997,
+      "position_size_pct": 7.619328,
+      "expected_return_pct": 4.84332568654562
+    },
+    {
+      "symbol": "SAGA/USDT",
+      "grade": "good",
+      "score": 0.662,
+      "confidence": 0.759,
+      "entry_price": 0.2789,
+      "stop_loss": 0.2731831495794141,
+      "target_1": 0.28576022050470307,
+      "target_2": 0.2903337008411718,
+      "target_3": 0.2960505512617577,
+      "risk_reward_ratio": 2.9999999999999996,
+      "position_size_pct": 7.494912000000001,
+      "expected_return_pct": 4.099570039860827
+    },
+    {
+      "symbol": "DOGE/USDT",
+      "grade": "good",
+      "score": 0.652,
+      "confidence": 0.743,
+      "entry_price": 0.23361,
+      "stop_loss": 0.22718399861811717,
+      "target_1": 0.24132120165825943,
+      "target_2": 0.24646200276376573,
+      "target_3": 0.2528880041456486,
+      "risk_reward_ratio": 3.000000000000004,
+      "position_size_pct": 7.387776000000001,
+      "expected_return_pct": 5.5014780034098365
+    }
+  ],
+  "professional_analysis": {
+    "trade_quality": "C",
+    "risk_management": "A",
+    "consistency": "C",
+    "sample_size": "Limited",
+    "recommendation": "NEEDS_WORK"
+  }
+}

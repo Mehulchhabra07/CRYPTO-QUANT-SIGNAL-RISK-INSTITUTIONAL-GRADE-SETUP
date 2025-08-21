@@ -1,0 +1,5244 @@
+{
+  "timestamp_utc": "2025-08-10T20:59:45.428565+00:00",
+  "top_crypto": [
+    {
+      "symbol": "FDUSD/USDT",
+      "score": 0.658937315323914,
+      "ml_score": 0.33733290738043703,
+      "ml_confidence": 0.32944070061048203,
+      "rule_score": 0.8086450323133264,
+      "hybrid_score": 0.658937315323914,
+      "position_size_pct": 10.79440700610482,
+      "atr_pct": 0.01145032703849298,
+      "rsi": 49.99883336055492,
+      "buy_price": 0.9981,
+      "stop_loss": 0.954184,
+      "target_price": 1.030039,
+      "risk_reward_ratio": 0.73,
+      "atr_value": 0.019962,
+      "analysis": {
+        "timeframe_analysis": {
+          "primary_tf": "30m",
+          "confirmation_tf": "4h",
+          "expected_holding_period": "2-7 days",
+          "time_stops": {
+            "short_term_exit": "48 hours",
+            "medium_term_exit": "4 days"
+          }
+        },
+        "ml_analysis": {
+          "models_used": 51,
+          "confidence": 0.32944070061048203,
+          "total_features": 60,
+          "individual_scores": [
+            0.42,
+            0.40531229816010367,
+            0.40417362162281006,
+            0.3511802472130884,
+            0.35,
+            0.42587970616897236,
+            0.3138888145408707,
+            0.030976299196481705,
+            0.17312228907173063,
+            0.38229385424884477
+          ],
+          "ensemble_score": 0.33733290738043703
+        },
+        "rule_analysis": {
+          "strategies_fired": 2,
+          "trend_signal": true,
+          "breakout_signal": false,
+          "squeeze_signal": true,
+          "technical_score": 1.2345801292533056,
+          "ml_only_mode": false
+        },
+        "risk_analysis": {
+          "regime": 1,
+          "position_size": 0.1079440700610482,
+          "shrunk_prob": 0.4317762802441928,
+          "time_stops": {
+            "30m_bars": 96,
+            "4h_bars": 24
+          }
+        },
+        "hybrid_analysis": {
+          "agreement_boost": true,
+          "veto_reason": null,
+          "regime": 1,
+          "rules_weight": 0.5,
+          "ml_weight": 0.5,
+          "threshold": 0.3,
+          "strategies_fired": 2,
+          "ml_confidence": 0.32944070061048203,
+          "hybrid_score": 0.658937315323914,
+          "ml_only_mode": false
+        }
+      },
+      "meta": {
+        "atr_pct": 0.01145032703849298,
+        "rsi": 49.99883336055492,
+        "rules_score": 0.8086450323133264,
+        "ml_score": 0.33733290738043703,
+        "ml_models_used": 51,
+        "ml_confidence": 0.32944070061048203,
+        "total_features": 60,
+        "regime": 1,
+        "strategies_fired": 2,
+        "trend_signal": true,
+        "breakout_signal": false,
+        "squeeze_signal": true,
+        "technical_score": 1.2345801292533056,
+        "hybrid_score": 0.658937315323914,
+        "veto_reason": null,
+        "agreement_boost": true,
+        "rules_weight": 0.5,
+        "ml_weight": 0.5,
+        "threshold": 0.3,
+        "ml_only_mode": false,
+        "position_size": 0.1079440700610482,
+        "raw_prob": 0.32944070061048203,
+        "shrunk_prob": 0.4317762802441928,
+        "size_multiplier": 1.0,
+        "time_stop_30m": 96,
+        "time_stop_4h": 24,
+        "partial_take": 0.33,
+        "trail_multiple": 2.5
+      }
+    },
+    {
+      "symbol": "WBTC/USDT",
+      "score": 0.620628969478127,
+      "ml_score": 0.41523339654142627,
+      "ml_confidence": 0.1969962206099064,
+      "rule_score": 0.8260245424148276,
+      "hybrid_score": 0.620628969478127,
+      "position_size_pct": 10.0,
+      "atr_pct": 0.26227038065913594,
+      "rsi": 58.04922065097711,
+      "buy_price": 118637.11,
+      "stop_loss": 114484.81115,
+      "target_price": 122433.49752,
+      "risk_reward_ratio": 0.91,
+      "atr_value": 2372.7422,
+      "analysis": {
+        "timeframe_analysis": {
+          "primary_tf": "30m",
+          "confirmation_tf": "4h",
+          "expected_holding_period": "2-7 days",
+          "time_stops": {
+            "short_term_exit": "48 hours",
+            "medium_term_exit": "4 days"
+          }
+        },
+        "ml_analysis": {
+          "models_used": 51,
+          "confidence": 0.1969962206099064,
+          "total_features": 60,
+          "individual_scores": [
+            0.48,
+            0.3427583402726203,
+            0.3977122099190371,
+            0.3522356500198901,
+            0.3,
+            0.4828498044254134,
+            0.26464353588649225,
+            0.5380629897117615,
+            0.5091364161192692,
+            0.3382545722029915
+          ],
+          "ensemble_score": 0.41523339654142627
+        },
+        "rule_analysis": {
+          "strategies_fired": 2,
+          "trend_signal": true,
+          "breakout_signal": false,
+          "squeeze_signal": true,
+          "technical_score": 1.3040981696593106,
+          "ml_only_mode": false
+        },
+        "risk_analysis": {
+          "regime": 1,
+          "position_size": 0.1,
+          "shrunk_prob": 0.37879848824396256,
+          "time_stops": {
+            "30m_bars": 96,
+            "4h_bars": 24
+          }
+        },
+        "hybrid_analysis": {
+          "agreement_boost": false,
+          "veto_reason": null,
+          "regime": 1,
+          "rules_weight": 0.5,
+          "ml_weight": 0.5,
+          "threshold": 0.3,
+          "strategies_fired": 2,
+          "ml_confidence": 0.1969962206099064,
+          "hybrid_score": 0.620628969478127,
+          "ml_only_mode": false
+        }
+      },
+      "meta": {
+        "atr_pct": 0.26227038065913594,
+        "rsi": 58.04922065097711,
+        "rules_score": 0.8260245424148276,
+        "ml_score": 0.41523339654142627,
+        "ml_models_used": 51,
+        "ml_confidence": 0.1969962206099064,
+        "total_features": 60,
+        "regime": 1,
+        "strategies_fired": 2,
+        "trend_signal": true,
+        "breakout_signal": false,
+        "squeeze_signal": true,
+        "technical_score": 1.3040981696593106,
+        "hybrid_score": 0.620628969478127,
+        "veto_reason": null,
+        "agreement_boost": false,
+        "rules_weight": 0.5,
+        "ml_weight": 0.5,
+        "threshold": 0.3,
+        "ml_only_mode": false,
+        "position_size": 0.1,
+        "raw_prob": 0.1969962206099064,
+        "shrunk_prob": 0.37879848824396256,
+        "size_multiplier": 1.0,
+        "time_stop_30m": 96,
+        "time_stop_4h": 24,
+        "partial_take": 0.33,
+        "trail_multiple": 2.5
+      }
+    },
+    {
+      "symbol": "PENGU/USDT",
+      "score": 0.54154514332188,
+      "ml_score": 0.300888719456898,
+      "ml_confidence": 0.42295383089816513,
+      "rule_score": 0.7259389715143922,
+      "hybrid_score": 0.54154514332188,
+      "position_size_pct": 11.729538308981653,
+      "atr_pct": 1.2962942760750482,
+      "rsi": 76.27454358096698,
+      "buy_price": 0.039927,
+      "stop_loss": 0.03849,
+      "target_price": 0.041524,
+      "risk_reward_ratio": 1.11,
+      "atr_value": 0.000799,
+      "analysis": {
+        "timeframe_analysis": {
+          "primary_tf": "30m",
+          "confirmation_tf": "4h",
+          "expected_holding_period": "2-7 days",
+          "time_stops": {
+            "short_term_exit": "48 hours",
+            "medium_term_exit": "4 days"
+          }
+        },
+        "ml_analysis": {
+          "models_used": 51,
+          "confidence": 0.42295383089816513,
+          "total_features": 60,
+          "individual_scores": [
+            0.4,
+            0.1118008798633504,
+            0.42974609918823675,
+            0.3198554142953313,
+            0.38,
+            0.3597295760038169,
+            0.4418843336349422,
+            0.00575981754809618,
+            0.09570782166237567,
+            0.32730715603028016
+          ],
+          "ensemble_score": 0.300888719456898
+        },
+        "rule_analysis": {
+          "strategies_fired": 2,
+          "trend_signal": true,
+          "breakout_signal": false,
+          "squeeze_signal": true,
+          "technical_score": 0.9037558860575692,
+          "ml_only_mode": false
+        },
+        "risk_analysis": {
+          "regime": 0,
+          "position_size": 0.11729538308981652,
+          "shrunk_prob": 0.4691815323592661,
+          "time_stops": {
+            "30m_bars": 96,
+            "4h_bars": 24
+          }
+        },
+        "hybrid_analysis": {
+          "agreement_boost": true,
+          "veto_reason": null,
+          "regime": 0,
+          "rules_weight": 0.4,
+          "ml_weight": 0.6,
+          "threshold": 0.25,
+          "strategies_fired": 2,
+          "ml_confidence": 0.42295383089816513,
+          "hybrid_score": 0.54154514332188,
+          "ml_only_mode": false
+        }
+      },
+      "meta": {
+        "atr_pct": 1.2962942760750482,
+        "rsi": 76.27454358096698,
+        "rules_score": 0.7259389715143922,
+        "ml_score": 0.300888719456898,
+        "ml_models_used": 51,
+        "ml_confidence": 0.42295383089816513,
+        "total_features": 60,
+        "regime": 0,
+        "strategies_fired": 2,
+        "trend_signal": true,
+        "breakout_signal": false,
+        "squeeze_signal": true,
+        "technical_score": 0.9037558860575692,
+        "hybrid_score": 0.54154514332188,
+        "veto_reason": null,
+        "agreement_boost": true,
+        "rules_weight": 0.4,
+        "ml_weight": 0.6,
+        "threshold": 0.25,
+        "ml_only_mode": false,
+        "position_size": 0.11729538308981652,
+        "raw_prob": 0.42295383089816513,
+        "shrunk_prob": 0.4691815323592661,
+        "size_multiplier": 1.0,
+        "time_stop_30m": 96,
+        "time_stop_4h": 24,
+        "partial_take": 0.33,
+        "trail_multiple": 2.5
+      }
+    },
+    {
+      "symbol": "LAYER/USDT",
+      "score": 0.5340256697735664,
+      "ml_score": 0.5567094496226106,
+      "ml_confidence": 0.2941968202320262,
+      "rule_score": 0.5,
+      "hybrid_score": 0.5340256697735664,
+      "position_size_pct": 10.441968202320261,
+      "atr_pct": 0.6011645470245935,
+      "rsi": 79.23072656807014,
+      "buy_price": 0.6428,
+      "stop_loss": 0.614517,
+      "target_price": 0.66337,
+      "risk_reward_ratio": 0.73,
+      "atr_value": 0.012856,
+      "analysis": {
+        "timeframe_analysis": {
+          "primary_tf": "30m",
+          "confirmation_tf": "4h",
+          "expected_holding_period": "2-7 days",
+          "time_stops": {
+            "short_term_exit": "48 hours",
+            "medium_term_exit": "4 days"
+          }
+        },
+        "ml_analysis": {
+          "models_used": 51,
+          "confidence": 0.2941968202320262,
+          "total_features": 60,
+          "individual_scores": [
+            0.54,
+            0.3709914774636637,
+            0.3977168526610143,
+            0.7389929156292081,
+            0.34,
+            0.43654949674000254,
+            0.8866279322501869,
+            0.8248872756958008,
+            0.5933302267375912,
+            0.3683453345234743
+          ],
+          "ensemble_score": 0.5567094496226106
+        },
+        "rule_analysis": {
+          "strategies_fired": 2,
+          "trend_signal": true,
+          "breakout_signal": false,
+          "squeeze_signal": true,
+          "technical_score": 0.0,
+          "ml_only_mode": false
+        },
+        "risk_analysis": {
+          "regime": 0,
+          "position_size": 0.10441968202320262,
+          "shrunk_prob": 0.4176787280928105,
+          "time_stops": {
+            "30m_bars": 96,
+            "4h_bars": 24
+          }
+        },
+        "hybrid_analysis": {
+          "agreement_boost": false,
+          "veto_reason": null,
+          "regime": 0,
+          "rules_weight": 0.4,
+          "ml_weight": 0.6,
+          "threshold": 0.25,
+          "strategies_fired": 2,
+          "ml_confidence": 0.2941968202320262,
+          "hybrid_score": 0.5340256697735664,
+          "ml_only_mode": false
+        }
+      },
+      "meta": {
+        "atr_pct": 0.6011645470245935,
+        "rsi": 79.23072656807014,
+        "rules_score": 0.5,
+        "ml_score": 0.5567094496226106,
+        "ml_models_used": 51,
+        "ml_confidence": 0.2941968202320262,
+        "total_features": 60,
+        "regime": 0,
+        "strategies_fired": 2,
+        "trend_signal": true,
+        "breakout_signal": false,
+        "squeeze_signal": true,
+        "technical_score": 0.0,
+        "hybrid_score": 0.5340256697735664,
+        "veto_reason": null,
+        "agreement_boost": false,
+        "rules_weight": 0.4,
+        "ml_weight": 0.6,
+        "threshold": 0.25,
+        "ml_only_mode": false,
+        "position_size": 0.10441968202320262,
+        "raw_prob": 0.2941968202320262,
+        "shrunk_prob": 0.4176787280928105,
+        "size_multiplier": 1.0,
+        "time_stop_30m": 96,
+        "time_stop_4h": 24,
+        "partial_take": 0.33,
+        "trail_multiple": 2.5
+      }
+    },
+    {
+      "symbol": "BTC/USDT",
+      "score": 0.5278590560238204,
+      "ml_score": 0.499045177102451,
+      "ml_confidence": 0.1999184594930424,
+      "rule_score": 0.5566729349451899,
+      "hybrid_score": 0.5278590560238204,
+      "position_size_pct": 10.0,
+      "atr_pct": 0.24668752254678164,
+      "rsi": 54.22494257181668,
+      "buy_price": 118626.36,
+      "stop_loss": 114474.4374,
+      "target_price": 122422.40352,
+      "risk_reward_ratio": 0.91,
+      "atr_value": 2372.5272,
+      "analysis": {
+        "timeframe_analysis": {
+          "primary_tf": "30m",
+          "confirmation_tf": "4h",
+          "expected_holding_period": "2-7 days",
+          "time_stops": {
+            "short_term_exit": "48 hours",
+            "medium_term_exit": "4 days"
+          }
+        },
+        "ml_analysis": {
+          "models_used": 51,
+          "confidence": 0.1999184594930424,
+          "total_features": 60,
+          "individual_scores": [
+            0.51,
+            0.33689779850989887,
+            0.39771243132277906,
+            0.449747396943086,
+            0.33,
+            0.5016973786175805,
+            0.5296546650455308,
+            0.933961808681488,
+            0.4227219679568626,
+            0.39190363915585763
+          ],
+          "ensemble_score": 0.499045177102451
+        },
+        "rule_analysis": {
+          "strategies_fired": 1,
+          "trend_signal": true,
+          "breakout_signal": false,
+          "squeeze_signal": false,
+          "technical_score": 1.0266917397807596,
+          "ml_only_mode": false
+        },
+        "risk_analysis": {
+          "regime": 1,
+          "position_size": 0.1,
+          "shrunk_prob": 0.37996738379721695,
+          "time_stops": {
+            "30m_bars": 96,
+            "4h_bars": 24
+          }
+        },
+        "hybrid_analysis": {
+          "agreement_boost": false,
+          "veto_reason": null,
+          "regime": 1,
+          "rules_weight": 0.5,
+          "ml_weight": 0.5,
+          "threshold": 0.3,
+          "strategies_fired": 1,
+          "ml_confidence": 0.1999184594930424,
+          "hybrid_score": 0.5278590560238204,
+          "ml_only_mode": false
+        }
+      },
+      "meta": {
+        "atr_pct": 0.24668752254678164,
+        "rsi": 54.22494257181668,
+        "rules_score": 0.5566729349451899,
+        "ml_score": 0.499045177102451,
+        "ml_models_used": 51,
+        "ml_confidence": 0.1999184594930424,
+        "total_features": 60,
+        "regime": 1,
+        "strategies_fired": 1,
+        "trend_signal": true,
+        "breakout_signal": false,
+        "squeeze_signal": false,
+        "technical_score": 1.0266917397807596,
+        "hybrid_score": 0.5278590560238204,
+        "veto_reason": null,
+        "agreement_boost": false,
+        "rules_weight": 0.5,
+        "ml_weight": 0.5,
+        "threshold": 0.3,
+        "ml_only_mode": false,
+        "position_size": 0.1,
+        "raw_prob": 0.1999184594930424,
+        "shrunk_prob": 0.37996738379721695,
+        "size_multiplier": 1.0,
+        "time_stop_30m": 96,
+        "time_stop_4h": 24,
+        "partial_take": 0.33,
+        "trail_multiple": 2.5
+      }
+    },
+    {
+      "symbol": "MAGIC/USDT",
+      "score": 0.5218135341711818,
+      "ml_score": 0.4075017985585771,
+      "ml_confidence": 0.38504934222853415,
+      "rule_score": 0.5,
+      "hybrid_score": 0.5218135341711818,
+      "position_size_pct": 11.350493422285341,
+      "atr_pct": 1.018919056062734,
+      "rsi": 55.7822597992085,
+      "buy_price": 0.2741,
+      "stop_loss": 0.26204,
+      "target_price": 0.282871,
+      "risk_reward_ratio": 0.73,
+      "atr_value": 0.005482,
+      "analysis": {
+        "timeframe_analysis": {
+          "primary_tf": "30m",
+          "confirmation_tf": "4h",
+          "expected_holding_period": "2-7 days",
+          "time_stops": {
+            "short_term_exit": "48 hours",
+            "medium_term_exit": "4 days"
+          }
+        },
+        "ml_analysis": {
+          "models_used": 51,
+          "confidence": 0.38504934222853415,
+          "total_features": 60,
+          "individual_scores": [
+            0.4,
+            0.40649680918611714,
+            0.39819584952274956,
+            0.6241492085990668,
+            0.28,
+            0.38450558117941314,
+            0.8677772598287631,
+            0.09837993234395981,
+            0.3075936647587333,
+            0.31218258808996924
+          ],
+          "ensemble_score": 0.4075017985585771
+        },
+        "rule_analysis": {
+          "strategies_fired": 2,
+          "trend_signal": true,
+          "breakout_signal": false,
+          "squeeze_signal": true,
+          "technical_score": 0.0,
+          "ml_only_mode": false
+        },
+        "risk_analysis": {
+          "regime": 1,
+          "position_size": 0.11350493422285342,
+          "shrunk_prob": 0.45401973689141367,
+          "time_stops": {
+            "30m_bars": 96,
+            "4h_bars": 24
+          }
+        },
+        "hybrid_analysis": {
+          "agreement_boost": true,
+          "veto_reason": null,
+          "regime": 1,
+          "rules_weight": 0.5,
+          "ml_weight": 0.5,
+          "threshold": 0.3,
+          "strategies_fired": 2,
+          "ml_confidence": 0.38504934222853415,
+          "hybrid_score": 0.5218135341711818,
+          "ml_only_mode": false
+        }
+      },
+      "meta": {
+        "atr_pct": 1.018919056062734,
+        "rsi": 55.7822597992085,
+        "rules_score": 0.5,
+        "ml_score": 0.4075017985585771,
+        "ml_models_used": 51,
+        "ml_confidence": 0.38504934222853415,
+        "total_features": 60,
+        "regime": 1,
+        "strategies_fired": 2,
+        "trend_signal": true,
+        "breakout_signal": false,
+        "squeeze_signal": true,
+        "technical_score": 0.0,
+        "hybrid_score": 0.5218135341711818,
+        "veto_reason": null,
+        "agreement_boost": true,
+        "rules_weight": 0.5,
+        "ml_weight": 0.5,
+        "threshold": 0.3,
+        "ml_only_mode": false,
+        "position_size": 0.11350493422285342,
+        "raw_prob": 0.38504934222853415,
+        "shrunk_prob": 0.45401973689141367,
+        "size_multiplier": 1.0,
+        "time_stop_30m": 96,
+        "time_stop_4h": 24,
+        "partial_take": 0.33,
+        "trail_multiple": 2.5
+      }
+    },
+    {
+      "symbol": "DYDX/USDT",
+      "score": 0.5200623038887965,
+      "ml_score": 0.4044561806761679,
+      "ml_confidence": 0.35044998706039693,
+      "rule_score": 0.5,
+      "hybrid_score": 0.5200623038887965,
+      "position_size_pct": 11.004499870603969,
+      "atr_pct": 0.7785278733776797,
+      "rsi": 69.56519386684259,
+      "buy_price": 0.656,
+      "stop_loss": 0.627136,
+      "target_price": 0.676992,
+      "risk_reward_ratio": 0.73,
+      "atr_value": 0.01312,
+      "analysis": {
+        "timeframe_analysis": {
+          "primary_tf": "30m",
+          "confirmation_tf": "4h",
+          "expected_holding_period": "2-7 days",
+          "time_stops": {
+            "short_term_exit": "48 hours",
+            "medium_term_exit": "4 days"
+          }
+        },
+        "ml_analysis": {
+          "models_used": 51,
+          "confidence": 0.35044998706039693,
+          "total_features": 60,
+          "individual_scores": [
+            0.43,
+            0.3855314353198329,
+            0.39773713671916305,
+            0.6302675607200436,
+            0.4,
+            0.3904301476166521,
+            0.6885967641314962,
+            0.049727652221918106,
+            0.2852617383748177,
+            0.3420558576300832
+          ],
+          "ensemble_score": 0.4044561806761679
+        },
+        "rule_analysis": {
+          "strategies_fired": 2,
+          "trend_signal": true,
+          "breakout_signal": false,
+          "squeeze_signal": true,
+          "technical_score": 0.0,
+          "ml_only_mode": false
+        },
+        "risk_analysis": {
+          "regime": 1,
+          "position_size": 0.11004499870603969,
+          "shrunk_prob": 0.44017999482415876,
+          "time_stops": {
+            "30m_bars": 96,
+            "4h_bars": 24
+          }
+        },
+        "hybrid_analysis": {
+          "agreement_boost": true,
+          "veto_reason": null,
+          "regime": 1,
+          "rules_weight": 0.5,
+          "ml_weight": 0.5,
+          "threshold": 0.3,
+          "strategies_fired": 2,
+          "ml_confidence": 0.35044998706039693,
+          "hybrid_score": 0.5200623038887965,
+          "ml_only_mode": false
+        }
+      },
+      "meta": {
+        "atr_pct": 0.7785278733776797,
+        "rsi": 69.56519386684259,
+        "rules_score": 0.5,
+        "ml_score": 0.4044561806761679,
+        "ml_models_used": 51,
+        "ml_confidence": 0.35044998706039693,
+        "total_features": 60,
+        "regime": 1,
+        "strategies_fired": 2,
+        "trend_signal": true,
+        "breakout_signal": false,
+        "squeeze_signal": true,
+        "technical_score": 0.0,
+        "hybrid_score": 0.5200623038887965,
+        "veto_reason": null,
+        "agreement_boost": true,
+        "rules_weight": 0.5,
+        "ml_weight": 0.5,
+        "threshold": 0.3,
+        "ml_only_mode": false,
+        "position_size": 0.11004499870603969,
+        "raw_prob": 0.35044998706039693,
+        "shrunk_prob": 0.44017999482415876,
+        "size_multiplier": 1.0,
+        "time_stop_30m": 96,
+        "time_stop_4h": 24,
+        "partial_take": 0.33,
+        "trail_multiple": 2.5
+      }
+    },
+    {
+      "symbol": "HUMA/USDT",
+      "score": 0.5144425603148011,
+      "ml_score": 0.3946827135909584,
+      "ml_confidence": 0.36317791961497586,
+      "rule_score": 0.5,
+      "hybrid_score": 0.5144425603148011,
+      "position_size_pct": 11.13177919614976,
+      "atr_pct": 0.9149453922696255,
+      "rsi": 62.10480554353816,
+      "buy_price": 0.03638,
+      "stop_loss": 0.034779,
+      "target_price": 0.037544,
+      "risk_reward_ratio": 0.73,
+      "atr_value": 0.000728,
+      "analysis": {
+        "timeframe_analysis": {
+          "primary_tf": "30m",
+          "confirmation_tf": "4h",
+          "expected_holding_period": "2-7 days",
+          "time_stops": {
+            "short_term_exit": "48 hours",
+            "medium_term_exit": "4 days"
+          }
+        },
+        "ml_analysis": {
+          "models_used": 51,
+          "confidence": 0.36317791961497586,
+          "total_features": 60,
+          "individual_scores": [
+            0.39,
+            0.391861847734337,
+            0.39775375264996116,
+            0.47963822756817914,
+            0.35,
+            0.3701321163407454,
+            0.7697361728895705,
+            0.25557729601860046,
+            0.24547930433229057,
+            0.3088682393454328
+          ],
+          "ensemble_score": 0.3946827135909584
+        },
+        "rule_analysis": {
+          "strategies_fired": 2,
+          "trend_signal": true,
+          "breakout_signal": false,
+          "squeeze_signal": true,
+          "technical_score": 0.0,
+          "ml_only_mode": false
+        },
+        "risk_analysis": {
+          "regime": 1,
+          "position_size": 0.11131779196149759,
+          "shrunk_prob": 0.44527116784599036,
+          "time_stops": {
+            "30m_bars": 96,
+            "4h_bars": 24
+          }
+        },
+        "hybrid_analysis": {
+          "agreement_boost": true,
+          "veto_reason": null,
+          "regime": 1,
+          "rules_weight": 0.5,
+          "ml_weight": 0.5,
+          "threshold": 0.3,
+          "strategies_fired": 2,
+          "ml_confidence": 0.36317791961497586,
+          "hybrid_score": 0.5144425603148011,
+          "ml_only_mode": false
+        }
+      },
+      "meta": {
+        "atr_pct": 0.9149453922696255,
+        "rsi": 62.10480554353816,
+        "rules_score": 0.5,
+        "ml_score": 0.3946827135909584,
+        "ml_models_used": 51,
+        "ml_confidence": 0.36317791961497586,
+        "total_features": 60,
+        "regime": 1,
+        "strategies_fired": 2,
+        "trend_signal": true,
+        "breakout_signal": false,
+        "squeeze_signal": true,
+        "technical_score": 0.0,
+        "hybrid_score": 0.5144425603148011,
+        "veto_reason": null,
+        "agreement_boost": true,
+        "rules_weight": 0.5,
+        "ml_weight": 0.5,
+        "threshold": 0.3,
+        "ml_only_mode": false,
+        "position_size": 0.11131779196149759,
+        "raw_prob": 0.36317791961497586,
+        "shrunk_prob": 0.44527116784599036,
+        "size_multiplier": 1.0,
+        "time_stop_30m": 96,
+        "time_stop_4h": 24,
+        "partial_take": 0.33,
+        "trail_multiple": 2.5
+      }
+    },
+    {
+      "symbol": "SAHARA/USDT",
+      "score": 0.5108355048449335,
+      "ml_score": 0.42652036269235455,
+      "ml_confidence": 0.30589465855541625,
+      "rule_score": 0.5670455996133194,
+      "hybrid_score": 0.5108355048449335,
+      "position_size_pct": 10.0,
+      "atr_pct": 1.7644246386724638,
+      "rsi": 27.957770052088918,
+      "buy_price": 0.09562,
+      "stop_loss": 0.091413,
+      "target_price": 0.09868,
+      "risk_reward_ratio": 0.73,
+      "atr_value": 0.001912,
+      "analysis": {
+        "timeframe_analysis": {
+          "primary_tf": "30m",
+          "confirmation_tf": "4h",
+          "expected_holding_period": "2-7 days",
+          "time_stops": {
+            "short_term_exit": "48 hours",
+            "medium_term_exit": "4 days"
+          }
+        },
+        "ml_analysis": {
+          "models_used": 51,
+          "confidence": 0.30589465855541625,
+          "total_features": 60,
+          "individual_scores": [
+            0.56,
+            0.44458258114352023,
+            0.39695525186107683,
+            0.3176464585167572,
+            0.37,
+            0.42387603040434274,
+            0.4815913751651204,
+            0.7683607935905457,
+            0.2809584104353175,
+            0.3227870297041445
+          ],
+          "ensemble_score": 0.42652036269235455
+        },
+        "rule_analysis": {
+          "strategies_fired": 1,
+          "trend_signal": false,
+          "breakout_signal": false,
+          "squeeze_signal": true,
+          "technical_score": 1.4681823984532774,
+          "ml_only_mode": false
+        },
+        "risk_analysis": {
+          "regime": 2,
+          "position_size": 0.1,
+          "shrunk_prob": 0.4223578634221665,
+          "time_stops": {
+            "30m_bars": 96,
+            "4h_bars": 24
+          }
+        },
+        "hybrid_analysis": {
+          "agreement_boost": false,
+          "veto_reason": null,
+          "regime": 2,
+          "rules_weight": 0.6,
+          "ml_weight": 0.4,
+          "threshold": 0.32,
+          "strategies_fired": 1,
+          "ml_confidence": 0.30589465855541625,
+          "hybrid_score": 0.5108355048449335,
+          "ml_only_mode": false
+        }
+      },
+      "meta": {
+        "atr_pct": 1.7644246386724638,
+        "rsi": 27.957770052088918,
+        "rules_score": 0.5670455996133194,
+        "ml_score": 0.42652036269235455,
+        "ml_models_used": 51,
+        "ml_confidence": 0.30589465855541625,
+        "total_features": 60,
+        "regime": 2,
+        "strategies_fired": 1,
+        "trend_signal": false,
+        "breakout_signal": false,
+        "squeeze_signal": true,
+        "technical_score": 1.4681823984532774,
+        "hybrid_score": 0.5108355048449335,
+        "veto_reason": null,
+        "agreement_boost": false,
+        "rules_weight": 0.6,
+        "ml_weight": 0.4,
+        "threshold": 0.32,
+        "ml_only_mode": false,
+        "position_size": 0.1,
+        "raw_prob": 0.30589465855541625,
+        "shrunk_prob": 0.4223578634221665,
+        "size_multiplier": 0.75,
+        "time_stop_30m": 96,
+        "time_stop_4h": 24,
+        "partial_take": 0.33,
+        "trail_multiple": 2.5
+      }
+    },
+    {
+      "symbol": "PAXG/USDT",
+      "score": 0.505565406838458,
+      "ml_score": 0.4585273758881808,
+      "ml_confidence": 0.28022191939439645,
+      "rule_score": 0.5526034377887351,
+      "hybrid_score": 0.505565406838458,
+      "position_size_pct": 10.302219193943966,
+      "atr_pct": 0.05574674280045398,
+      "rsi": 51.23609389880708,
+      "buy_price": 3387.77,
+      "stop_loss": 3269.19805,
+      "target_price": 3496.17864,
+      "risk_reward_ratio": 0.91,
+      "atr_value": 67.7554,
+      "analysis": {
+        "timeframe_analysis": {
+          "primary_tf": "30m",
+          "confirmation_tf": "4h",
+          "expected_holding_period": "2-7 days",
+          "time_stops": {
+            "short_term_exit": "48 hours",
+            "medium_term_exit": "4 days"
+          }
+        },
+        "ml_analysis": {
+          "models_used": 51,
+          "confidence": 0.28022191939439645,
+          "total_features": 60,
+          "individual_scores": [
+            0.53,
+            0.41726032534377344,
+            0.39770891184610413,
+            0.7057774688609034,
+            0.46,
+            0.4565524549760757,
+            0.7934687979949188,
+            0.10715366899967194,
+            0.34406122300471764,
+            0.46478659336416195
+          ],
+          "ensemble_score": 0.4585273758881808
+        },
+        "rule_analysis": {
+          "strategies_fired": 2,
+          "trend_signal": true,
+          "breakout_signal": false,
+          "squeeze_signal": true,
+          "technical_score": 0.21041375115494032,
+          "ml_only_mode": false
+        },
+        "risk_analysis": {
+          "regime": 1,
+          "position_size": 0.10302219193943965,
+          "shrunk_prob": 0.4120887677577586,
+          "time_stops": {
+            "30m_bars": 96,
+            "4h_bars": 24
+          }
+        },
+        "hybrid_analysis": {
+          "agreement_boost": false,
+          "veto_reason": null,
+          "regime": 1,
+          "rules_weight": 0.5,
+          "ml_weight": 0.5,
+          "threshold": 0.3,
+          "strategies_fired": 2,
+          "ml_confidence": 0.28022191939439645,
+          "hybrid_score": 0.505565406838458,
+          "ml_only_mode": false
+        }
+      },
+      "meta": {
+        "atr_pct": 0.05574674280045398,
+        "rsi": 51.23609389880708,
+        "rules_score": 0.5526034377887351,
+        "ml_score": 0.4585273758881808,
+        "ml_models_used": 51,
+        "ml_confidence": 0.28022191939439645,
+        "total_features": 60,
+        "regime": 1,
+        "strategies_fired": 2,
+        "trend_signal": true,
+        "breakout_signal": false,
+        "squeeze_signal": true,
+        "technical_score": 0.21041375115494032,
+        "hybrid_score": 0.505565406838458,
+        "veto_reason": null,
+        "agreement_boost": false,
+        "rules_weight": 0.5,
+        "ml_weight": 0.5,
+        "threshold": 0.3,
+        "ml_only_mode": false,
+        "position_size": 0.10302219193943965,
+        "raw_prob": 0.28022191939439645,
+        "shrunk_prob": 0.4120887677577586,
+        "size_multiplier": 1.0,
+        "time_stop_30m": 96,
+        "time_stop_4h": 24,
+        "partial_take": 0.33,
+        "trail_multiple": 2.5
+      }
+    },
+    {
+      "symbol": "ORDI/USDT",
+      "score": 0.5026890517340925,
+      "ml_score": 0.5044817528901541,
+      "ml_confidence": 0.18261897763725432,
+      "rule_score": 0.5,
+      "hybrid_score": 0.5026890517340925,
+      "position_size_pct": 10.0,
+      "atr_pct": 1.0316698655439813,
+      "rsi": 77.82257918075797,
+      "buy_price": 10.42,
+      "stop_loss": 10.0032,
+      "target_price": 10.75344,
+      "risk_reward_ratio": 0.8,
+      "atr_value": 0.2084,
+      "analysis": {
+        "timeframe_analysis": {
+          "primary_tf": "30m",
+          "confirmation_tf": "4h",
+          "expected_holding_period": "2-7 days",
+          "time_stops": {
+            "short_term_exit": "48 hours",
+            "medium_term_exit": "4 days"
+          }
+        },
+        "ml_analysis": {
+          "models_used": 51,
+          "confidence": 0.18261897763725432,
+          "total_features": 60,
+          "individual_scores": [
+            0.51,
+            0.37277154629159137,
+            0.39771331777056684,
+            0.5369116490389334,
+            0.38,
+            0.5003750960831075,
+            0.5790138403132675,
+            0.5501528382301331,
+            0.8384681803267302,
+            0.3513002173002679
+          ],
+          "ensemble_score": 0.5044817528901541
+        },
+        "rule_analysis": {
+          "strategies_fired": 2,
+          "trend_signal": true,
+          "breakout_signal": false,
+          "squeeze_signal": true,
+          "technical_score": 0.0,
+          "ml_only_mode": false
+        },
+        "risk_analysis": {
+          "regime": 0,
+          "position_size": 0.1,
+          "shrunk_prob": 0.3730475910549017,
+          "time_stops": {
+            "30m_bars": 96,
+            "4h_bars": 24
+          }
+        },
+        "hybrid_analysis": {
+          "agreement_boost": false,
+          "veto_reason": null,
+          "regime": 0,
+          "rules_weight": 0.4,
+          "ml_weight": 0.6,
+          "threshold": 0.25,
+          "strategies_fired": 2,
+          "ml_confidence": 0.18261897763725432,
+          "hybrid_score": 0.5026890517340925,
+          "ml_only_mode": false
+        }
+      },
+      "meta": {
+        "atr_pct": 1.0316698655439813,
+        "rsi": 77.82257918075797,
+        "rules_score": 0.5,
+        "ml_score": 0.5044817528901541,
+        "ml_models_used": 51,
+        "ml_confidence": 0.18261897763725432,
+        "total_features": 60,
+        "regime": 0,
+        "strategies_fired": 2,
+        "trend_signal": true,
+        "breakout_signal": false,
+        "squeeze_signal": true,
+        "technical_score": 0.0,
+        "hybrid_score": 0.5026890517340925,
+        "veto_reason": null,
+        "agreement_boost": false,
+        "rules_weight": 0.4,
+        "ml_weight": 0.6,
+        "threshold": 0.25,
+        "ml_only_mode": false,
+        "position_size": 0.1,
+        "raw_prob": 0.18261897763725432,
+        "shrunk_prob": 0.3730475910549017,
+        "size_multiplier": 1.0,
+        "time_stop_30m": 96,
+        "time_stop_4h": 24,
+        "partial_take": 0.33,
+        "trail_multiple": 2.5
+      }
+    },
+    {
+      "symbol": "GLM/USDT",
+      "score": 0.5015859682435904,
+      "ml_score": 0.3723234230323312,
+      "ml_confidence": 0.33418372795972767,
+      "rule_score": 0.5,
+      "hybrid_score": 0.5015859682435904,
+      "position_size_pct": 10.841837279597277,
+      "atr_pct": 0.9653955143831788,
+      "rsi": 58.95192902502157,
+      "buy_price": 0.2671,
+      "stop_loss": 0.255348,
+      "target_price": 0.275647,
+      "risk_reward_ratio": 0.73,
+      "atr_value": 0.005342,
+      "analysis": {
+        "timeframe_analysis": {
+          "primary_tf": "30m",
+          "confirmation_tf": "4h",
+          "expected_holding_period": "2-7 days",
+          "time_stops": {
+            "short_term_exit": "48 hours",
+            "medium_term_exit": "4 days"
+          }
+        },
+        "ml_analysis": {
+          "models_used": 51,
+          "confidence": 0.33418372795972767,
+          "total_features": 60,
+          "individual_scores": [
+            0.36,
+            0.39565189661228484,
+            0.3990988308273454,
+            0.4824732345556515,
+            0.26,
+            0.3710923274868152,
+            0.6508230631095263,
+            0.09106408059597015,
+            0.3476933372067604,
+            0.38020992593496794
+          ],
+          "ensemble_score": 0.3723234230323312
+        },
+        "rule_analysis": {
+          "strategies_fired": 2,
+          "trend_signal": true,
+          "breakout_signal": false,
+          "squeeze_signal": true,
+          "technical_score": 0.0,
+          "ml_only_mode": false
+        },
+        "risk_analysis": {
+          "regime": 1,
+          "position_size": 0.10841837279597277,
+          "shrunk_prob": 0.4336734911838911,
+          "time_stops": {
+            "30m_bars": 96,
+            "4h_bars": 24
+          }
+        },
+        "hybrid_analysis": {
+          "agreement_boost": true,
+          "veto_reason": null,
+          "regime": 1,
+          "rules_weight": 0.5,
+          "ml_weight": 0.5,
+          "threshold": 0.3,
+          "strategies_fired": 2,
+          "ml_confidence": 0.33418372795972767,
+          "hybrid_score": 0.5015859682435904,
+          "ml_only_mode": false
+        }
+      },
+      "meta": {
+        "atr_pct": 0.9653955143831788,
+        "rsi": 58.95192902502157,
+        "rules_score": 0.5,
+        "ml_score": 0.3723234230323312,
+        "ml_models_used": 51,
+        "ml_confidence": 0.33418372795972767,
+        "total_features": 60,
+        "regime": 1,
+        "strategies_fired": 2,
+        "trend_signal": true,
+        "breakout_signal": false,
+        "squeeze_signal": true,
+        "technical_score": 0.0,
+        "hybrid_score": 0.5015859682435904,
+        "veto_reason": null,
+        "agreement_boost": true,
+        "rules_weight": 0.5,
+        "ml_weight": 0.5,
+        "threshold": 0.3,
+        "ml_only_mode": false,
+        "position_size": 0.10841837279597277,
+        "raw_prob": 0.33418372795972767,
+        "shrunk_prob": 0.4336734911838911,
+        "size_multiplier": 1.0,
+        "time_stop_30m": 96,
+        "time_stop_4h": 24,
+        "partial_take": 0.33,
+        "trail_multiple": 2.5
+      }
+    },
+    {
+      "symbol": "RESOLV/USDT",
+      "score": 0.4963512884752652,
+      "ml_score": 0.49391881412544203,
+      "ml_confidence": 0.26434713340859034,
+      "rule_score": 0.5,
+      "hybrid_score": 0.4963512884752652,
+      "position_size_pct": 10.143471334085904,
+      "atr_pct": 0.9724473205162177,
+      "rsi": 79.56977269066464,
+      "buy_price": 0.1851,
+      "stop_loss": 0.176956,
+      "target_price": 0.191023,
+      "risk_reward_ratio": 0.73,
+      "atr_value": 0.003702,
+      "analysis": {
+        "timeframe_analysis": {
+          "primary_tf": "30m",
+          "confirmation_tf": "4h",
+          "expected_holding_period": "2-7 days",
+          "time_stops": {
+            "short_term_exit": "48 hours",
+            "medium_term_exit": "4 days"
+          }
+        },
+        "ml_analysis": {
+          "models_used": 51,
+          "confidence": 0.26434713340859034,
+          "total_features": 60,
+          "individual_scores": [
+            0.39,
+            0.3680905612857467,
+            0.3978182775353173,
+            0.6056495190924822,
+            0.36,
+            0.3960711680879181,
+            0.8710157266689189,
+            0.6715836524963379,
+            0.4835898235356965,
+            0.3237307470163654
+          ],
+          "ensemble_score": 0.49391881412544203
+        },
+        "rule_analysis": {
+          "strategies_fired": 2,
+          "trend_signal": true,
+          "breakout_signal": false,
+          "squeeze_signal": true,
+          "technical_score": 0.0,
+          "ml_only_mode": false
+        },
+        "risk_analysis": {
+          "regime": 0,
+          "position_size": 0.10143471334085903,
+          "shrunk_prob": 0.4057388533634361,
+          "time_stops": {
+            "30m_bars": 96,
+            "4h_bars": 24
+          }
+        },
+        "hybrid_analysis": {
+          "agreement_boost": false,
+          "veto_reason": null,
+          "regime": 0,
+          "rules_weight": 0.4,
+          "ml_weight": 0.6,
+          "threshold": 0.25,
+          "strategies_fired": 2,
+          "ml_confidence": 0.26434713340859034,
+          "hybrid_score": 0.4963512884752652,
+          "ml_only_mode": false
+        }
+      },
+      "meta": {
+        "atr_pct": 0.9724473205162177,
+        "rsi": 79.56977269066464,
+        "rules_score": 0.5,
+        "ml_score": 0.49391881412544203,
+        "ml_models_used": 51,
+        "ml_confidence": 0.26434713340859034,
+        "total_features": 60,
+        "regime": 0,
+        "strategies_fired": 2,
+        "trend_signal": true,
+        "breakout_signal": false,
+        "squeeze_signal": true,
+        "technical_score": 0.0,
+        "hybrid_score": 0.4963512884752652,
+        "veto_reason": null,
+        "agreement_boost": false,
+        "rules_weight": 0.4,
+        "ml_weight": 0.6,
+        "threshold": 0.25,
+        "ml_only_mode": false,
+        "position_size": 0.10143471334085903,
+        "raw_prob": 0.26434713340859034,
+        "shrunk_prob": 0.4057388533634361,
+        "size_multiplier": 1.0,
+        "time_stop_30m": 96,
+        "time_stop_4h": 24,
+        "partial_take": 0.33,
+        "trail_multiple": 2.5
+      }
+    },
+    {
+      "symbol": "HOME/USDT",
+      "score": 0.4962967195559798,
+      "ml_score": 0.3289059120782172,
+      "ml_confidence": 0.38825910129840935,
+      "rule_score": 0.5,
+      "hybrid_score": 0.4962967195559798,
+      "position_size_pct": 10.0,
+      "atr_pct": 1.1919996769753962,
+      "rsi": 51.333093778895766,
+      "buy_price": 0.03907,
+      "stop_loss": 0.037351,
+      "target_price": 0.04032,
+      "risk_reward_ratio": 0.73,
+      "atr_value": 0.000781,
+      "analysis": {
+        "timeframe_analysis": {
+          "primary_tf": "30m",
+          "confirmation_tf": "4h",
+          "expected_holding_period": "2-7 days",
+          "time_stops": {
+            "short_term_exit": "48 hours",
+            "medium_term_exit": "4 days"
+          }
+        },
+        "ml_analysis": {
+          "models_used": 51,
+          "confidence": 0.38825910129840935,
+          "total_features": 60,
+          "individual_scores": [
+            0.35,
+            0.4067807517505186,
+            0.39774655908322465,
+            0.36231324589757263,
+            0.32,
+            0.37618122164316875,
+            0.5536480473168616,
+            0.009678718633949757,
+            0.21372102924648248,
+            0.3121501333576026
+          ],
+          "ensemble_score": 0.3289059120782172
+        },
+        "rule_analysis": {
+          "strategies_fired": 2,
+          "trend_signal": true,
+          "breakout_signal": false,
+          "squeeze_signal": true,
+          "technical_score": 0.0,
+          "ml_only_mode": false
+        },
+        "risk_analysis": {
+          "regime": 2,
+          "position_size": 0.1,
+          "shrunk_prob": 0.45530364051936373,
+          "time_stops": {
+            "30m_bars": 96,
+            "4h_bars": 24
+          }
+        },
+        "hybrid_analysis": {
+          "agreement_boost": true,
+          "veto_reason": null,
+          "regime": 2,
+          "rules_weight": 0.6,
+          "ml_weight": 0.4,
+          "threshold": 0.32,
+          "strategies_fired": 2,
+          "ml_confidence": 0.38825910129840935,
+          "hybrid_score": 0.4962967195559798,
+          "ml_only_mode": false
+        }
+      },
+      "meta": {
+        "atr_pct": 1.1919996769753962,
+        "rsi": 51.333093778895766,
+        "rules_score": 0.5,
+        "ml_score": 0.3289059120782172,
+        "ml_models_used": 51,
+        "ml_confidence": 0.38825910129840935,
+        "total_features": 60,
+        "regime": 2,
+        "strategies_fired": 2,
+        "trend_signal": true,
+        "breakout_signal": false,
+        "squeeze_signal": true,
+        "technical_score": 0.0,
+        "hybrid_score": 0.4962967195559798,
+        "veto_reason": null,
+        "agreement_boost": true,
+        "rules_weight": 0.6,
+        "ml_weight": 0.4,
+        "threshold": 0.32,
+        "ml_only_mode": false,
+        "position_size": 0.1,
+        "raw_prob": 0.38825910129840935,
+        "shrunk_prob": 0.45530364051936373,
+        "size_multiplier": 0.75,
+        "time_stop_30m": 96,
+        "time_stop_4h": 24,
+        "partial_take": 0.33,
+        "trail_multiple": 2.5
+      }
+    },
+    {
+      "symbol": "PEPE/USDT",
+      "score": 0.4962685135816005,
+      "ml_score": 0.36307567579408795,
+      "ml_confidence": 0.4151721974742183,
+      "rule_score": 0.5,
+      "hybrid_score": 0.4962685135816005,
+      "position_size_pct": 11.651721974742182,
+      "atr_pct": 0.869133349888251,
+      "rsi": 67.25146198830416,
+      "buy_price": 1.2e-05,
+      "stop_loss": 1.2e-05,
+      "target_price": 1.3e-05,
+      "risk_reward_ratio": 1.11,
+      "atr_value": 0.0,
+      "analysis": {
+        "timeframe_analysis": {
+          "primary_tf": "30m",
+          "confirmation_tf": "4h",
+          "expected_holding_period": "2-7 days",
+          "time_stops": {
+            "short_term_exit": "48 hours",
+            "medium_term_exit": "4 days"
+          }
+        },
+        "ml_analysis": {
+          "models_used": 51,
+          "confidence": 0.4151721974742183,
+          "total_features": 60,
+          "individual_scores": [
+            0.4,
+            0.0,
+            0.42974609918823675,
+            0.48125885692708514,
+            0.38,
+            0.36012859094200933,
+            0.644416479033185,
+            0.0986860990524292,
+            0.17526452794458058,
+            0.3433595471067025
+          ],
+          "ensemble_score": 0.36307567579408795
+        },
+        "rule_analysis": {
+          "strategies_fired": 2,
+          "trend_signal": true,
+          "breakout_signal": false,
+          "squeeze_signal": true,
+          "technical_score": 0.0,
+          "ml_only_mode": false
+        },
+        "risk_analysis": {
+          "regime": 1,
+          "position_size": 0.11651721974742182,
+          "shrunk_prob": 0.4660688789896873,
+          "time_stops": {
+            "30m_bars": 96,
+            "4h_bars": 24
+          }
+        },
+        "hybrid_analysis": {
+          "agreement_boost": true,
+          "veto_reason": null,
+          "regime": 1,
+          "rules_weight": 0.5,
+          "ml_weight": 0.5,
+          "threshold": 0.3,
+          "strategies_fired": 2,
+          "ml_confidence": 0.4151721974742183,
+          "hybrid_score": 0.4962685135816005,
+          "ml_only_mode": false
+        }
+      },
+      "meta": {
+        "atr_pct": 0.869133349888251,
+        "rsi": 67.25146198830416,
+        "rules_score": 0.5,
+        "ml_score": 0.36307567579408795,
+        "ml_models_used": 51,
+        "ml_confidence": 0.4151721974742183,
+        "total_features": 60,
+        "regime": 1,
+        "strategies_fired": 2,
+        "trend_signal": true,
+        "breakout_signal": false,
+        "squeeze_signal": true,
+        "technical_score": 0.0,
+        "hybrid_score": 0.4962685135816005,
+        "veto_reason": null,
+        "agreement_boost": true,
+        "rules_weight": 0.5,
+        "ml_weight": 0.5,
+        "threshold": 0.3,
+        "ml_only_mode": false,
+        "position_size": 0.11651721974742182,
+        "raw_prob": 0.4151721974742183,
+        "shrunk_prob": 0.4660688789896873,
+        "size_multiplier": 1.0,
+        "time_stop_30m": 96,
+        "time_stop_4h": 24,
+        "partial_take": 0.33,
+        "trail_multiple": 2.5
+      }
+    },
+    {
+      "symbol": "OP/USDT",
+      "score": 0.4803822188086497,
+      "ml_score": 0.33544733705852126,
+      "ml_confidence": 0.32910532705167617,
+      "rule_score": 0.5,
+      "hybrid_score": 0.4803822188086497,
+      "position_size_pct": 10.791053270516763,
+      "atr_pct": 0.8951406638169565,
+      "rsi": 68.62743214148922,
+      "buy_price": 0.782,
+      "stop_loss": 0.747592,
+      "target_price": 0.807024,
+      "risk_reward_ratio": 0.73,
+      "atr_value": 0.01564,
+      "analysis": {
+        "timeframe_analysis": {
+          "primary_tf": "30m",
+          "confirmation_tf": "4h",
+          "expected_holding_period": "2-7 days",
+          "time_stops": {
+            "short_term_exit": "48 hours",
+            "medium_term_exit": "4 days"
+          }
+        },
+        "ml_analysis": {
+          "models_used": 51,
+          "confidence": 0.32910532705167617,
+          "total_features": 60,
+          "individual_scores": [
+            0.43,
+            0.38274326418695914,
+            0.3982121541077967,
+            0.38516411474946644,
+            0.43,
+            0.43310645730129516,
+            0.3026672657503202,
+            0.22743256390094757,
+            0.2701395352042235,
+            0.3380412930617267
+          ],
+          "ensemble_score": 0.33544733705852126
+        },
+        "rule_analysis": {
+          "strategies_fired": 2,
+          "trend_signal": true,
+          "breakout_signal": false,
+          "squeeze_signal": true,
+          "technical_score": 0.0,
+          "ml_only_mode": false
+        },
+        "risk_analysis": {
+          "regime": 1,
+          "position_size": 0.10791053270516762,
+          "shrunk_prob": 0.4316421308206705,
+          "time_stops": {
+            "30m_bars": 96,
+            "4h_bars": 24
+          }
+        },
+        "hybrid_analysis": {
+          "agreement_boost": true,
+          "veto_reason": null,
+          "regime": 1,
+          "rules_weight": 0.5,
+          "ml_weight": 0.5,
+          "threshold": 0.3,
+          "strategies_fired": 2,
+          "ml_confidence": 0.32910532705167617,
+          "hybrid_score": 0.4803822188086497,
+          "ml_only_mode": false
+        }
+      },
+      "meta": {
+        "atr_pct": 0.8951406638169565,
+        "rsi": 68.62743214148922,
+        "rules_score": 0.5,
+        "ml_score": 0.33544733705852126,
+        "ml_models_used": 51,
+        "ml_confidence": 0.32910532705167617,
+        "total_features": 60,
+        "regime": 1,
+        "strategies_fired": 2,
+        "trend_signal": true,
+        "breakout_signal": false,
+        "squeeze_signal": true,
+        "technical_score": 0.0,
+        "hybrid_score": 0.4803822188086497,
+        "veto_reason": null,
+        "agreement_boost": true,
+        "rules_weight": 0.5,
+        "ml_weight": 0.5,
+        "threshold": 0.3,
+        "ml_only_mode": false,
+        "position_size": 0.10791053270516762,
+        "raw_prob": 0.32910532705167617,
+        "shrunk_prob": 0.4316421308206705,
+        "size_multiplier": 1.0,
+        "time_stop_30m": 96,
+        "time_stop_4h": 24,
+        "partial_take": 0.33,
+        "trail_multiple": 2.5
+      }
+    },
+    {
+      "symbol": "DOGE/USDT",
+      "score": 0.47957558644900733,
+      "ml_score": 0.45915117289801466,
+      "ml_confidence": 0.2813049241758014,
+      "rule_score": 0.5,
+      "hybrid_score": 0.47957558644900733,
+      "position_size_pct": 10.313049241758014,
+      "atr_pct": 0.7502284463895219,
+      "rsi": 66.38323575229509,
+      "buy_price": 0.2345,
+      "stop_loss": 0.224182,
+      "target_price": 0.242004,
+      "risk_reward_ratio": 0.73,
+      "atr_value": 0.00469,
+      "analysis": {
+        "timeframe_analysis": {
+          "primary_tf": "30m",
+          "confirmation_tf": "4h",
+          "expected_holding_period": "2-7 days",
+          "time_stops": {
+            "short_term_exit": "48 hours",
+            "medium_term_exit": "4 days"
+          }
+        },
+        "ml_analysis": {
+          "models_used": 51,
+          "confidence": 0.2813049241758014,
+          "total_features": 60,
+          "individual_scores": [
+            0.44,
+            0.29055936442114133,
+            0.41789111816912083,
+            0.6151296684215641,
+            0.41,
+            0.390406823369854,
+            0.901025777998669,
+            0.4461207389831543,
+            0.5228275508021228,
+            0.37779621191795515
+          ],
+          "ensemble_score": 0.45915117289801466
+        },
+        "rule_analysis": {
+          "strategies_fired": 2,
+          "trend_signal": true,
+          "breakout_signal": false,
+          "squeeze_signal": true,
+          "technical_score": 0.0,
+          "ml_only_mode": false
+        },
+        "risk_analysis": {
+          "regime": 1,
+          "position_size": 0.10313049241758014,
+          "shrunk_prob": 0.41252196967032057,
+          "time_stops": {
+            "30m_bars": 96,
+            "4h_bars": 24
+          }
+        },
+        "hybrid_analysis": {
+          "agreement_boost": false,
+          "veto_reason": null,
+          "regime": 1,
+          "rules_weight": 0.5,
+          "ml_weight": 0.5,
+          "threshold": 0.3,
+          "strategies_fired": 2,
+          "ml_confidence": 0.2813049241758014,
+          "hybrid_score": 0.47957558644900733,
+          "ml_only_mode": false
+        }
+      },
+      "meta": {
+        "atr_pct": 0.7502284463895219,
+        "rsi": 66.38323575229509,
+        "rules_score": 0.5,
+        "ml_score": 0.45915117289801466,
+        "ml_models_used": 51,
+        "ml_confidence": 0.2813049241758014,
+        "total_features": 60,
+        "regime": 1,
+        "strategies_fired": 2,
+        "trend_signal": true,
+        "breakout_signal": false,
+        "squeeze_signal": true,
+        "technical_score": 0.0,
+        "hybrid_score": 0.47957558644900733,
+        "veto_reason": null,
+        "agreement_boost": false,
+        "rules_weight": 0.5,
+        "ml_weight": 0.5,
+        "threshold": 0.3,
+        "ml_only_mode": false,
+        "position_size": 0.10313049241758014,
+        "raw_prob": 0.2813049241758014,
+        "shrunk_prob": 0.41252196967032057,
+        "size_multiplier": 1.0,
+        "time_stop_30m": 96,
+        "time_stop_4h": 24,
+        "partial_take": 0.33,
+        "trail_multiple": 2.5
+      }
+    },
+    {
+      "symbol": "ETH/USDT",
+      "score": 0.4763617581714882,
+      "ml_score": 0.32845523160258816,
+      "ml_confidence": 0.34308953679482374,
+      "rule_score": 0.5,
+      "hybrid_score": 0.4763617581714882,
+      "position_size_pct": 10.930895367948237,
+      "atr_pct": 0.5337907572662072,
+      "rsi": 70.00784620779294,
+      "buy_price": 4228.65,
+      "stop_loss": 4080.64725,
+      "target_price": 4363.9668,
+      "risk_reward_ratio": 0.91,
+      "atr_value": 84.573,
+      "analysis": {
+        "timeframe_analysis": {
+          "primary_tf": "30m",
+          "confirmation_tf": "4h",
+          "expected_holding_period": "2-7 days",
+          "time_stops": {
+            "short_term_exit": "48 hours",
+            "medium_term_exit": "4 days"
+          }
+        },
+        "ml_analysis": {
+          "models_used": 51,
+          "confidence": 0.34308953679482374,
+          "total_features": 60,
+          "individual_scores": [
+            0.45,
+            0.3907923405984022,
+            0.39770683399823203,
+            0.44970173567126975,
+            0.42,
+            0.38464827061966517,
+            0.3234284829035006,
+            0.0698736160993576,
+            0.0942340671621317,
+            0.4399419918208109
+          ],
+          "ensemble_score": 0.32845523160258816
+        },
+        "rule_analysis": {
+          "strategies_fired": 2,
+          "trend_signal": true,
+          "breakout_signal": false,
+          "squeeze_signal": true,
+          "technical_score": 0.0,
+          "ml_only_mode": false
+        },
+        "risk_analysis": {
+          "regime": 1,
+          "position_size": 0.10930895367948237,
+          "shrunk_prob": 0.4372358147179295,
+          "time_stops": {
+            "30m_bars": 96,
+            "4h_bars": 24
+          }
+        },
+        "hybrid_analysis": {
+          "agreement_boost": true,
+          "veto_reason": null,
+          "regime": 1,
+          "rules_weight": 0.5,
+          "ml_weight": 0.5,
+          "threshold": 0.3,
+          "strategies_fired": 2,
+          "ml_confidence": 0.34308953679482374,
+          "hybrid_score": 0.4763617581714882,
+          "ml_only_mode": false
+        }
+      },
+      "meta": {
+        "atr_pct": 0.5337907572662072,
+        "rsi": 70.00784620779294,
+        "rules_score": 0.5,
+        "ml_score": 0.32845523160258816,
+        "ml_models_used": 51,
+        "ml_confidence": 0.34308953679482374,
+        "total_features": 60,
+        "regime": 1,
+        "strategies_fired": 2,
+        "trend_signal": true,
+        "breakout_signal": false,
+        "squeeze_signal": true,
+        "technical_score": 0.0,
+        "hybrid_score": 0.4763617581714882,
+        "veto_reason": null,
+        "agreement_boost": true,
+        "rules_weight": 0.5,
+        "ml_weight": 0.5,
+        "threshold": 0.3,
+        "ml_only_mode": false,
+        "position_size": 0.10930895367948237,
+        "raw_prob": 0.34308953679482374,
+        "shrunk_prob": 0.4372358147179295,
+        "size_multiplier": 1.0,
+        "time_stop_30m": 96,
+        "time_stop_4h": 24,
+        "partial_take": 0.33,
+        "trail_multiple": 2.5
+      }
+    },
+    {
+      "symbol": "XTZ/USDT",
+      "score": 0.47533375868174954,
+      "ml_score": 0.34242491491185695,
+      "ml_confidence": 0.31515017017628627,
+      "rule_score": 0.5,
+      "hybrid_score": 0.47533375868174954,
+      "position_size_pct": 10.651501701762863,
+      "atr_pct": 0.7694309780743044,
+      "rsi": 55.1020250728908,
+      "buy_price": 0.8782,
+      "stop_loss": 0.839559,
+      "target_price": 0.906302,
+      "risk_reward_ratio": 0.73,
+      "atr_value": 0.017564,
+      "analysis": {
+        "timeframe_analysis": {
+          "primary_tf": "30m",
+          "confirmation_tf": "4h",
+          "expected_holding_period": "2-7 days",
+          "time_stops": {
+            "short_term_exit": "48 hours",
+            "medium_term_exit": "4 days"
+          }
+        },
+        "ml_analysis": {
+          "models_used": 51,
+          "confidence": 0.31515017017628627,
+          "total_features": 60,
+          "individual_scores": [
+            0.35,
+            0.4090586702521161,
+            0.39784118789435335,
+            0.3977963089952508,
+            0.26,
+            0.3553439919504575,
+            0.3022093107408646,
+            0.09561850875616074,
+            0.2767763395616466,
+            0.40155145105377005
+          ],
+          "ensemble_score": 0.34242491491185695
+        },
+        "rule_analysis": {
+          "strategies_fired": 2,
+          "trend_signal": true,
+          "breakout_signal": false,
+          "squeeze_signal": true,
+          "technical_score": 0.0,
+          "ml_only_mode": false
+        },
+        "risk_analysis": {
+          "regime": 3,
+          "position_size": 0.10651501701762862,
+          "shrunk_prob": 0.4260600680705145,
+          "time_stops": {
+            "30m_bars": 96,
+            "4h_bars": 24
+          }
+        },
+        "hybrid_analysis": {
+          "agreement_boost": true,
+          "veto_reason": null,
+          "regime": 3,
+          "rules_weight": 0.45,
+          "ml_weight": 0.55,
+          "threshold": 0.34,
+          "strategies_fired": 2,
+          "ml_confidence": 0.31515017017628627,
+          "hybrid_score": 0.47533375868174954,
+          "ml_only_mode": false
+        }
+      },
+      "meta": {
+        "atr_pct": 0.7694309780743044,
+        "rsi": 55.1020250728908,
+        "rules_score": 0.5,
+        "ml_score": 0.34242491491185695,
+        "ml_models_used": 51,
+        "ml_confidence": 0.31515017017628627,
+        "total_features": 60,
+        "regime": 3,
+        "strategies_fired": 2,
+        "trend_signal": true,
+        "breakout_signal": false,
+        "squeeze_signal": true,
+        "technical_score": 0.0,
+        "hybrid_score": 0.47533375868174954,
+        "veto_reason": null,
+        "agreement_boost": true,
+        "rules_weight": 0.45,
+        "ml_weight": 0.55,
+        "threshold": 0.34,
+        "ml_only_mode": false,
+        "position_size": 0.10651501701762862,
+        "raw_prob": 0.31515017017628627,
+        "shrunk_prob": 0.4260600680705145,
+        "size_multiplier": 1.0,
+        "time_stop_30m": 96,
+        "time_stop_4h": 24,
+        "partial_take": 0.33,
+        "trail_multiple": 2.5
+      }
+    },
+    {
+      "symbol": "ETC/USDT",
+      "score": 0.47428779314468555,
+      "ml_score": 0.34077121445800085,
+      "ml_confidence": 0.3184575716683577,
+      "rule_score": 0.5,
+      "hybrid_score": 0.47428779314468555,
+      "position_size_pct": 10.684575716683577,
+      "atr_pct": 0.7047454914449862,
+      "rsi": 69.16666585972234,
+      "buy_price": 23.21,
+      "stop_loss": 22.2816,
+      "target_price": 23.95272,
+      "risk_reward_ratio": 0.8,
+      "atr_value": 0.4642,
+      "analysis": {
+        "timeframe_analysis": {
+          "primary_tf": "30m",
+          "confirmation_tf": "4h",
+          "expected_holding_period": "2-7 days",
+          "time_stops": {
+            "short_term_exit": "48 hours",
+            "medium_term_exit": "4 days"
+          }
+        },
+        "ml_analysis": {
+          "models_used": 51,
+          "confidence": 0.3184575716683577,
+          "total_features": 60,
+          "individual_scores": [
+            0.47,
+            0.38645263477424463,
+            0.39771532342246363,
+            0.3845188901963678,
+            0.33,
+            0.43643711528539897,
+            0.4219770256366892,
+            0.1530085653066635,
+            0.32558627965110615,
+            0.3306938222643307
+          ],
+          "ensemble_score": 0.34077121445800085
+        },
+        "rule_analysis": {
+          "strategies_fired": 2,
+          "trend_signal": true,
+          "breakout_signal": false,
+          "squeeze_signal": true,
+          "technical_score": 0.0,
+          "ml_only_mode": false
+        },
+        "risk_analysis": {
+          "regime": 3,
+          "position_size": 0.10684575716683577,
+          "shrunk_prob": 0.42738302866734307,
+          "time_stops": {
+            "30m_bars": 96,
+            "4h_bars": 24
+          }
+        },
+        "hybrid_analysis": {
+          "agreement_boost": true,
+          "veto_reason": null,
+          "regime": 3,
+          "rules_weight": 0.45,
+          "ml_weight": 0.55,
+          "threshold": 0.34,
+          "strategies_fired": 2,
+          "ml_confidence": 0.3184575716683577,
+          "hybrid_score": 0.47428779314468555,
+          "ml_only_mode": false
+        }
+      },
+      "meta": {
+        "atr_pct": 0.7047454914449862,
+        "rsi": 69.16666585972234,
+        "rules_score": 0.5,
+        "ml_score": 0.34077121445800085,
+        "ml_models_used": 51,
+        "ml_confidence": 0.3184575716683577,
+        "total_features": 60,
+        "regime": 3,
+        "strategies_fired": 2,
+        "trend_signal": true,
+        "breakout_signal": false,
+        "squeeze_signal": true,
+        "technical_score": 0.0,
+        "hybrid_score": 0.47428779314468555,
+        "veto_reason": null,
+        "agreement_boost": true,
+        "rules_weight": 0.45,
+        "ml_weight": 0.55,
+        "threshold": 0.34,
+        "ml_only_mode": false,
+        "position_size": 0.10684575716683577,
+        "raw_prob": 0.3184575716683577,
+        "shrunk_prob": 0.42738302866734307,
+        "size_multiplier": 1.0,
+        "time_stop_30m": 96,
+        "time_stop_4h": 24,
+        "partial_take": 0.33,
+        "trail_multiple": 2.5
+      }
+    },
+    {
+      "symbol": "MKR/USDT",
+      "score": 0.474092678135408,
+      "ml_score": 0.3404627322298941,
+      "ml_confidence": 0.31907453656284074,
+      "rule_score": 0.5,
+      "hybrid_score": 0.474092678135408,
+      "position_size_pct": 10.690745365628407,
+      "atr_pct": 0.7470353006063696,
+      "rsi": 59.32038834145151,
+      "buy_price": 2072.0,
+      "stop_loss": 1999.48,
+      "target_price": 2138.304,
+      "risk_reward_ratio": 0.91,
+      "atr_value": 41.44,
+      "analysis": {
+        "timeframe_analysis": {
+          "primary_tf": "30m",
+          "confirmation_tf": "4h",
+          "expected_holding_period": "2-7 days",
+          "time_stops": {
+            "short_term_exit": "48 hours",
+            "medium_term_exit": "4 days"
+          }
+        },
+        "ml_analysis": {
+          "models_used": 51,
+          "confidence": 0.31907453656284074,
+          "total_features": 60,
+          "individual_scores": [
+            0.47,
+            0.4007444266951492,
+            0.3977106033422843,
+            0.4002077488814587,
+            0.43,
+            0.40273107969928545,
+            0.33423684198103537,
+            0.05618562549352646,
+            0.17799678753834774,
+            0.39951096844948464
+          ],
+          "ensemble_score": 0.3404627322298941
+        },
+        "rule_analysis": {
+          "strategies_fired": 2,
+          "trend_signal": true,
+          "breakout_signal": false,
+          "squeeze_signal": true,
+          "technical_score": 0.0,
+          "ml_only_mode": false
+        },
+        "risk_analysis": {
+          "regime": 3,
+          "position_size": 0.10690745365628407,
+          "shrunk_prob": 0.4276298146251363,
+          "time_stops": {
+            "30m_bars": 96,
+            "4h_bars": 24
+          }
+        },
+        "hybrid_analysis": {
+          "agreement_boost": true,
+          "veto_reason": null,
+          "regime": 3,
+          "rules_weight": 0.45,
+          "ml_weight": 0.55,
+          "threshold": 0.34,
+          "strategies_fired": 2,
+          "ml_confidence": 0.31907453656284074,
+          "hybrid_score": 0.474092678135408,
+          "ml_only_mode": false
+        }
+      },
+      "meta": {
+        "atr_pct": 0.7470353006063696,
+        "rsi": 59.32038834145151,
+        "rules_score": 0.5,
+        "ml_score": 0.3404627322298941,
+        "ml_models_used": 51,
+        "ml_confidence": 0.31907453656284074,
+        "total_features": 60,
+        "regime": 3,
+        "strategies_fired": 2,
+        "trend_signal": true,
+        "breakout_signal": false,
+        "squeeze_signal": true,
+        "technical_score": 0.0,
+        "hybrid_score": 0.474092678135408,
+        "veto_reason": null,
+        "agreement_boost": true,
+        "rules_weight": 0.45,
+        "ml_weight": 0.55,
+        "threshold": 0.34,
+        "ml_only_mode": false,
+        "position_size": 0.10690745365628407,
+        "raw_prob": 0.31907453656284074,
+        "shrunk_prob": 0.4276298146251363,
+        "size_multiplier": 1.0,
+        "time_stop_30m": 96,
+        "time_stop_4h": 24,
+        "partial_take": 0.33,
+        "trail_multiple": 2.5
+      }
+    },
+    {
+      "symbol": "COMP/USDT",
+      "score": 0.4709155609590856,
+      "ml_score": 0.4471192017437919,
+      "ml_confidence": 0.17640057241263601,
+      "rule_score": 0.5,
+      "hybrid_score": 0.4709155609590856,
+      "position_size_pct": 10.0,
+      "atr_pct": 0.9339647461022424,
+      "rsi": 77.0547941511071,
+      "buy_price": 54.3,
+      "stop_loss": 52.128,
+      "target_price": 56.0376,
+      "risk_reward_ratio": 0.8,
+      "atr_value": 1.086,
+      "analysis": {
+        "timeframe_analysis": {
+          "primary_tf": "30m",
+          "confirmation_tf": "4h",
+          "expected_holding_period": "2-7 days",
+          "time_stops": {
+            "short_term_exit": "48 hours",
+            "medium_term_exit": "4 days"
+          }
+        },
+        "ml_analysis": {
+          "models_used": 51,
+          "confidence": 0.17640057241263601,
+          "total_features": 60,
+          "individual_scores": [
+            0.53,
+            0.37398953625500003,
+            0.39771591610288926,
+            0.3802124896120575,
+            0.49,
+            0.43557536493853133,
+            0.459642418201164,
+            0.7223610281944275,
+            0.3743103958258219,
+            0.44721676032509633
+          ],
+          "ensemble_score": 0.4471192017437919
+        },
+        "rule_analysis": {
+          "strategies_fired": 2,
+          "trend_signal": true,
+          "breakout_signal": false,
+          "squeeze_signal": true,
+          "technical_score": 0.0,
+          "ml_only_mode": false
+        },
+        "risk_analysis": {
+          "regime": 3,
+          "position_size": 0.1,
+          "shrunk_prob": 0.37056022896505436,
+          "time_stops": {
+            "30m_bars": 96,
+            "4h_bars": 24
+          }
+        },
+        "hybrid_analysis": {
+          "agreement_boost": false,
+          "veto_reason": null,
+          "regime": 3,
+          "rules_weight": 0.45,
+          "ml_weight": 0.55,
+          "threshold": 0.34,
+          "strategies_fired": 2,
+          "ml_confidence": 0.17640057241263601,
+          "hybrid_score": 0.4709155609590856,
+          "ml_only_mode": false
+        }
+      },
+      "meta": {
+        "atr_pct": 0.9339647461022424,
+        "rsi": 77.0547941511071,
+        "rules_score": 0.5,
+        "ml_score": 0.4471192017437919,
+        "ml_models_used": 51,
+        "ml_confidence": 0.17640057241263601,
+        "total_features": 60,
+        "regime": 3,
+        "strategies_fired": 2,
+        "trend_signal": true,
+        "breakout_signal": false,
+        "squeeze_signal": true,
+        "technical_score": 0.0,
+        "hybrid_score": 0.4709155609590856,
+        "veto_reason": null,
+        "agreement_boost": false,
+        "rules_weight": 0.45,
+        "ml_weight": 0.55,
+        "threshold": 0.34,
+        "ml_only_mode": false,
+        "position_size": 0.1,
+        "raw_prob": 0.17640057241263601,
+        "shrunk_prob": 0.37056022896505436,
+        "size_multiplier": 1.0,
+        "time_stop_30m": 96,
+        "time_stop_4h": 24,
+        "partial_take": 0.33,
+        "trail_multiple": 2.5
+      }
+    },
+    {
+      "symbol": "SAGA/USDT",
+      "score": 0.47062407916360954,
+      "ml_score": 0.4510401319393493,
+      "ml_confidence": 0.2081517114113557,
+      "rule_score": 0.5,
+      "hybrid_score": 0.47062407916360954,
+      "position_size_pct": 10.0,
+      "atr_pct": 1.1638521181870467,
+      "rsi": 77.38090939155816,
+      "buy_price": 0.2817,
+      "stop_loss": 0.269305,
+      "target_price": 0.290714,
+      "risk_reward_ratio": 0.73,
+      "atr_value": 0.005634,
+      "analysis": {
+        "timeframe_analysis": {
+          "primary_tf": "30m",
+          "confirmation_tf": "4h",
+          "expected_holding_period": "2-7 days",
+          "time_stops": {
+            "short_term_exit": "48 hours",
+            "medium_term_exit": "4 days"
+          }
+        },
+        "ml_analysis": {
+          "models_used": 51,
+          "confidence": 0.2081517114113557,
+          "total_features": 60,
+          "individual_scores": [
+            0.44,
+            0.36869751653512445,
+            0.39786664701809776,
+            0.5393316863092036,
+            0.32,
+            0.41563640205162705,
+            0.8445528781187404,
+            0.4839230179786682,
+            0.4590795154427609,
+            0.3086410076686899
+          ],
+          "ensemble_score": 0.4510401319393493
+        },
+        "rule_analysis": {
+          "strategies_fired": 2,
+          "trend_signal": true,
+          "breakout_signal": false,
+          "squeeze_signal": true,
+          "technical_score": 0.0,
+          "ml_only_mode": false
+        },
+        "risk_analysis": {
+          "regime": 0,
+          "position_size": 0.1,
+          "shrunk_prob": 0.38326068456454226,
+          "time_stops": {
+            "30m_bars": 96,
+            "4h_bars": 24
+          }
+        },
+        "hybrid_analysis": {
+          "agreement_boost": false,
+          "veto_reason": null,
+          "regime": 0,
+          "rules_weight": 0.4,
+          "ml_weight": 0.6,
+          "threshold": 0.25,
+          "strategies_fired": 2,
+          "ml_confidence": 0.2081517114113557,
+          "hybrid_score": 0.47062407916360954,
+          "ml_only_mode": false
+        }
+      },
+      "meta": {
+        "atr_pct": 1.1638521181870467,
+        "rsi": 77.38090939155816,
+        "rules_score": 0.5,
+        "ml_score": 0.4510401319393493,
+        "ml_models_used": 51,
+        "ml_confidence": 0.2081517114113557,
+        "total_features": 60,
+        "regime": 0,
+        "strategies_fired": 2,
+        "trend_signal": true,
+        "breakout_signal": false,
+        "squeeze_signal": true,
+        "technical_score": 0.0,
+        "hybrid_score": 0.47062407916360954,
+        "veto_reason": null,
+        "agreement_boost": false,
+        "rules_weight": 0.4,
+        "ml_weight": 0.6,
+        "threshold": 0.25,
+        "ml_only_mode": false,
+        "position_size": 0.1,
+        "raw_prob": 0.2081517114113557,
+        "shrunk_prob": 0.38326068456454226,
+        "size_multiplier": 1.0,
+        "time_stop_30m": 96,
+        "time_stop_4h": 24,
+        "partial_take": 0.33,
+        "trail_multiple": 2.5
+      }
+    },
+    {
+      "symbol": "CRV/USDT",
+      "score": 0.4698222574599102,
+      "ml_score": 0.31708218688680034,
+      "ml_confidence": 0.36805672786104465,
+      "rule_score": 0.5,
+      "hybrid_score": 0.4698222574599102,
+      "position_size_pct": 11.180567278610447,
+      "atr_pct": 0.881499500825004,
+      "rsi": 65.99998320000435,
+      "buy_price": 0.9748,
+      "stop_loss": 0.931909,
+      "target_price": 1.005994,
+      "risk_reward_ratio": 0.73,
+      "atr_value": 0.019496,
+      "analysis": {
+        "timeframe_analysis": {
+          "primary_tf": "30m",
+          "confirmation_tf": "4h",
+          "expected_holding_period": "2-7 days",
+          "time_stops": {
+            "short_term_exit": "48 hours",
+            "medium_term_exit": "4 days"
+          }
+        },
+        "ml_analysis": {
+          "models_used": 51,
+          "confidence": 0.36805672786104465,
+          "total_features": 60,
+          "individual_scores": [
+            0.31,
+            0.39160646926401954,
+            0.39794248110550734,
+            0.3814723428525784,
+            0.32,
+            0.3615419692813387,
+            0.2524144796244191,
+            0.015381813049316406,
+            0.1946629488833762,
+            0.32885359846695394
+          ],
+          "ensemble_score": 0.31708218688680034
+        },
+        "rule_analysis": {
+          "strategies_fired": 2,
+          "trend_signal": true,
+          "breakout_signal": false,
+          "squeeze_signal": true,
+          "technical_score": 0.0,
+          "ml_only_mode": false
+        },
+        "risk_analysis": {
+          "regime": 1,
+          "position_size": 0.11180567278610447,
+          "shrunk_prob": 0.44722269114441787,
+          "time_stops": {
+            "30m_bars": 96,
+            "4h_bars": 24
+          }
+        },
+        "hybrid_analysis": {
+          "agreement_boost": true,
+          "veto_reason": null,
+          "regime": 1,
+          "rules_weight": 0.5,
+          "ml_weight": 0.5,
+          "threshold": 0.3,
+          "strategies_fired": 2,
+          "ml_confidence": 0.36805672786104465,
+          "hybrid_score": 0.4698222574599102,
+          "ml_only_mode": false
+        }
+      },
+      "meta": {
+        "atr_pct": 0.881499500825004,
+        "rsi": 65.99998320000435,
+        "rules_score": 0.5,
+        "ml_score": 0.31708218688680034,
+        "ml_models_used": 51,
+        "ml_confidence": 0.36805672786104465,
+        "total_features": 60,
+        "regime": 1,
+        "strategies_fired": 2,
+        "trend_signal": true,
+        "breakout_signal": false,
+        "squeeze_signal": true,
+        "technical_score": 0.0,
+        "hybrid_score": 0.4698222574599102,
+        "veto_reason": null,
+        "agreement_boost": true,
+        "rules_weight": 0.5,
+        "ml_weight": 0.5,
+        "threshold": 0.3,
+        "ml_only_mode": false,
+        "position_size": 0.11180567278610447,
+        "raw_prob": 0.36805672786104465,
+        "shrunk_prob": 0.44722269114441787,
+        "size_multiplier": 1.0,
+        "time_stop_30m": 96,
+        "time_stop_4h": 24,
+        "partial_take": 0.33,
+        "trail_multiple": 2.5
+      }
+    },
+    {
+      "symbol": "CELO/USDT",
+      "score": 0.46716314640971346,
+      "ml_score": 0.4179078660242837,
+      "ml_confidence": 0.23220638822590475,
+      "rule_score": 0.5,
+      "hybrid_score": 0.46716314640971346,
+      "position_size_pct": 10.0,
+      "atr_pct": 0.8754749476562628,
+      "rsi": 70.98035318725718,
+      "buy_price": 0.3647,
+      "stop_loss": 0.348653,
+      "target_price": 0.37637,
+      "risk_reward_ratio": 0.73,
+      "atr_value": 0.007294,
+      "analysis": {
+        "timeframe_analysis": {
+          "primary_tf": "30m",
+          "confirmation_tf": "4h",
+          "expected_holding_period": "2-7 days",
+          "time_stops": {
+            "short_term_exit": "48 hours",
+            "medium_term_exit": "4 days"
+          }
+        },
+        "ml_analysis": {
+          "models_used": 51,
+          "confidence": 0.23220638822590475,
+          "total_features": 60,
+          "individual_scores": [
+            0.47,
+            0.3837126508474612,
+            0.3978101690335834,
+            0.5236968838217976,
+            0.33,
+            0.4393899623127063,
+            0.7121300756749931,
+            0.5303986668586731,
+            0.21735517143619712,
+            0.3337407994857047
+          ],
+          "ensemble_score": 0.4179078660242837
+        },
+        "rule_analysis": {
+          "strategies_fired": 2,
+          "trend_signal": true,
+          "breakout_signal": false,
+          "squeeze_signal": true,
+          "technical_score": 0.0,
+          "ml_only_mode": false
+        },
+        "risk_analysis": {
+          "regime": 2,
+          "position_size": 0.1,
+          "shrunk_prob": 0.3928825552903619,
+          "time_stops": {
+            "30m_bars": 96,
+            "4h_bars": 24
+          }
+        },
+        "hybrid_analysis": {
+          "agreement_boost": false,
+          "veto_reason": null,
+          "regime": 2,
+          "rules_weight": 0.6,
+          "ml_weight": 0.4,
+          "threshold": 0.32,
+          "strategies_fired": 2,
+          "ml_confidence": 0.23220638822590475,
+          "hybrid_score": 0.46716314640971346,
+          "ml_only_mode": false
+        }
+      },
+      "meta": {
+        "atr_pct": 0.8754749476562628,
+        "rsi": 70.98035318725718,
+        "rules_score": 0.5,
+        "ml_score": 0.4179078660242837,
+        "ml_models_used": 51,
+        "ml_confidence": 0.23220638822590475,
+        "total_features": 60,
+        "regime": 2,
+        "strategies_fired": 2,
+        "trend_signal": true,
+        "breakout_signal": false,
+        "squeeze_signal": true,
+        "technical_score": 0.0,
+        "hybrid_score": 0.46716314640971346,
+        "veto_reason": null,
+        "agreement_boost": false,
+        "rules_weight": 0.6,
+        "ml_weight": 0.4,
+        "threshold": 0.32,
+        "ml_only_mode": false,
+        "position_size": 0.1,
+        "raw_prob": 0.23220638822590475,
+        "shrunk_prob": 0.3928825552903619,
+        "size_multiplier": 0.75,
+        "time_stop_30m": 96,
+        "time_stop_4h": 24,
+        "partial_take": 0.33,
+        "trail_multiple": 2.5
+      }
+    },
+    {
+      "symbol": "YFI/USDT",
+      "score": 0.46459527140617174,
+      "ml_score": 0.32544706941687235,
+      "ml_confidence": 0.34910586138539024,
+      "rule_score": 0.5,
+      "hybrid_score": 0.46459527140617174,
+      "position_size_pct": 10.991058613853902,
+      "atr_pct": 0.6712302259202579,
+      "rsi": 73.82550335223638,
+      "buy_price": 5906.0,
+      "stop_loss": 5699.29,
+      "target_price": 6094.992,
+      "risk_reward_ratio": 0.91,
+      "atr_value": 118.12,
+      "analysis": {
+        "timeframe_analysis": {
+          "primary_tf": "30m",
+          "confirmation_tf": "4h",
+          "expected_holding_period": "2-7 days",
+          "time_stops": {
+            "short_term_exit": "48 hours",
+            "medium_term_exit": "4 days"
+          }
+        },
+        "ml_analysis": {
+          "models_used": 51,
+          "confidence": 0.34910586138539024,
+          "total_features": 60,
+          "individual_scores": [
+            0.43,
+            0.3819151009819169,
+            0.3977057877843876,
+            0.37399785903443855,
+            0.44,
+            0.45517269946989247,
+            0.24631826543743346,
+            0.024348001927137375,
+            0.16367188723611797,
+            0.465562390871359
+          ],
+          "ensemble_score": 0.32544706941687235
+        },
+        "rule_analysis": {
+          "strategies_fired": 2,
+          "trend_signal": true,
+          "breakout_signal": false,
+          "squeeze_signal": true,
+          "technical_score": 0.0,
+          "ml_only_mode": false
+        },
+        "risk_analysis": {
+          "regime": 3,
+          "position_size": 0.10991058613853902,
+          "shrunk_prob": 0.4396423445541561,
+          "time_stops": {
+            "30m_bars": 96,
+            "4h_bars": 24
+          }
+        },
+        "hybrid_analysis": {
+          "agreement_boost": true,
+          "veto_reason": null,
+          "regime": 3,
+          "rules_weight": 0.45,
+          "ml_weight": 0.55,
+          "threshold": 0.34,
+          "strategies_fired": 2,
+          "ml_confidence": 0.34910586138539024,
+          "hybrid_score": 0.46459527140617174,
+          "ml_only_mode": false
+        }
+      },
+      "meta": {
+        "atr_pct": 0.6712302259202579,
+        "rsi": 73.82550335223638,
+        "rules_score": 0.5,
+        "ml_score": 0.32544706941687235,
+        "ml_models_used": 51,
+        "ml_confidence": 0.34910586138539024,
+        "total_features": 60,
+        "regime": 3,
+        "strategies_fired": 2,
+        "trend_signal": true,
+        "breakout_signal": false,
+        "squeeze_signal": true,
+        "technical_score": 0.0,
+        "hybrid_score": 0.46459527140617174,
+        "veto_reason": null,
+        "agreement_boost": true,
+        "rules_weight": 0.45,
+        "ml_weight": 0.55,
+        "threshold": 0.34,
+        "ml_only_mode": false,
+        "position_size": 0.10991058613853902,
+        "raw_prob": 0.34910586138539024,
+        "shrunk_prob": 0.4396423445541561,
+        "size_multiplier": 1.0,
+        "time_stop_30m": 96,
+        "time_stop_4h": 24,
+        "partial_take": 0.33,
+        "trail_multiple": 2.5
+      }
+    },
+    {
+      "symbol": "CETUS/USDT",
+      "score": 0.4629949477779535,
+      "ml_score": 0.4383249129632559,
+      "ml_confidence": 0.18591030338348588,
+      "rule_score": 0.5,
+      "hybrid_score": 0.4629949477779535,
+      "position_size_pct": 10.0,
+      "atr_pct": 1.1386261722618416,
+      "rsi": 77.35838839458137,
+      "buy_price": 0.1148,
+      "stop_loss": 0.109749,
+      "target_price": 0.118474,
+      "risk_reward_ratio": 0.73,
+      "atr_value": 0.002296,
+      "analysis": {
+        "timeframe_analysis": {
+          "primary_tf": "30m",
+          "confirmation_tf": "4h",
+          "expected_holding_period": "2-7 days",
+          "time_stops": {
+            "short_term_exit": "48 hours",
+            "medium_term_exit": "4 days"
+          }
+        },
+        "ml_analysis": {
+          "models_used": 51,
+          "confidence": 0.18591030338348588,
+          "total_features": 60,
+          "individual_scores": [
+            0.39,
+            0.36587058125971117,
+            0.3983605645490415,
+            0.49157143575190726,
+            0.34,
+            0.4250781740556324,
+            0.7362051896218161,
+            0.5285155177116394,
+            0.4260041618265404,
+            0.3344115234083999
+          ],
+          "ensemble_score": 0.4383249129632559
+        },
+        "rule_analysis": {
+          "strategies_fired": 2,
+          "trend_signal": true,
+          "breakout_signal": false,
+          "squeeze_signal": true,
+          "technical_score": 0.0,
+          "ml_only_mode": false
+        },
+        "risk_analysis": {
+          "regime": 0,
+          "position_size": 0.1,
+          "shrunk_prob": 0.37436412135339436,
+          "time_stops": {
+            "30m_bars": 96,
+            "4h_bars": 24
+          }
+        },
+        "hybrid_analysis": {
+          "agreement_boost": false,
+          "veto_reason": null,
+          "regime": 0,
+          "rules_weight": 0.4,
+          "ml_weight": 0.6,
+          "threshold": 0.25,
+          "strategies_fired": 2,
+          "ml_confidence": 0.18591030338348588,
+          "hybrid_score": 0.4629949477779535,
+          "ml_only_mode": false
+        }
+      },
+      "meta": {
+        "atr_pct": 1.1386261722618416,
+        "rsi": 77.35838839458137,
+        "rules_score": 0.5,
+        "ml_score": 0.4383249129632559,
+        "ml_models_used": 51,
+        "ml_confidence": 0.18591030338348588,
+        "total_features": 60,
+        "regime": 0,
+        "strategies_fired": 2,
+        "trend_signal": true,
+        "breakout_signal": false,
+        "squeeze_signal": true,
+        "technical_score": 0.0,
+        "hybrid_score": 0.4629949477779535,
+        "veto_reason": null,
+        "agreement_boost": false,
+        "rules_weight": 0.4,
+        "ml_weight": 0.6,
+        "threshold": 0.25,
+        "ml_only_mode": false,
+        "position_size": 0.1,
+        "raw_prob": 0.18591030338348588,
+        "shrunk_prob": 0.37436412135339436,
+        "size_multiplier": 1.0,
+        "time_stop_30m": 96,
+        "time_stop_4h": 24,
+        "partial_take": 0.33,
+        "trail_multiple": 2.5
+      }
+    },
+    {
+      "symbol": "BONK/USDT",
+      "score": 0.4626650893115751,
+      "ml_score": 0.3371957816109784,
+      "ml_confidence": 0.42339608232155085,
+      "rule_score": 0.5,
+      "hybrid_score": 0.4626650893115751,
+      "position_size_pct": 11.733960823215508,
+      "atr_pct": 1.1378506002161948,
+      "rsi": 77.028258887876,
+      "buy_price": 2.8e-05,
+      "stop_loss": 2.7e-05,
+      "target_price": 2.9e-05,
+      "risk_reward_ratio": 1.11,
+      "atr_value": 1e-06,
+      "analysis": {
+        "timeframe_analysis": {
+          "primary_tf": "30m",
+          "confirmation_tf": "4h",
+          "expected_holding_period": "2-7 days",
+          "time_stops": {
+            "short_term_exit": "48 hours",
+            "medium_term_exit": "4 days"
+          }
+        },
+        "ml_analysis": {
+          "models_used": 51,
+          "confidence": 0.42339608232155085,
+          "total_features": 60,
+          "individual_scores": [
+            0.4,
+            0.0,
+            0.42974609918823675,
+            0.5104650774222997,
+            0.3,
+            0.3703811500615119,
+            0.7380367952687872,
+            0.08900241553783417,
+            0.1047530180619755,
+            0.26877606801841347
+          ],
+          "ensemble_score": 0.3371957816109784
+        },
+        "rule_analysis": {
+          "strategies_fired": 2,
+          "trend_signal": true,
+          "breakout_signal": false,
+          "squeeze_signal": true,
+          "technical_score": 0.0,
+          "ml_only_mode": false
+        },
+        "risk_analysis": {
+          "regime": 0,
+          "position_size": 0.11733960823215508,
+          "shrunk_prob": 0.46935843292862034,
+          "time_stops": {
+            "30m_bars": 96,
+            "4h_bars": 24
+          }
+        },
+        "hybrid_analysis": {
+          "agreement_boost": true,
+          "veto_reason": null,
+          "regime": 0,
+          "rules_weight": 0.4,
+          "ml_weight": 0.6,
+          "threshold": 0.25,
+          "strategies_fired": 2,
+          "ml_confidence": 0.42339608232155085,
+          "hybrid_score": 0.4626650893115751,
+          "ml_only_mode": false
+        }
+      },
+      "meta": {
+        "atr_pct": 1.1378506002161948,
+        "rsi": 77.028258887876,
+        "rules_score": 0.5,
+        "ml_score": 0.3371957816109784,
+        "ml_models_used": 51,
+        "ml_confidence": 0.42339608232155085,
+        "total_features": 60,
+        "regime": 0,
+        "strategies_fired": 2,
+        "trend_signal": true,
+        "breakout_signal": false,
+        "squeeze_signal": true,
+        "technical_score": 0.0,
+        "hybrid_score": 0.4626650893115751,
+        "veto_reason": null,
+        "agreement_boost": true,
+        "rules_weight": 0.4,
+        "ml_weight": 0.6,
+        "threshold": 0.25,
+        "ml_only_mode": false,
+        "position_size": 0.11733960823215508,
+        "raw_prob": 0.42339608232155085,
+        "shrunk_prob": 0.46935843292862034,
+        "size_multiplier": 1.0,
+        "time_stop_30m": 96,
+        "time_stop_4h": 24,
+        "partial_take": 0.33,
+        "trail_multiple": 2.5
+      }
+    },
+    {
+      "symbol": "PNUT/USDT",
+      "score": 0.46007234786098494,
+      "ml_score": 0.4334539131016416,
+      "ml_confidence": 0.17222194976862656,
+      "rule_score": 0.5,
+      "hybrid_score": 0.46007234786098494,
+      "position_size_pct": 10.0,
+      "atr_pct": 1.3666739649612618,
+      "rsi": 81.16586832636057,
+      "buy_price": 0.2608,
+      "stop_loss": 0.249325,
+      "target_price": 0.269146,
+      "risk_reward_ratio": 0.73,
+      "atr_value": 0.005216,
+      "analysis": {
+        "timeframe_analysis": {
+          "primary_tf": "30m",
+          "confirmation_tf": "4h",
+          "expected_holding_period": "2-7 days",
+          "time_stops": {
+            "short_term_exit": "48 hours",
+            "medium_term_exit": "4 days"
+          }
+        },
+        "ml_analysis": {
+          "models_used": 51,
+          "confidence": 0.17222194976862656,
+          "total_features": 60,
+          "individual_scores": [
+            0.43,
+            0.3323927258969958,
+            0.3979494279515093,
+            0.4819757217759533,
+            0.34,
+            0.4778058708162963,
+            0.6137337924394832,
+            0.3166768550872803,
+            0.49463370974670606,
+            0.37960029027989484
+          ],
+          "ensemble_score": 0.4334539131016416
+        },
+        "rule_analysis": {
+          "strategies_fired": 2,
+          "trend_signal": true,
+          "breakout_signal": false,
+          "squeeze_signal": true,
+          "technical_score": 0.0,
+          "ml_only_mode": false
+        },
+        "risk_analysis": {
+          "regime": 0,
+          "position_size": 0.1,
+          "shrunk_prob": 0.3688887799074506,
+          "time_stops": {
+            "30m_bars": 96,
+            "4h_bars": 24
+          }
+        },
+        "hybrid_analysis": {
+          "agreement_boost": false,
+          "veto_reason": null,
+          "regime": 0,
+          "rules_weight": 0.4,
+          "ml_weight": 0.6,
+          "threshold": 0.25,
+          "strategies_fired": 2,
+          "ml_confidence": 0.17222194976862656,
+          "hybrid_score": 0.46007234786098494,
+          "ml_only_mode": false
+        }
+      },
+      "meta": {
+        "atr_pct": 1.3666739649612618,
+        "rsi": 81.16586832636057,
+        "rules_score": 0.5,
+        "ml_score": 0.4334539131016416,
+        "ml_models_used": 51,
+        "ml_confidence": 0.17222194976862656,
+        "total_features": 60,
+        "regime": 0,
+        "strategies_fired": 2,
+        "trend_signal": true,
+        "breakout_signal": false,
+        "squeeze_signal": true,
+        "technical_score": 0.0,
+        "hybrid_score": 0.46007234786098494,
+        "veto_reason": null,
+        "agreement_boost": false,
+        "rules_weight": 0.4,
+        "ml_weight": 0.6,
+        "threshold": 0.25,
+        "ml_only_mode": false,
+        "position_size": 0.1,
+        "raw_prob": 0.17222194976862656,
+        "shrunk_prob": 0.3688887799074506,
+        "size_multiplier": 1.0,
+        "time_stop_30m": 96,
+        "time_stop_4h": 24,
+        "partial_take": 0.33,
+        "trail_multiple": 2.5
+      }
+    },
+    {
+      "symbol": "LTC/USDT",
+      "score": 0.4592456708278477,
+      "ml_score": 0.31698920288987775,
+      "ml_confidence": 0.36602159743422047,
+      "rule_score": 0.5,
+      "hybrid_score": 0.4592456708278477,
+      "position_size_pct": 11.160215974342206,
+      "atr_pct": 0.9980383384302264,
+      "rsi": 67.41271253860538,
+      "buy_price": 124.53,
+      "stop_loss": 119.5488,
+      "target_price": 128.51496,
+      "risk_reward_ratio": 0.8,
+      "atr_value": 2.4906,
+      "analysis": {
+        "timeframe_analysis": {
+          "primary_tf": "30m",
+          "confirmation_tf": "4h",
+          "expected_holding_period": "2-7 days",
+          "time_stops": {
+            "short_term_exit": "48 hours",
+            "medium_term_exit": "4 days"
+          }
+        },
+        "ml_analysis": {
+          "models_used": 51,
+          "confidence": 0.36602159743422047,
+          "total_features": 60,
+          "individual_scores": [
+            0.39,
+            0.38832229755291303,
+            0.3977185588125509,
+            0.34347426909427153,
+            0.39,
+            0.3890143766426541,
+            0.3253508763681071,
+            0.04392679035663605,
+            0.3162376571055365,
+            0.38238582805426424
+          ],
+          "ensemble_score": 0.31698920288987775
+        },
+        "rule_analysis": {
+          "strategies_fired": 2,
+          "trend_signal": true,
+          "breakout_signal": false,
+          "squeeze_signal": true,
+          "technical_score": 0.0,
+          "ml_only_mode": false
+        },
+        "risk_analysis": {
+          "regime": 3,
+          "position_size": 0.11160215974342205,
+          "shrunk_prob": 0.4464086389736882,
+          "time_stops": {
+            "30m_bars": 96,
+            "4h_bars": 24
+          }
+        },
+        "hybrid_analysis": {
+          "agreement_boost": true,
+          "veto_reason": null,
+          "regime": 3,
+          "rules_weight": 0.45,
+          "ml_weight": 0.55,
+          "threshold": 0.34,
+          "strategies_fired": 2,
+          "ml_confidence": 0.36602159743422047,
+          "hybrid_score": 0.4592456708278477,
+          "ml_only_mode": false
+        }
+      },
+      "meta": {
+        "atr_pct": 0.9980383384302264,
+        "rsi": 67.41271253860538,
+        "rules_score": 0.5,
+        "ml_score": 0.31698920288987775,
+        "ml_models_used": 51,
+        "ml_confidence": 0.36602159743422047,
+        "total_features": 60,
+        "regime": 3,
+        "strategies_fired": 2,
+        "trend_signal": true,
+        "breakout_signal": false,
+        "squeeze_signal": true,
+        "technical_score": 0.0,
+        "hybrid_score": 0.4592456708278477,
+        "veto_reason": null,
+        "agreement_boost": true,
+        "rules_weight": 0.45,
+        "ml_weight": 0.55,
+        "threshold": 0.34,
+        "ml_only_mode": false,
+        "position_size": 0.11160215974342205,
+        "raw_prob": 0.36602159743422047,
+        "shrunk_prob": 0.4464086389736882,
+        "size_multiplier": 1.0,
+        "time_stop_30m": 96,
+        "time_stop_4h": 24,
+        "partial_take": 0.33,
+        "trail_multiple": 2.5
+      }
+    },
+    {
+      "symbol": "AAVE/USDT",
+      "score": 0.4591500282982594,
+      "ml_score": 0.42572732417865344,
+      "ml_confidence": 0.2210491036168727,
+      "rule_score": 0.5,
+      "hybrid_score": 0.4591500282982594,
+      "position_size_pct": 10.0,
+      "atr_pct": 0.7202881152437308,
+      "rsi": 62.238552805463996,
+      "buy_price": 304.64,
+      "stop_loss": 292.4544,
+      "target_price": 314.38848,
+      "risk_reward_ratio": 0.8,
+      "atr_value": 6.0928,
+      "analysis": {
+        "timeframe_analysis": {
+          "primary_tf": "30m",
+          "confirmation_tf": "4h",
+          "expected_holding_period": "2-7 days",
+          "time_stops": {
+            "short_term_exit": "48 hours",
+            "medium_term_exit": "4 days"
+          }
+        },
+        "ml_analysis": {
+          "models_used": 51,
+          "confidence": 0.2210491036168727,
+          "total_features": 60,
+          "individual_scores": [
+            0.44,
+            0.3974853214850764,
+            0.39771375457118185,
+            0.5065677445315657,
+            0.25,
+            0.3786180900843694,
+            0.4846932467891383,
+            0.5518671274185181,
+            0.5253127546989232,
+            0.34485935552926955
+          ],
+          "ensemble_score": 0.42572732417865344
+        },
+        "rule_analysis": {
+          "strategies_fired": 2,
+          "trend_signal": true,
+          "breakout_signal": false,
+          "squeeze_signal": true,
+          "technical_score": 0.0,
+          "ml_only_mode": false
+        },
+        "risk_analysis": {
+          "regime": 3,
+          "position_size": 0.1,
+          "shrunk_prob": 0.38841964144674906,
+          "time_stops": {
+            "30m_bars": 96,
+            "4h_bars": 24
+          }
+        },
+        "hybrid_analysis": {
+          "agreement_boost": false,
+          "veto_reason": null,
+          "regime": 3,
+          "rules_weight": 0.45,
+          "ml_weight": 0.55,
+          "threshold": 0.34,
+          "strategies_fired": 2,
+          "ml_confidence": 0.2210491036168727,
+          "hybrid_score": 0.4591500282982594,
+          "ml_only_mode": false
+        }
+      },
+      "meta": {
+        "atr_pct": 0.7202881152437308,
+        "rsi": 62.238552805463996,
+        "rules_score": 0.5,
+        "ml_score": 0.42572732417865344,
+        "ml_models_used": 51,
+        "ml_confidence": 0.2210491036168727,
+        "total_features": 60,
+        "regime": 3,
+        "strategies_fired": 2,
+        "trend_signal": true,
+        "breakout_signal": false,
+        "squeeze_signal": true,
+        "technical_score": 0.0,
+        "hybrid_score": 0.4591500282982594,
+        "veto_reason": null,
+        "agreement_boost": false,
+        "rules_weight": 0.45,
+        "ml_weight": 0.55,
+        "threshold": 0.34,
+        "ml_only_mode": false,
+        "position_size": 0.1,
+        "raw_prob": 0.2210491036168727,
+        "shrunk_prob": 0.38841964144674906,
+        "size_multiplier": 1.0,
+        "time_stop_30m": 96,
+        "time_stop_4h": 24,
+        "partial_take": 0.33,
+        "trail_multiple": 2.5
+      }
+    },
+    {
+      "symbol": "PENDLE/USDT",
+      "score": 0.4585451958894486,
+      "ml_score": 0.29746990589469324,
+      "ml_confidence": 0.40506018959846674,
+      "rule_score": 0.5,
+      "hybrid_score": 0.4585451958894486,
+      "position_size_pct": 11.550601895984668,
+      "atr_pct": 0.7717779572549082,
+      "rsi": 68.2730885308303,
+      "buy_price": 5.479,
+      "stop_loss": 5.281756,
+      "target_price": 5.69816,
+      "risk_reward_ratio": 1.11,
+      "atr_value": 0.10958,
+      "analysis": {
+        "timeframe_analysis": {
+          "primary_tf": "30m",
+          "confirmation_tf": "4h",
+          "expected_holding_period": "2-7 days",
+          "time_stops": {
+            "short_term_exit": "48 hours",
+            "medium_term_exit": "4 days"
+          }
+        },
+        "ml_analysis": {
+          "models_used": 51,
+          "confidence": 0.40506018959846674,
+          "total_features": 60,
+          "individual_scores": [
+            0.42,
+            0.3875207224517128,
+            0.39772194627829077,
+            0.3770882628496735,
+            0.33,
+            0.41364481935329783,
+            0.26828061082024535,
+            0.02223789133131504,
+            0.119376525869621,
+            0.35709140419895136
+          ],
+          "ensemble_score": 0.29746990589469324
+        },
+        "rule_analysis": {
+          "strategies_fired": 2,
+          "trend_signal": true,
+          "breakout_signal": false,
+          "squeeze_signal": true,
+          "technical_score": 0.0,
+          "ml_only_mode": false
+        },
+        "risk_analysis": {
+          "regime": 1,
+          "position_size": 0.11550601895984668,
+          "shrunk_prob": 0.4620240758393867,
+          "time_stops": {
+            "30m_bars": 96,
+            "4h_bars": 24
+          }
+        },
+        "hybrid_analysis": {
+          "agreement_boost": true,
+          "veto_reason": null,
+          "regime": 1,
+          "rules_weight": 0.5,
+          "ml_weight": 0.5,
+          "threshold": 0.3,
+          "strategies_fired": 2,
+          "ml_confidence": 0.40506018959846674,
+          "hybrid_score": 0.4585451958894486,
+          "ml_only_mode": false
+        }
+      },
+      "meta": {
+        "atr_pct": 0.7717779572549082,
+        "rsi": 68.2730885308303,
+        "rules_score": 0.5,
+        "ml_score": 0.29746990589469324,
+        "ml_models_used": 51,
+        "ml_confidence": 0.40506018959846674,
+        "total_features": 60,
+        "regime": 1,
+        "strategies_fired": 2,
+        "trend_signal": true,
+        "breakout_signal": false,
+        "squeeze_signal": true,
+        "technical_score": 0.0,
+        "hybrid_score": 0.4585451958894486,
+        "veto_reason": null,
+        "agreement_boost": true,
+        "rules_weight": 0.5,
+        "ml_weight": 0.5,
+        "threshold": 0.3,
+        "ml_only_mode": false,
+        "position_size": 0.11550601895984668,
+        "raw_prob": 0.40506018959846674,
+        "shrunk_prob": 0.4620240758393867,
+        "size_multiplier": 1.0,
+        "time_stop_30m": 96,
+        "time_stop_4h": 24,
+        "partial_take": 0.33,
+        "trail_multiple": 2.5
+      }
+    },
+    {
+      "symbol": "HYPER/USDT",
+      "score": 0.45714026056947193,
+      "ml_score": 0.36966420756166496,
+      "ml_confidence": 0.30127489868544755,
+      "rule_score": 0.5446163135772789,
+      "hybrid_score": 0.45714026056947193,
+      "position_size_pct": 10.512748986854476,
+      "atr_pct": 1.0633981378042996,
+      "rsi": 61.454514168610885,
+      "buy_price": 0.4225,
+      "stop_loss": 0.40391,
+      "target_price": 0.43602,
+      "risk_reward_ratio": 0.73,
+      "atr_value": 0.00845,
+      "analysis": {
+        "timeframe_analysis": {
+          "primary_tf": "30m",
+          "confirmation_tf": "4h",
+          "expected_holding_period": "2-7 days",
+          "time_stops": {
+            "short_term_exit": "48 hours",
+            "medium_term_exit": "4 days"
+          }
+        },
+        "ml_analysis": {
+          "models_used": 51,
+          "confidence": 0.30127489868544755,
+          "total_features": 60,
+          "individual_scores": [
+            0.37,
+            0.40073653701438783,
+            0.3982430980692302,
+            0.4482035703358906,
+            0.31,
+            0.3573831069438104,
+            0.5958547584580391,
+            0.24431222677230835,
+            0.21178272343845125,
+            0.30248355798518856
+          ],
+          "ensemble_score": 0.36966420756166496
+        },
+        "rule_analysis": {
+          "strategies_fired": 1,
+          "trend_signal": true,
+          "breakout_signal": false,
+          "squeeze_signal": false,
+          "technical_score": 0.9784652543091156,
+          "ml_only_mode": false
+        },
+        "risk_analysis": {
+          "regime": 1,
+          "position_size": 0.10512748986854475,
+          "shrunk_prob": 0.420509959474179,
+          "time_stops": {
+            "30m_bars": 96,
+            "4h_bars": 24
+          }
+        },
+        "hybrid_analysis": {
+          "agreement_boost": false,
+          "veto_reason": null,
+          "regime": 1,
+          "rules_weight": 0.5,
+          "ml_weight": 0.5,
+          "threshold": 0.3,
+          "strategies_fired": 1,
+          "ml_confidence": 0.30127489868544755,
+          "hybrid_score": 0.45714026056947193,
+          "ml_only_mode": false
+        }
+      },
+      "meta": {
+        "atr_pct": 1.0633981378042996,
+        "rsi": 61.454514168610885,
+        "rules_score": 0.5446163135772789,
+        "ml_score": 0.36966420756166496,
+        "ml_models_used": 51,
+        "ml_confidence": 0.30127489868544755,
+        "total_features": 60,
+        "regime": 1,
+        "strategies_fired": 1,
+        "trend_signal": true,
+        "breakout_signal": false,
+        "squeeze_signal": false,
+        "technical_score": 0.9784652543091156,
+        "hybrid_score": 0.45714026056947193,
+        "veto_reason": null,
+        "agreement_boost": false,
+        "rules_weight": 0.5,
+        "ml_weight": 0.5,
+        "threshold": 0.3,
+        "ml_only_mode": false,
+        "position_size": 0.10512748986854475,
+        "raw_prob": 0.30127489868544755,
+        "shrunk_prob": 0.420509959474179,
+        "size_multiplier": 1.0,
+        "time_stop_30m": 96,
+        "time_stop_4h": 24,
+        "partial_take": 0.33,
+        "trail_multiple": 2.5
+      }
+    },
+    {
+      "symbol": "SHIB/USDT",
+      "score": 0.45342966701015874,
+      "ml_score": 0.3238111116089258,
+      "ml_confidence": 0.45636673880370454,
+      "rule_score": 0.5,
+      "hybrid_score": 0.45342966701015874,
+      "position_size_pct": 12.063667388037045,
+      "atr_pct": 0.6759801712483107,
+      "rsi": 73.09941520467825,
+      "buy_price": 1.4e-05,
+      "stop_loss": 1.3e-05,
+      "target_price": 1.4e-05,
+      "risk_reward_ratio": 1.11,
+      "atr_value": 0.0,
+      "analysis": {
+        "timeframe_analysis": {
+          "primary_tf": "30m",
+          "confirmation_tf": "4h",
+          "expected_holding_period": "2-7 days",
+          "time_stops": {
+            "short_term_exit": "48 hours",
+            "medium_term_exit": "4 days"
+          }
+        },
+        "ml_analysis": {
+          "models_used": 51,
+          "confidence": 0.45636673880370454,
+          "total_features": 60,
+          "individual_scores": [
+            0.46,
+            2.2174800843826223e-302,
+            0.42974609918823675,
+            0.4393367386207618,
+            0.33,
+            0.3835936591168987,
+            0.6680776524490979,
+            0.05314655974507332,
+            0.04414092678433124,
+            0.2688644382997246
+          ],
+          "ensemble_score": 0.3238111116089258
+        },
+        "rule_analysis": {
+          "strategies_fired": 2,
+          "trend_signal": true,
+          "breakout_signal": false,
+          "squeeze_signal": true,
+          "technical_score": 0.0,
+          "ml_only_mode": false
+        },
+        "risk_analysis": {
+          "regime": 0,
+          "position_size": 0.12063667388037046,
+          "shrunk_prob": 0.4825466955214818,
+          "time_stops": {
+            "30m_bars": 96,
+            "4h_bars": 24
+          }
+        },
+        "hybrid_analysis": {
+          "agreement_boost": true,
+          "veto_reason": null,
+          "regime": 0,
+          "rules_weight": 0.4,
+          "ml_weight": 0.6,
+          "threshold": 0.25,
+          "strategies_fired": 2,
+          "ml_confidence": 0.45636673880370454,
+          "hybrid_score": 0.45342966701015874,
+          "ml_only_mode": false
+        }
+      },
+      "meta": {
+        "atr_pct": 0.6759801712483107,
+        "rsi": 73.09941520467825,
+        "rules_score": 0.5,
+        "ml_score": 0.3238111116089258,
+        "ml_models_used": 51,
+        "ml_confidence": 0.45636673880370454,
+        "total_features": 60,
+        "regime": 0,
+        "strategies_fired": 2,
+        "trend_signal": true,
+        "breakout_signal": false,
+        "squeeze_signal": true,
+        "technical_score": 0.0,
+        "hybrid_score": 0.45342966701015874,
+        "veto_reason": null,
+        "agreement_boost": true,
+        "rules_weight": 0.4,
+        "ml_weight": 0.6,
+        "threshold": 0.25,
+        "ml_only_mode": false,
+        "position_size": 0.12063667388037046,
+        "raw_prob": 0.45636673880370454,
+        "shrunk_prob": 0.4825466955214818,
+        "size_multiplier": 1.0,
+        "time_stop_30m": 96,
+        "time_stop_4h": 24,
+        "partial_take": 0.33,
+        "trail_multiple": 2.5
+      }
+    },
+    {
+      "symbol": "DIA/USDT",
+      "score": 0.45333607851361135,
+      "ml_score": 0.3601342178424263,
+      "ml_confidence": 0.28837570326726003,
+      "rule_score": 0.5672494637783931,
+      "hybrid_score": 0.45333607851361135,
+      "position_size_pct": 10.3837570326726,
+      "atr_pct": 1.271158531104178,
+      "rsi": 78.60574277691349,
+      "buy_price": 0.8676,
+      "stop_loss": 0.829426,
+      "target_price": 0.895363,
+      "risk_reward_ratio": 0.73,
+      "atr_value": 0.017352,
+      "analysis": {
+        "timeframe_analysis": {
+          "primary_tf": "30m",
+          "confirmation_tf": "4h",
+          "expected_holding_period": "2-7 days",
+          "time_stops": {
+            "short_term_exit": "48 hours",
+            "medium_term_exit": "4 days"
+          }
+        },
+        "ml_analysis": {
+          "models_used": 51,
+          "confidence": 0.28837570326726003,
+          "total_features": 60,
+          "individual_scores": [
+            0.53,
+            0.3693238188756082,
+            0.39788266585986043,
+            0.4604752362681558,
+            0.36,
+            0.492888981935494,
+            0.4306859862809493,
+            0.03556369990110397,
+            0.19390718835033943,
+            0.44510806343117126
+          ],
+          "ensemble_score": 0.3601342178424263
+        },
+        "rule_analysis": {
+          "strategies_fired": 2,
+          "trend_signal": true,
+          "breakout_signal": false,
+          "squeeze_signal": true,
+          "technical_score": 0.26899785511357266,
+          "ml_only_mode": false
+        },
+        "risk_analysis": {
+          "regime": 3,
+          "position_size": 0.103837570326726,
+          "shrunk_prob": 0.415350281306904,
+          "time_stops": {
+            "30m_bars": 96,
+            "4h_bars": 24
+          }
+        },
+        "hybrid_analysis": {
+          "agreement_boost": false,
+          "veto_reason": null,
+          "regime": 3,
+          "rules_weight": 0.45,
+          "ml_weight": 0.55,
+          "threshold": 0.34,
+          "strategies_fired": 2,
+          "ml_confidence": 0.28837570326726003,
+          "hybrid_score": 0.45333607851361135,
+          "ml_only_mode": false
+        }
+      },
+      "meta": {
+        "atr_pct": 1.271158531104178,
+        "rsi": 78.60574277691349,
+        "rules_score": 0.5672494637783931,
+        "ml_score": 0.3601342178424263,
+        "ml_models_used": 51,
+        "ml_confidence": 0.28837570326726003,
+        "total_features": 60,
+        "regime": 3,
+        "strategies_fired": 2,
+        "trend_signal": true,
+        "breakout_signal": false,
+        "squeeze_signal": true,
+        "technical_score": 0.26899785511357266,
+        "hybrid_score": 0.45333607851361135,
+        "veto_reason": null,
+        "agreement_boost": false,
+        "rules_weight": 0.45,
+        "ml_weight": 0.55,
+        "threshold": 0.34,
+        "ml_only_mode": false,
+        "position_size": 0.103837570326726,
+        "raw_prob": 0.28837570326726003,
+        "shrunk_prob": 0.415350281306904,
+        "size_multiplier": 1.0,
+        "time_stop_30m": 96,
+        "time_stop_4h": 24,
+        "partial_take": 0.33,
+        "trail_multiple": 2.5
+      }
+    },
+    {
+      "symbol": "BIO/USDT",
+      "score": 0.4501476970603992,
+      "ml_score": 0.37548162621292436,
+      "ml_confidence": 0.2678471093468247,
+      "rule_score": 0.5414062280962018,
+      "hybrid_score": 0.4501476970603992,
+      "position_size_pct": 10.178471093468247,
+      "atr_pct": 2.4489795706334516,
+      "rsi": 69.16658597231635,
+      "buy_price": 0.1155,
+      "stop_loss": 0.110418,
+      "target_price": 0.119196,
+      "risk_reward_ratio": 0.73,
+      "atr_value": 0.00231,
+      "analysis": {
+        "timeframe_analysis": {
+          "primary_tf": "30m",
+          "confirmation_tf": "4h",
+          "expected_holding_period": "2-7 days",
+          "time_stops": {
+            "short_term_exit": "48 hours",
+            "medium_term_exit": "4 days"
+          }
+        },
+        "ml_analysis": {
+          "models_used": 51,
+          "confidence": 0.2678471093468247,
+          "total_features": 60,
+          "individual_scores": [
+            0.49,
+            0.35444618743909584,
+            0.40140654440599627,
+            0.49864280820948836,
+            0.47,
+            0.40194878062149497,
+            0.5364490684553456,
+            0.08540649712085724,
+            0.2845787225567246,
+            0.4091967802524204
+          ],
+          "ensemble_score": 0.37548162621292436
+        },
+        "rule_analysis": {
+          "strategies_fired": 2,
+          "trend_signal": true,
+          "breakout_signal": false,
+          "squeeze_signal": true,
+          "technical_score": 0.16562491238480695,
+          "ml_only_mode": false
+        },
+        "risk_analysis": {
+          "regime": 3,
+          "position_size": 0.10178471093468247,
+          "shrunk_prob": 0.4071388437387299,
+          "time_stops": {
+            "30m_bars": 96,
+            "4h_bars": 24
+          }
+        },
+        "hybrid_analysis": {
+          "agreement_boost": false,
+          "veto_reason": null,
+          "regime": 3,
+          "rules_weight": 0.45,
+          "ml_weight": 0.55,
+          "threshold": 0.34,
+          "strategies_fired": 2,
+          "ml_confidence": 0.2678471093468247,
+          "hybrid_score": 0.4501476970603992,
+          "ml_only_mode": false
+        }
+      },
+      "meta": {
+        "atr_pct": 2.4489795706334516,
+        "rsi": 69.16658597231635,
+        "rules_score": 0.5414062280962018,
+        "ml_score": 0.37548162621292436,
+        "ml_models_used": 51,
+        "ml_confidence": 0.2678471093468247,
+        "total_features": 60,
+        "regime": 3,
+        "strategies_fired": 2,
+        "trend_signal": true,
+        "breakout_signal": false,
+        "squeeze_signal": true,
+        "technical_score": 0.16562491238480695,
+        "hybrid_score": 0.4501476970603992,
+        "veto_reason": null,
+        "agreement_boost": false,
+        "rules_weight": 0.45,
+        "ml_weight": 0.55,
+        "threshold": 0.34,
+        "ml_only_mode": false,
+        "position_size": 0.10178471093468247,
+        "raw_prob": 0.2678471093468247,
+        "shrunk_prob": 0.4071388437387299,
+        "size_multiplier": 1.0,
+        "time_stop_30m": 96,
+        "time_stop_4h": 24,
+        "partial_take": 0.33,
+        "trail_multiple": 2.5
+      }
+    },
+    {
+      "symbol": "ENS/USDT",
+      "score": 0.44611042000025874,
+      "ml_score": 0.3132035072467519,
+      "ml_confidence": 0.3762393806398166,
+      "rule_score": 0.5,
+      "hybrid_score": 0.44611042000025874,
+      "position_size_pct": 11.262393806398165,
+      "atr_pct": 0.7928425952596754,
+      "rsi": 74.9999992708334,
+      "buy_price": 29.46,
+      "stop_loss": 28.2816,
+      "target_price": 30.40272,
+      "risk_reward_ratio": 0.8,
+      "atr_value": 0.5892,
+      "analysis": {
+        "timeframe_analysis": {
+          "primary_tf": "30m",
+          "confirmation_tf": "4h",
+          "expected_holding_period": "2-7 days",
+          "time_stops": {
+            "short_term_exit": "48 hours",
+            "medium_term_exit": "4 days"
+          }
+        },
+        "ml_analysis": {
+          "models_used": 51,
+          "confidence": 0.3762393806398166,
+          "total_features": 60,
+          "individual_scores": [
+            0.43,
+            0.37731928999366765,
+            0.39771214737735794,
+            0.4056554903450623,
+            0.27,
+            0.4429346758926762,
+            0.24482173898519918,
+            0.03992650285363197,
+            0.1938733864898826,
+            0.35184665529841985
+          ],
+          "ensemble_score": 0.3132035072467519
+        },
+        "rule_analysis": {
+          "strategies_fired": 2,
+          "trend_signal": true,
+          "breakout_signal": false,
+          "squeeze_signal": true,
+          "technical_score": 0.0,
+          "ml_only_mode": false
+        },
+        "risk_analysis": {
+          "regime": 0,
+          "position_size": 0.11262393806398166,
+          "shrunk_prob": 0.45049575225592664,
+          "time_stops": {
+            "30m_bars": 96,
+            "4h_bars": 24
+          }
+        },
+        "hybrid_analysis": {
+          "agreement_boost": true,
+          "veto_reason": null,
+          "regime": 0,
+          "rules_weight": 0.4,
+          "ml_weight": 0.6,
+          "threshold": 0.25,
+          "strategies_fired": 2,
+          "ml_confidence": 0.3762393806398166,
+          "hybrid_score": 0.44611042000025874,
+          "ml_only_mode": false
+        }
+      },
+      "meta": {
+        "atr_pct": 0.7928425952596754,
+        "rsi": 74.9999992708334,
+        "rules_score": 0.5,
+        "ml_score": 0.3132035072467519,
+        "ml_models_used": 51,
+        "ml_confidence": 0.3762393806398166,
+        "total_features": 60,
+        "regime": 0,
+        "strategies_fired": 2,
+        "trend_signal": true,
+        "breakout_signal": false,
+        "squeeze_signal": true,
+        "technical_score": 0.0,
+        "hybrid_score": 0.44611042000025874,
+        "veto_reason": null,
+        "agreement_boost": true,
+        "rules_weight": 0.4,
+        "ml_weight": 0.6,
+        "threshold": 0.25,
+        "ml_only_mode": false,
+        "position_size": 0.11262393806398166,
+        "raw_prob": 0.3762393806398166,
+        "shrunk_prob": 0.45049575225592664,
+        "size_multiplier": 1.0,
+        "time_stop_30m": 96,
+        "time_stop_4h": 24,
+        "partial_take": 0.33,
+        "trail_multiple": 2.5
+      }
+    },
+    {
+      "symbol": "EIGEN/USDT",
+      "score": 0.4422381070005643,
+      "ml_score": 0.3075914594211077,
+      "ml_confidence": 0.38481708276477256,
+      "rule_score": 0.5,
+      "hybrid_score": 0.4422381070005643,
+      "position_size_pct": 11.348170827647726,
+      "atr_pct": 1.1152793259852993,
+      "rsi": 70.79645140574931,
+      "buy_price": 1.409,
+      "stop_loss": 1.347004,
+      "target_price": 1.454088,
+      "risk_reward_ratio": 0.73,
+      "atr_value": 0.02818,
+      "analysis": {
+        "timeframe_analysis": {
+          "primary_tf": "30m",
+          "confirmation_tf": "4h",
+          "expected_holding_period": "2-7 days",
+          "time_stops": {
+            "short_term_exit": "48 hours",
+            "medium_term_exit": "4 days"
+          }
+        },
+        "ml_analysis": {
+          "models_used": 51,
+          "confidence": 0.38481708276477256,
+          "total_features": 60,
+          "individual_scores": [
+            0.41,
+            0.38298342378563693,
+            0.39772301182495545,
+            0.41599510308981374,
+            0.38,
+            0.3801518406958565,
+            0.3608539003250664,
+            0.04632140323519707,
+            0.10859000639117794,
+            0.31445726073394364
+          ],
+          "ensemble_score": 0.3075914594211077
+        },
+        "rule_analysis": {
+          "strategies_fired": 2,
+          "trend_signal": true,
+          "breakout_signal": false,
+          "squeeze_signal": true,
+          "technical_score": 0.0,
+          "ml_only_mode": false
+        },
+        "risk_analysis": {
+          "regime": 0,
+          "position_size": 0.11348170827647726,
+          "shrunk_prob": 0.45392683310590903,
+          "time_stops": {
+            "30m_bars": 96,
+            "4h_bars": 24
+          }
+        },
+        "hybrid_analysis": {
+          "agreement_boost": true,
+          "veto_reason": null,
+          "regime": 0,
+          "rules_weight": 0.4,
+          "ml_weight": 0.6,
+          "threshold": 0.25,
+          "strategies_fired": 2,
+          "ml_confidence": 0.38481708276477256,
+          "hybrid_score": 0.4422381070005643,
+          "ml_only_mode": false
+        }
+      },
+      "meta": {
+        "atr_pct": 1.1152793259852993,
+        "rsi": 70.79645140574931,
+        "rules_score": 0.5,
+        "ml_score": 0.3075914594211077,
+        "ml_models_used": 51,
+        "ml_confidence": 0.38481708276477256,
+        "total_features": 60,
+        "regime": 0,
+        "strategies_fired": 2,
+        "trend_signal": true,
+        "breakout_signal": false,
+        "squeeze_signal": true,
+        "technical_score": 0.0,
+        "hybrid_score": 0.4422381070005643,
+        "veto_reason": null,
+        "agreement_boost": true,
+        "rules_weight": 0.4,
+        "ml_weight": 0.6,
+        "threshold": 0.25,
+        "ml_only_mode": false,
+        "position_size": 0.11348170827647726,
+        "raw_prob": 0.38481708276477256,
+        "shrunk_prob": 0.45392683310590903,
+        "size_multiplier": 1.0,
+        "time_stop_30m": 96,
+        "time_stop_4h": 24,
+        "partial_take": 0.33,
+        "trail_multiple": 2.5
+      }
+    },
+    {
+      "symbol": "ID/USDT",
+      "score": 0.43571665221517775,
+      "ml_score": 0.37143330443035555,
+      "ml_confidence": 0.2936071503130478,
+      "rule_score": 0.5,
+      "hybrid_score": 0.43571665221517775,
+      "position_size_pct": 10.436071503130478,
+      "atr_pct": 0.759360021671796,
+      "rsi": 72.5489200308942,
+      "buy_price": 0.1759,
+      "stop_loss": 0.16816,
+      "target_price": 0.181529,
+      "risk_reward_ratio": 0.73,
+      "atr_value": 0.003518,
+      "analysis": {
+        "timeframe_analysis": {
+          "primary_tf": "30m",
+          "confirmation_tf": "4h",
+          "expected_holding_period": "2-7 days",
+          "time_stops": {
+            "short_term_exit": "48 hours",
+            "medium_term_exit": "4 days"
+          }
+        },
+        "ml_analysis": {
+          "models_used": 51,
+          "confidence": 0.2936071503130478,
+          "total_features": 60,
+          "individual_scores": [
+            0.37,
+            0.37843572677538895,
+            0.3977328443286426,
+            0.40579648158086234,
+            0.34,
+            0.34566055993230177,
+            0.6321139392628402,
+            0.26855695247650146,
+            0.13882916203527135,
+            0.3829785427906602
+          ],
+          "ensemble_score": 0.37143330443035555
+        },
+        "rule_analysis": {
+          "strategies_fired": 2,
+          "trend_signal": true,
+          "breakout_signal": false,
+          "squeeze_signal": true,
+          "technical_score": 0.0,
+          "ml_only_mode": false
+        },
+        "risk_analysis": {
+          "regime": 1,
+          "position_size": 0.10436071503130478,
+          "shrunk_prob": 0.41744286012521914,
+          "time_stops": {
+            "30m_bars": 96,
+            "4h_bars": 24
+          }
+        },
+        "hybrid_analysis": {
+          "agreement_boost": false,
+          "veto_reason": null,
+          "regime": 1,
+          "rules_weight": 0.5,
+          "ml_weight": 0.5,
+          "threshold": 0.3,
+          "strategies_fired": 2,
+          "ml_confidence": 0.2936071503130478,
+          "hybrid_score": 0.43571665221517775,
+          "ml_only_mode": false
+        }
+      },
+      "meta": {
+        "atr_pct": 0.759360021671796,
+        "rsi": 72.5489200308942,
+        "rules_score": 0.5,
+        "ml_score": 0.37143330443035555,
+        "ml_models_used": 51,
+        "ml_confidence": 0.2936071503130478,
+        "total_features": 60,
+        "regime": 1,
+        "strategies_fired": 2,
+        "trend_signal": true,
+        "breakout_signal": false,
+        "squeeze_signal": true,
+        "technical_score": 0.0,
+        "hybrid_score": 0.43571665221517775,
+        "veto_reason": null,
+        "agreement_boost": false,
+        "rules_weight": 0.5,
+        "ml_weight": 0.5,
+        "threshold": 0.3,
+        "ml_only_mode": false,
+        "position_size": 0.10436071503130478,
+        "raw_prob": 0.2936071503130478,
+        "shrunk_prob": 0.41744286012521914,
+        "size_multiplier": 1.0,
+        "time_stop_30m": 96,
+        "time_stop_4h": 24,
+        "partial_take": 0.33,
+        "trail_multiple": 2.5
+      }
+    },
+    {
+      "symbol": "ETHFI/USDT",
+      "score": 0.43372730586593494,
+      "ml_score": 0.29525696502309423,
+      "ml_confidence": 0.4117772329941327,
+      "rule_score": 0.5,
+      "hybrid_score": 0.43372730586593494,
+      "position_size_pct": 11.617772329941326,
+      "atr_pct": 1.1690437212785485,
+      "rsi": 82.02245900770322,
+      "buy_price": 1.222,
+      "stop_loss": 1.178008,
+      "target_price": 1.27088,
+      "risk_reward_ratio": 1.11,
+      "atr_value": 0.02444,
+      "analysis": {
+        "timeframe_analysis": {
+          "primary_tf": "30m",
+          "confirmation_tf": "4h",
+          "expected_holding_period": "2-7 days",
+          "time_stops": {
+            "short_term_exit": "48 hours",
+            "medium_term_exit": "4 days"
+          }
+        },
+        "ml_analysis": {
+          "models_used": 51,
+          "confidence": 0.4117772329941327,
+          "total_features": 60,
+          "individual_scores": [
+            0.45,
+            0.36446892752272153,
+            0.3977215410968698,
+            0.4007357639963311,
+            0.34,
+            0.4221582971621324,
+            0.34348570371582765,
+            0.0382411926984787,
+            0.09649146878351629,
+            0.28365139597982675
+          ],
+          "ensemble_score": 0.29525696502309423
+        },
+        "rule_analysis": {
+          "strategies_fired": 2,
+          "trend_signal": true,
+          "breakout_signal": false,
+          "squeeze_signal": true,
+          "technical_score": 0.0,
+          "ml_only_mode": false
+        },
+        "risk_analysis": {
+          "regime": 0,
+          "position_size": 0.11617772329941327,
+          "shrunk_prob": 0.4647108931976531,
+          "time_stops": {
+            "30m_bars": 96,
+            "4h_bars": 24
+          }
+        },
+        "hybrid_analysis": {
+          "agreement_boost": true,
+          "veto_reason": null,
+          "regime": 0,
+          "rules_weight": 0.4,
+          "ml_weight": 0.6,
+          "threshold": 0.25,
+          "strategies_fired": 2,
+          "ml_confidence": 0.4117772329941327,
+          "hybrid_score": 0.43372730586593494,
+          "ml_only_mode": false
+        }
+      },
+      "meta": {
+        "atr_pct": 1.1690437212785485,
+        "rsi": 82.02245900770322,
+        "rules_score": 0.5,
+        "ml_score": 0.29525696502309423,
+        "ml_models_used": 51,
+        "ml_confidence": 0.4117772329941327,
+        "total_features": 60,
+        "regime": 0,
+        "strategies_fired": 2,
+        "trend_signal": true,
+        "breakout_signal": false,
+        "squeeze_signal": true,
+        "technical_score": 0.0,
+        "hybrid_score": 0.43372730586593494,
+        "veto_reason": null,
+        "agreement_boost": true,
+        "rules_weight": 0.4,
+        "ml_weight": 0.6,
+        "threshold": 0.25,
+        "ml_only_mode": false,
+        "position_size": 0.11617772329941327,
+        "raw_prob": 0.4117772329941327,
+        "shrunk_prob": 0.4647108931976531,
+        "size_multiplier": 1.0,
+        "time_stop_30m": 96,
+        "time_stop_4h": 24,
+        "partial_take": 0.33,
+        "trail_multiple": 2.5
+      }
+    },
+    {
+      "symbol": "SSV/USDT",
+      "score": 0.433124195910887,
+      "ml_score": 0.2943828926244739,
+      "ml_confidence": 0.41502577096458454,
+      "rule_score": 0.5,
+      "hybrid_score": 0.433124195910887,
+      "position_size_pct": 11.650257709645844,
+      "atr_pct": 1.3157894735559639,
+      "rsi": 77.63157751731318,
+      "buy_price": 10.26,
+      "stop_loss": 9.89064,
+      "target_price": 10.6704,
+      "risk_reward_ratio": 1.11,
+      "atr_value": 0.2052,
+      "analysis": {
+        "timeframe_analysis": {
+          "primary_tf": "30m",
+          "confirmation_tf": "4h",
+          "expected_holding_period": "2-7 days",
+          "time_stops": {
+            "short_term_exit": "48 hours",
+            "medium_term_exit": "4 days"
+          }
+        },
+        "ml_analysis": {
+          "models_used": 51,
+          "confidence": 0.41502577096458454,
+          "total_features": 60,
+          "individual_scores": [
+            0.44,
+            0.3726659058078949,
+            0.3977156050823339,
+            0.40903472542277336,
+            0.3,
+            0.4367672205948817,
+            0.263689329584586,
+            0.10389086604118347,
+            0.1126117020922124,
+            0.2396407645106785
+          ],
+          "ensemble_score": 0.2943828926244739
+        },
+        "rule_analysis": {
+          "strategies_fired": 2,
+          "trend_signal": true,
+          "breakout_signal": false,
+          "squeeze_signal": true,
+          "technical_score": 0.0,
+          "ml_only_mode": false
+        },
+        "risk_analysis": {
+          "regime": 0,
+          "position_size": 0.11650257709645845,
+          "shrunk_prob": 0.4660103083858338,
+          "time_stops": {
+            "30m_bars": 96,
+            "4h_bars": 24
+          }
+        },
+        "hybrid_analysis": {
+          "agreement_boost": true,
+          "veto_reason": null,
+          "regime": 0,
+          "rules_weight": 0.4,
+          "ml_weight": 0.6,
+          "threshold": 0.25,
+          "strategies_fired": 2,
+          "ml_confidence": 0.41502577096458454,
+          "hybrid_score": 0.433124195910887,
+          "ml_only_mode": false
+        }
+      },
+      "meta": {
+        "atr_pct": 1.3157894735559639,
+        "rsi": 77.63157751731318,
+        "rules_score": 0.5,
+        "ml_score": 0.2943828926244739,
+        "ml_models_used": 51,
+        "ml_confidence": 0.41502577096458454,
+        "total_features": 60,
+        "regime": 0,
+        "strategies_fired": 2,
+        "trend_signal": true,
+        "breakout_signal": false,
+        "squeeze_signal": true,
+        "technical_score": 0.0,
+        "hybrid_score": 0.433124195910887,
+        "veto_reason": null,
+        "agreement_boost": true,
+        "rules_weight": 0.4,
+        "ml_weight": 0.6,
+        "threshold": 0.25,
+        "ml_only_mode": false,
+        "position_size": 0.11650257709645845,
+        "raw_prob": 0.41502577096458454,
+        "shrunk_prob": 0.4660103083858338,
+        "size_multiplier": 1.0,
+        "time_stop_30m": 96,
+        "time_stop_4h": 24,
+        "partial_take": 0.33,
+        "trail_multiple": 2.5
+      }
+    },
+    {
+      "symbol": "RAY/USDT",
+      "score": 0.42892892805624405,
+      "ml_score": 0.3218456890234945,
+      "ml_confidence": 0.356481438443779,
+      "rule_score": 0.5360121670889936,
+      "hybrid_score": 0.42892892805624405,
+      "position_size_pct": 11.06481438443779,
+      "atr_pct": 1.332747509861525,
+      "rsi": 77.33812560167719,
+      "buy_price": 3.414,
+      "stop_loss": 3.263784,
+      "target_price": 3.523248,
+      "risk_reward_ratio": 0.73,
+      "atr_value": 0.06828,
+      "analysis": {
+        "timeframe_analysis": {
+          "primary_tf": "30m",
+          "confirmation_tf": "4h",
+          "expected_holding_period": "2-7 days",
+          "time_stops": {
+            "short_term_exit": "48 hours",
+            "medium_term_exit": "4 days"
+          }
+        },
+        "ml_analysis": {
+          "models_used": 51,
+          "confidence": 0.356481438443779,
+          "total_features": 60,
+          "individual_scores": [
+            0.45,
+            0.37109630120930276,
+            0.3977742456582399,
+            0.37334827649240493,
+            0.3,
+            0.444390047579082,
+            0.36821675616621413,
+            0.13275669515132904,
+            0.1693809855095173,
+            0.30928363665076175
+          ],
+          "ensemble_score": 0.3218456890234945
+        },
+        "rule_analysis": {
+          "strategies_fired": 1,
+          "trend_signal": true,
+          "breakout_signal": false,
+          "squeeze_signal": false,
+          "technical_score": 0.9440486683559742,
+          "ml_only_mode": false
+        },
+        "risk_analysis": {
+          "regime": 1,
+          "position_size": 0.1106481438443779,
+          "shrunk_prob": 0.4425925753775116,
+          "time_stops": {
+            "30m_bars": 96,
+            "4h_bars": 24
+          }
+        },
+        "hybrid_analysis": {
+          "agreement_boost": false,
+          "veto_reason": null,
+          "regime": 1,
+          "rules_weight": 0.5,
+          "ml_weight": 0.5,
+          "threshold": 0.3,
+          "strategies_fired": 1,
+          "ml_confidence": 0.356481438443779,
+          "hybrid_score": 0.42892892805624405,
+          "ml_only_mode": false
+        }
+      },
+      "meta": {
+        "atr_pct": 1.332747509861525,
+        "rsi": 77.33812560167719,
+        "rules_score": 0.5360121670889936,
+        "ml_score": 0.3218456890234945,
+        "ml_models_used": 51,
+        "ml_confidence": 0.356481438443779,
+        "total_features": 60,
+        "regime": 1,
+        "strategies_fired": 1,
+        "trend_signal": true,
+        "breakout_signal": false,
+        "squeeze_signal": false,
+        "technical_score": 0.9440486683559742,
+        "hybrid_score": 0.42892892805624405,
+        "veto_reason": null,
+        "agreement_boost": false,
+        "rules_weight": 0.5,
+        "ml_weight": 0.5,
+        "threshold": 0.3,
+        "ml_only_mode": false,
+        "position_size": 0.1106481438443779,
+        "raw_prob": 0.356481438443779,
+        "shrunk_prob": 0.4425925753775116,
+        "size_multiplier": 1.0,
+        "time_stop_30m": 96,
+        "time_stop_4h": 24,
+        "partial_take": 0.33,
+        "trail_multiple": 2.5
+      }
+    },
+    {
+      "symbol": "1000CAT/USDT",
+      "score": 0.42365732578928567,
+      "ml_score": 0.5060955429821428,
+      "ml_confidence": 0.22382592717548264,
+      "rule_score": 0.3,
+      "hybrid_score": 0.42365732578928567,
+      "position_size_pct": 10.0,
+      "atr_pct": 1.180698030729155,
+      "rsi": 78.56946433482038,
+      "buy_price": 0.00974,
+      "stop_loss": 0.009311,
+      "target_price": 0.010052,
+      "risk_reward_ratio": 0.73,
+      "atr_value": 0.000195,
+      "analysis": {
+        "timeframe_analysis": {
+          "primary_tf": "30m",
+          "confirmation_tf": "4h",
+          "expected_holding_period": "2-7 days",
+          "time_stops": {
+            "short_term_exit": "48 hours",
+            "medium_term_exit": "4 days"
+          }
+        },
+        "ml_analysis": {
+          "models_used": 51,
+          "confidence": 0.22382592717548264,
+          "total_features": 60,
+          "individual_scores": [
+            0.45,
+            0.311597243792345,
+            0.4032563685740504,
+            0.5199114485792231,
+            0.32,
+            0.4385395506079156,
+            0.8687960263453621,
+            0.5872488021850586,
+            0.5802971587252767,
+            0.40900923515692816
+          ],
+          "ensemble_score": 0.5060955429821428
+        },
+        "rule_analysis": {
+          "strategies_fired": 1,
+          "trend_signal": true,
+          "breakout_signal": false,
+          "squeeze_signal": false,
+          "technical_score": 0.0,
+          "ml_only_mode": false
+        },
+        "risk_analysis": {
+          "regime": 0,
+          "position_size": 0.1,
+          "shrunk_prob": 0.38953037087019304,
+          "time_stops": {
+            "30m_bars": 96,
+            "4h_bars": 24
+          }
+        },
+        "hybrid_analysis": {
+          "agreement_boost": false,
+          "veto_reason": null,
+          "regime": 0,
+          "rules_weight": 0.4,
+          "ml_weight": 0.6,
+          "threshold": 0.25,
+          "strategies_fired": 1,
+          "ml_confidence": 0.22382592717548264,
+          "hybrid_score": 0.42365732578928567,
+          "ml_only_mode": false
+        }
+      },
+      "meta": {
+        "atr_pct": 1.180698030729155,
+        "rsi": 78.56946433482038,
+        "rules_score": 0.3,
+        "ml_score": 0.5060955429821428,
+        "ml_models_used": 51,
+        "ml_confidence": 0.22382592717548264,
+        "total_features": 60,
+        "regime": 0,
+        "strategies_fired": 1,
+        "trend_signal": true,
+        "breakout_signal": false,
+        "squeeze_signal": false,
+        "technical_score": 0.0,
+        "hybrid_score": 0.42365732578928567,
+        "veto_reason": null,
+        "agreement_boost": false,
+        "rules_weight": 0.4,
+        "ml_weight": 0.6,
+        "threshold": 0.25,
+        "ml_only_mode": false,
+        "position_size": 0.1,
+        "raw_prob": 0.22382592717548264,
+        "shrunk_prob": 0.38953037087019304,
+        "size_multiplier": 1.0,
+        "time_stop_30m": 96,
+        "time_stop_4h": 24,
+        "partial_take": 0.33,
+        "trail_multiple": 2.5
+      }
+    },
+    {
+      "symbol": "FIDA/USDT",
+      "score": 0.421652230939716,
+      "ml_score": 0.50275371823286,
+      "ml_confidence": 0.26586194967341586,
+      "rule_score": 0.3,
+      "hybrid_score": 0.421652230939716,
+      "position_size_pct": 10.15861949673416,
+      "atr_pct": 1.0174815526872827,
+      "rsi": 72.72714049610818,
+      "buy_price": 0.1046,
+      "stop_loss": 0.099998,
+      "target_price": 0.107947,
+      "risk_reward_ratio": 0.73,
+      "atr_value": 0.002092,
+      "analysis": {
+        "timeframe_analysis": {
+          "primary_tf": "30m",
+          "confirmation_tf": "4h",
+          "expected_holding_period": "2-7 days",
+          "time_stops": {
+            "short_term_exit": "48 hours",
+            "medium_term_exit": "4 days"
+          }
+        },
+        "ml_analysis": {
+          "models_used": 51,
+          "confidence": 0.26586194967341586,
+          "total_features": 60,
+          "individual_scores": [
+            0.45,
+            0.3777912478730733,
+            0.3977889807766688,
+            0.6348874339655345,
+            0.35,
+            0.3893554275112125,
+            0.9236374649322777,
+            0.5024104714393616,
+            0.7442749315317968,
+            0.4004103236575319
+          ],
+          "ensemble_score": 0.50275371823286
+        },
+        "rule_analysis": {
+          "strategies_fired": 1,
+          "trend_signal": true,
+          "breakout_signal": false,
+          "squeeze_signal": false,
+          "technical_score": 0.0,
+          "ml_only_mode": false
+        },
+        "risk_analysis": {
+          "regime": 0,
+          "position_size": 0.10158619496734159,
+          "shrunk_prob": 0.40634477986936635,
+          "time_stops": {
+            "30m_bars": 96,
+            "4h_bars": 24
+          }
+        },
+        "hybrid_analysis": {
+          "agreement_boost": false,
+          "veto_reason": null,
+          "regime": 0,
+          "rules_weight": 0.4,
+          "ml_weight": 0.6,
+          "threshold": 0.25,
+          "strategies_fired": 1,
+          "ml_confidence": 0.26586194967341586,
+          "hybrid_score": 0.421652230939716,
+          "ml_only_mode": false
+        }
+      },
+      "meta": {
+        "atr_pct": 1.0174815526872827,
+        "rsi": 72.72714049610818,
+        "rules_score": 0.3,
+        "ml_score": 0.50275371823286,
+        "ml_models_used": 51,
+        "ml_confidence": 0.26586194967341586,
+        "total_features": 60,
+        "regime": 0,
+        "strategies_fired": 1,
+        "trend_signal": true,
+        "breakout_signal": false,
+        "squeeze_signal": false,
+        "technical_score": 0.0,
+        "hybrid_score": 0.421652230939716,
+        "veto_reason": null,
+        "agreement_boost": false,
+        "rules_weight": 0.4,
+        "ml_weight": 0.6,
+        "threshold": 0.25,
+        "ml_only_mode": false,
+        "position_size": 0.10158619496734159,
+        "raw_prob": 0.26586194967341586,
+        "shrunk_prob": 0.40634477986936635,
+        "size_multiplier": 1.0,
+        "time_stop_30m": 96,
+        "time_stop_4h": 24,
+        "partial_take": 0.33,
+        "trail_multiple": 2.5
+      }
+    },
+    {
+      "symbol": "SOL/USDT",
+      "score": 0.4203326391907022,
+      "ml_score": 0.5005543986511704,
+      "ml_confidence": 0.20059193681688184,
+      "rule_score": 0.3,
+      "hybrid_score": 0.4203326391907022,
+      "position_size_pct": 10.0,
+      "atr_pct": 0.6115192247543895,
+      "rsi": 74.90542231416427,
+      "buy_price": 182.8,
+      "stop_loss": 175.488,
+      "target_price": 188.6496,
+      "risk_reward_ratio": 0.8,
+      "atr_value": 3.656,
+      "analysis": {
+        "timeframe_analysis": {
+          "primary_tf": "30m",
+          "confirmation_tf": "4h",
+          "expected_holding_period": "2-7 days",
+          "time_stops": {
+            "short_term_exit": "48 hours",
+            "medium_term_exit": "4 days"
+          }
+        },
+        "ml_analysis": {
+          "models_used": 51,
+          "confidence": 0.20059193681688184,
+          "total_features": 60,
+          "individual_scores": [
+            0.45,
+            0.37756518860412985,
+            0.3977112434205397,
+            0.5149274890395005,
+            0.5,
+            0.442234066496122,
+            0.6012727373035565,
+            0.7932859063148499,
+            0.5966996187426263,
+            0.3859943643380388
+          ],
+          "ensemble_score": 0.5005543986511704
+        },
+        "rule_analysis": {
+          "strategies_fired": 1,
+          "trend_signal": true,
+          "breakout_signal": false,
+          "squeeze_signal": false,
+          "technical_score": 0.0,
+          "ml_only_mode": false
+        },
+        "risk_analysis": {
+          "regime": 0,
+          "position_size": 0.1,
+          "shrunk_prob": 0.3802367747267527,
+          "time_stops": {
+            "30m_bars": 96,
+            "4h_bars": 24
+          }
+        },
+        "hybrid_analysis": {
+          "agreement_boost": false,
+          "veto_reason": null,
+          "regime": 0,
+          "rules_weight": 0.4,
+          "ml_weight": 0.6,
+          "threshold": 0.25,
+          "strategies_fired": 1,
+          "ml_confidence": 0.20059193681688184,
+          "hybrid_score": 0.4203326391907022,
+          "ml_only_mode": false
+        }
+      },
+      "meta": {
+        "atr_pct": 0.6115192247543895,
+        "rsi": 74.90542231416427,
+        "rules_score": 0.3,
+        "ml_score": 0.5005543986511704,
+        "ml_models_used": 51,
+        "ml_confidence": 0.20059193681688184,
+        "total_features": 60,
+        "regime": 0,
+        "strategies_fired": 1,
+        "trend_signal": true,
+        "breakout_signal": false,
+        "squeeze_signal": false,
+        "technical_score": 0.0,
+        "hybrid_score": 0.4203326391907022,
+        "veto_reason": null,
+        "agreement_boost": false,
+        "rules_weight": 0.4,
+        "ml_weight": 0.6,
+        "threshold": 0.25,
+        "ml_only_mode": false,
+        "position_size": 0.1,
+        "raw_prob": 0.20059193681688184,
+        "shrunk_prob": 0.3802367747267527,
+        "size_multiplier": 1.0,
+        "time_stop_30m": 96,
+        "time_stop_4h": 24,
+        "partial_take": 0.33,
+        "trail_multiple": 2.5
+      }
+    },
+    {
+      "symbol": "RPL/USDT",
+      "score": 0.4154794589646291,
+      "ml_score": 0.2508383309366476,
+      "ml_confidence": 0.49832333783452515,
+      "rule_score": 0.5269587187355268,
+      "hybrid_score": 0.4154794589646291,
+      "position_size_pct": 12.483233378345252,
+      "atr_pct": 2.0466874894899454,
+      "rsi": 74.04580073538837,
+      "buy_price": 8.69,
+      "stop_loss": 8.37716,
+      "target_price": 9.0376,
+      "risk_reward_ratio": 1.11,
+      "atr_value": 0.1738,
+      "analysis": {
+        "timeframe_analysis": {
+          "primary_tf": "30m",
+          "confirmation_tf": "4h",
+          "expected_holding_period": "2-7 days",
+          "time_stops": {
+            "short_term_exit": "48 hours",
+            "medium_term_exit": "4 days"
+          }
+        },
+        "ml_analysis": {
+          "models_used": 51,
+          "confidence": 0.49832333783452515,
+          "total_features": 60,
+          "individual_scores": [
+            0.4,
+            0.3763081368182794,
+            0.397714369660991,
+            0.18869283336972067,
+            0.35,
+            0.43301849401595716,
+            0.2081494393618433,
+            0.1094178631901741,
+            0.054231904160056923,
+            0.2578767767504491
+          ],
+          "ensemble_score": 0.2508383309366476
+        },
+        "rule_analysis": {
+          "strategies_fired": 2,
+          "trend_signal": true,
+          "breakout_signal": false,
+          "squeeze_signal": true,
+          "technical_score": 0.107834874942107,
+          "ml_only_mode": false
+        },
+        "risk_analysis": {
+          "regime": 0,
+          "position_size": 0.12483233378345251,
+          "shrunk_prob": 0.49932933513381006,
+          "time_stops": {
+            "30m_bars": 96,
+            "4h_bars": 24
+          }
+        },
+        "hybrid_analysis": {
+          "agreement_boost": true,
+          "veto_reason": null,
+          "regime": 0,
+          "rules_weight": 0.4,
+          "ml_weight": 0.6,
+          "threshold": 0.25,
+          "strategies_fired": 2,
+          "ml_confidence": 0.49832333783452515,
+          "hybrid_score": 0.4154794589646291,
+          "ml_only_mode": false
+        }
+      },
+      "meta": {
+        "atr_pct": 2.0466874894899454,
+        "rsi": 74.04580073538837,
+        "rules_score": 0.5269587187355268,
+        "ml_score": 0.2508383309366476,
+        "ml_models_used": 51,
+        "ml_confidence": 0.49832333783452515,
+        "total_features": 60,
+        "regime": 0,
+        "strategies_fired": 2,
+        "trend_signal": true,
+        "breakout_signal": false,
+        "squeeze_signal": true,
+        "technical_score": 0.107834874942107,
+        "hybrid_score": 0.4154794589646291,
+        "veto_reason": null,
+        "agreement_boost": true,
+        "rules_weight": 0.4,
+        "ml_weight": 0.6,
+        "threshold": 0.25,
+        "ml_only_mode": false,
+        "position_size": 0.12483233378345251,
+        "raw_prob": 0.49832333783452515,
+        "shrunk_prob": 0.49932933513381006,
+        "size_multiplier": 1.0,
+        "time_stop_30m": 96,
+        "time_stop_4h": 24,
+        "partial_take": 0.33,
+        "trail_multiple": 2.5
+      }
+    },
+    {
+      "symbol": "TURBO/USDT",
+      "score": 0.4085177509146766,
+      "ml_score": 0.2587213781372126,
+      "ml_confidence": 0.4825572427029462,
+      "rule_score": 0.5,
+      "hybrid_score": 0.4085177509146766,
+      "position_size_pct": 12.325572427029462,
+      "atr_pct": 1.2923954179613804,
+      "rsi": 81.69808305885874,
+      "buy_price": 0.005046,
+      "stop_loss": 0.004864,
+      "target_price": 0.005248,
+      "risk_reward_ratio": 1.11,
+      "atr_value": 0.000101,
+      "analysis": {
+        "timeframe_analysis": {
+          "primary_tf": "30m",
+          "confirmation_tf": "4h",
+          "expected_holding_period": "2-7 days",
+          "time_stops": {
+            "short_term_exit": "48 hours",
+            "medium_term_exit": "4 days"
+          }
+        },
+        "ml_analysis": {
+          "models_used": 51,
+          "confidence": 0.4825572427029462,
+          "total_features": 60,
+          "individual_scores": [
+            0.41,
+            0.13673160889060285,
+            0.42974609918823675,
+            0.27225090830396276,
+            0.32,
+            0.4064789822162067,
+            0.4169496826443573,
+            0.08022841811180115,
+            0.04169242262285385,
+            0.25747849876784235
+          ],
+          "ensemble_score": 0.2587213781372126
+        },
+        "rule_analysis": {
+          "strategies_fired": 2,
+          "trend_signal": true,
+          "breakout_signal": false,
+          "squeeze_signal": true,
+          "technical_score": 0.0,
+          "ml_only_mode": false
+        },
+        "risk_analysis": {
+          "regime": 0,
+          "position_size": 0.12325572427029462,
+          "shrunk_prob": 0.49302289708117847,
+          "time_stops": {
+            "30m_bars": 96,
+            "4h_bars": 24
+          }
+        },
+        "hybrid_analysis": {
+          "agreement_boost": true,
+          "veto_reason": null,
+          "regime": 0,
+          "rules_weight": 0.4,
+          "ml_weight": 0.6,
+          "threshold": 0.25,
+          "strategies_fired": 2,
+          "ml_confidence": 0.4825572427029462,
+          "hybrid_score": 0.4085177509146766,
+          "ml_only_mode": false
+        }
+      },
+      "meta": {
+        "atr_pct": 1.2923954179613804,
+        "rsi": 81.69808305885874,
+        "rules_score": 0.5,
+        "ml_score": 0.2587213781372126,
+        "ml_models_used": 51,
+        "ml_confidence": 0.4825572427029462,
+        "total_features": 60,
+        "regime": 0,
+        "strategies_fired": 2,
+        "trend_signal": true,
+        "breakout_signal": false,
+        "squeeze_signal": true,
+        "technical_score": 0.0,
+        "hybrid_score": 0.4085177509146766,
+        "veto_reason": null,
+        "agreement_boost": true,
+        "rules_weight": 0.4,
+        "ml_weight": 0.6,
+        "threshold": 0.25,
+        "ml_only_mode": false,
+        "position_size": 0.12325572427029462,
+        "raw_prob": 0.4825572427029462,
+        "shrunk_prob": 0.49302289708117847,
+        "size_multiplier": 1.0,
+        "time_stop_30m": 96,
+        "time_stop_4h": 24,
+        "partial_take": 0.33,
+        "trail_multiple": 2.5
+      }
+    },
+    {
+      "symbol": "IMX/USDT",
+      "score": 0.4084126954339892,
+      "ml_score": 0.48068782572331537,
+      "ml_confidence": 0.24326919300206334,
+      "rule_score": 0.3,
+      "hybrid_score": 0.4084126954339892,
+      "position_size_pct": 10.0,
+      "atr_pct": 0.9658955385735118,
+      "rsi": 76.59572186510412,
+      "buy_price": 0.599,
+      "stop_loss": 0.572644,
+      "target_price": 0.618168,
+      "risk_reward_ratio": 0.73,
+      "atr_value": 0.01198,
+      "analysis": {
+        "timeframe_analysis": {
+          "primary_tf": "30m",
+          "confirmation_tf": "4h",
+          "expected_holding_period": "2-7 days",
+          "time_stops": {
+            "short_term_exit": "48 hours",
+            "medium_term_exit": "4 days"
+          }
+        },
+        "ml_analysis": {
+          "models_used": 51,
+          "confidence": 0.24326919300206334,
+          "total_features": 60,
+          "individual_scores": [
+            0.41,
+            0.3737939977688979,
+            0.39771166582616346,
+            0.6488665596828679,
+            0.32,
+            0.4585857749075091,
+            0.8728384910695027,
+            0.588892936706543,
+            0.5279054593580066,
+            0.33759680043113016
+          ],
+          "ensemble_score": 0.48068782572331537
+        },
+        "rule_analysis": {
+          "strategies_fired": 1,
+          "trend_signal": true,
+          "breakout_signal": false,
+          "squeeze_signal": false,
+          "technical_score": 0.0,
+          "ml_only_mode": false
+        },
+        "risk_analysis": {
+          "regime": 0,
+          "position_size": 0.1,
+          "shrunk_prob": 0.3973076772008253,
+          "time_stops": {
+            "30m_bars": 96,
+            "4h_bars": 24
+          }
+        },
+        "hybrid_analysis": {
+          "agreement_boost": false,
+          "veto_reason": null,
+          "regime": 0,
+          "rules_weight": 0.4,
+          "ml_weight": 0.6,
+          "threshold": 0.25,
+          "strategies_fired": 1,
+          "ml_confidence": 0.24326919300206334,
+          "hybrid_score": 0.4084126954339892,
+          "ml_only_mode": false
+        }
+      },
+      "meta": {
+        "atr_pct": 0.9658955385735118,
+        "rsi": 76.59572186510412,
+        "rules_score": 0.3,
+        "ml_score": 0.48068782572331537,
+        "ml_models_used": 51,
+        "ml_confidence": 0.24326919300206334,
+        "total_features": 60,
+        "regime": 0,
+        "strategies_fired": 1,
+        "trend_signal": true,
+        "breakout_signal": false,
+        "squeeze_signal": false,
+        "technical_score": 0.0,
+        "hybrid_score": 0.4084126954339892,
+        "veto_reason": null,
+        "agreement_boost": false,
+        "rules_weight": 0.4,
+        "ml_weight": 0.6,
+        "threshold": 0.25,
+        "ml_only_mode": false,
+        "position_size": 0.1,
+        "raw_prob": 0.24326919300206334,
+        "shrunk_prob": 0.3973076772008253,
+        "size_multiplier": 1.0,
+        "time_stop_30m": 96,
+        "time_stop_4h": 24,
+        "partial_take": 0.33,
+        "trail_multiple": 2.5
+      }
+    },
+    {
+      "symbol": "JASMY/USDT",
+      "score": 0.40228081222466855,
+      "ml_score": 0.4704680203744476,
+      "ml_confidence": 0.2566612409627048,
+      "rule_score": 0.3,
+      "hybrid_score": 0.40228081222466855,
+      "position_size_pct": 10.066612409627048,
+      "atr_pct": 0.8428918500152699,
+      "rsi": 68.85166891527476,
+      "buy_price": 0.01644,
+      "stop_loss": 0.015717,
+      "target_price": 0.016966,
+      "risk_reward_ratio": 0.73,
+      "atr_value": 0.000329,
+      "analysis": {
+        "timeframe_analysis": {
+          "primary_tf": "30m",
+          "confirmation_tf": "4h",
+          "expected_holding_period": "2-7 days",
+          "time_stops": {
+            "short_term_exit": "48 hours",
+            "medium_term_exit": "4 days"
+          }
+        },
+        "ml_analysis": {
+          "models_used": 51,
+          "confidence": 0.2566612409627048,
+          "total_features": 60,
+          "individual_scores": [
+            0.48,
+            0.36264950053023925,
+            0.4717392793971575,
+            0.5949406656694408,
+            0.36,
+            0.4452956680722815,
+            0.8107882131744216,
+            0.536635160446167,
+            0.40883155916421915,
+            0.31481390037796864
+          ],
+          "ensemble_score": 0.4704680203744476
+        },
+        "rule_analysis": {
+          "strategies_fired": 1,
+          "trend_signal": true,
+          "breakout_signal": false,
+          "squeeze_signal": false,
+          "technical_score": 0.0,
+          "ml_only_mode": false
+        },
+        "risk_analysis": {
+          "regime": 0,
+          "position_size": 0.10066612409627049,
+          "shrunk_prob": 0.40266449638508195,
+          "time_stops": {
+            "30m_bars": 96,
+            "4h_bars": 24
+          }
+        },
+        "hybrid_analysis": {
+          "agreement_boost": false,
+          "veto_reason": null,
+          "regime": 0,
+          "rules_weight": 0.4,
+          "ml_weight": 0.6,
+          "threshold": 0.25,
+          "strategies_fired": 1,
+          "ml_confidence": 0.2566612409627048,
+          "hybrid_score": 0.40228081222466855,
+          "ml_only_mode": false
+        }
+      },
+      "meta": {
+        "atr_pct": 0.8428918500152699,
+        "rsi": 68.85166891527476,
+        "rules_score": 0.3,
+        "ml_score": 0.4704680203744476,
+        "ml_models_used": 51,
+        "ml_confidence": 0.2566612409627048,
+        "total_features": 60,
+        "regime": 0,
+        "strategies_fired": 1,
+        "trend_signal": true,
+        "breakout_signal": false,
+        "squeeze_signal": false,
+        "technical_score": 0.0,
+        "hybrid_score": 0.40228081222466855,
+        "veto_reason": null,
+        "agreement_boost": false,
+        "rules_weight": 0.4,
+        "ml_weight": 0.6,
+        "threshold": 0.25,
+        "ml_only_mode": false,
+        "position_size": 0.10066612409627049,
+        "raw_prob": 0.2566612409627048,
+        "shrunk_prob": 0.40266449638508195,
+        "size_multiplier": 1.0,
+        "time_stop_30m": 96,
+        "time_stop_4h": 24,
+        "partial_take": 0.33,
+        "trail_multiple": 2.5
+      }
+    },
+    {
+      "symbol": "USUAL/USDT",
+      "score": 0.39636992388244785,
+      "ml_score": 0.46061653980407974,
+      "ml_confidence": 0.17640440919614317,
+      "rule_score": 0.3,
+      "hybrid_score": 0.39636992388244785,
+      "position_size_pct": 10.0,
+      "atr_pct": 1.4164795130154513,
+      "rsi": 79.76177182561831,
+      "buy_price": 0.0827,
+      "stop_loss": 0.079061,
+      "target_price": 0.085346,
+      "risk_reward_ratio": 0.73,
+      "atr_value": 0.001654,
+      "analysis": {
+        "timeframe_analysis": {
+          "primary_tf": "30m",
+          "confirmation_tf": "4h",
+          "expected_holding_period": "2-7 days",
+          "time_stops": {
+            "short_term_exit": "48 hours",
+            "medium_term_exit": "4 days"
+          }
+        },
+        "ml_analysis": {
+          "models_used": 51,
+          "confidence": 0.17640440919614317,
+          "total_features": 60,
+          "individual_scores": [
+            0.43,
+            0.35952392267202565,
+            0.39766209918164147,
+            0.4994690336355963,
+            0.41,
+            0.44785354210007056,
+            0.6968776806015223,
+            0.5932286381721497,
+            0.4619902876880579,
+            0.3775933120275401
+          ],
+          "ensemble_score": 0.46061653980407974
+        },
+        "rule_analysis": {
+          "strategies_fired": 1,
+          "trend_signal": true,
+          "breakout_signal": false,
+          "squeeze_signal": false,
+          "technical_score": 0.0,
+          "ml_only_mode": false
+        },
+        "risk_analysis": {
+          "regime": 0,
+          "position_size": 0.1,
+          "shrunk_prob": 0.3705617636784573,
+          "time_stops": {
+            "30m_bars": 96,
+            "4h_bars": 24
+          }
+        },
+        "hybrid_analysis": {
+          "agreement_boost": false,
+          "veto_reason": null,
+          "regime": 0,
+          "rules_weight": 0.4,
+          "ml_weight": 0.6,
+          "threshold": 0.25,
+          "strategies_fired": 1,
+          "ml_confidence": 0.17640440919614317,
+          "hybrid_score": 0.39636992388244785,
+          "ml_only_mode": false
+        }
+      },
+      "meta": {
+        "atr_pct": 1.4164795130154513,
+        "rsi": 79.76177182561831,
+        "rules_score": 0.3,
+        "ml_score": 0.46061653980407974,
+        "ml_models_used": 51,
+        "ml_confidence": 0.17640440919614317,
+        "total_features": 60,
+        "regime": 0,
+        "strategies_fired": 1,
+        "trend_signal": true,
+        "breakout_signal": false,
+        "squeeze_signal": false,
+        "technical_score": 0.0,
+        "hybrid_score": 0.39636992388244785,
+        "veto_reason": null,
+        "agreement_boost": false,
+        "rules_weight": 0.4,
+        "ml_weight": 0.6,
+        "threshold": 0.25,
+        "ml_only_mode": false,
+        "position_size": 0.1,
+        "raw_prob": 0.17640440919614317,
+        "shrunk_prob": 0.3705617636784573,
+        "size_multiplier": 1.0,
+        "time_stop_30m": 96,
+        "time_stop_4h": 24,
+        "partial_take": 0.33,
+        "trail_multiple": 2.5
+      }
+    }
+  ],
+  "meta": {
+    "scan_mode": "enhanced_ultimate_hybrid",
+    "crypto_scanned": 397,
+    "crypto_candidates": 146,
+    "crypto_vetoed": 251,
+    "above_threshold": 146,
+    "stand_down_candidates": 0,
+    "ml_models_loaded": 51,
+    "ml_models_total_processed": 51,
+    "ml_duplicates_removed": 0,
+    "ml_enabled": true,
+    "advanced_features": true,
+    "regime_gating": true,
+    "risk_management": true,
+    "position_sizing": true,
+    "top_k_acceptance": true,
+    "rules_strategies": [
+      "enhanced_trend_swing",
+      "enhanced_donchian_breakout",
+      "enhanced_squeeze"
+    ],
+    "ml_ensembles": [
+      "diverse",
+      "hedge_fund",
+      "enhanced",
+      "beast_mode"
+    ],
+    "total_features": 60,
+    "comprehensive_analysis": true,
+    "enhancements": {
+      "adaptive_risk_gates": true,
+      "enhanced_rules_logic": true,
+      "ml_only_mode": true,
+      "lowered_thresholds": true,
+      "enhanced_agreement_boost": true,
+      "fractional_kelly_sizing": true,
+      "top_k_acceptance": true
+    }
+  }
+}

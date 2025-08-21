@@ -1,0 +1,12 @@
+{
+  "symbol": "EUR/USDT",
+  "score": 0.6766228159896572,
+  "meta": {
+    "atr_pct": 0.06396588480685318,
+    "rsi": 78.43115724780304,
+    "rules_score": 0.8924951466436826,
+    "ml_score": 0.5,
+    "ml_models_used": 0,
+    "ml_confidence": 0.0,
+    "total_features": 0,
+    "regime": 

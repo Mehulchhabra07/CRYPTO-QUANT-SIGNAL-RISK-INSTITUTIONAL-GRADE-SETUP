@@ -1,0 +1,12 @@
+ccxt==4.3.98
+yfinance==0.2.43
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.5.1
+xgboost==2.1.1
+lightgbm==4.5.0
+catboost==1.2.7
+pyyaml==6.0.2
+streamlit==1.37.1
+joblib==1.4.2
+websocket-client==1.8.0

@@ -1,0 +1,31 @@
+analysis_summary:
+  best_performer:
+    max_score: 2.003
+    symbol: COW/USDT
+  date_analyzed: '2025-08-10T09:46:01.525671'
+  total_picks_analyzed: 111
+  unique_symbols: 81
+high_confidence_threshold: 0.0
+optimal_strategy_count: 0
+proven_top_performers:
+- COW/USDT
+- ETH/USDT
+- EIGEN/USDT
+- ETHFI/USDT
+- CRV/USDT
+- EUR/USDT
+- IMX/USDT
+- WBETH/USDT
+- ZK/USDT
+- FORM/USDT
+regime_preferences:
+  0: 0.7391128164556201
+  1: 0.43589041758618363
+  2: 0.4029991651881891
+  3: 0.513632807524553
+signal_weights:
+  breakout: .nan
+  squeeze: 0.5060042525944208
+  trend: 0.4822464520667577
+target_ml_score: 0.39326393255693287
+target_rules_score: 0.5555182062162594

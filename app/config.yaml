@@ -1,0 +1,34 @@
+universe:
+  crypto_exchange: binance
+  crypto_quote: USDT
+  crypto_limit: 200
+data:
+  crypto_lower_tf: 30m
+  crypto_higher_tf: 4h
+  lookback_bars_lower: 500
+  lookback_bars_higher: 500
+risk:
+  min_dollar_vol_lower: 100000  # $100K for 30m crypto / 60m stock
+  max_atr_pct: 1.2
+  rsi_floor: 45
+signals:
+  ma_fast: 20
+  ma_slow: 100
+  rsi_window: 14
+  mom_windows: [12,48,96]
+  squeeze_window: 20
+  donchian: 20
+  donchian_long: 55
+regime:
+  crypto: {symbol: BTC/USDT, tf: 4h, ma_fast: 20, ma_slow: 100}
+scoring:
+  w_momentum: 0.45
+  w_trend: 0.35
+  w_volatility: 0.20
+ml:
+  veto_threshold: 0.25        # ML scores below this will veto signals
+  boost_threshold: 0.75       # ML scores above this will boost signals
+  rules_weight: 0.6           # Weight for rules-based score in hybrid
+  ml_weight: 0.4              # Weight for ML score in hybrid
+  boost_factor: 1.2           # Multiplier when ML score is very high
+output: {top_n: 3}
